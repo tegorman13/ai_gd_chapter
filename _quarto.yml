@@ -4,7 +4,7 @@ project:
   preview:
     port: 4200
   render:
-    - "v1.md"
+    - "v1.qmd"
     - "tables.qmd"
     #- "*.qmd"
   # resources: 
@@ -31,6 +31,8 @@ format:
     #   - Assets/Style/style.scss
       light: cosmo #spacelab #[default]
       dark: cyborg
+    link-citations: true
+    page-layout: full
 
 bibliography: [Assets/ccl_bib.bib]
 csl: Assets/apa.csl

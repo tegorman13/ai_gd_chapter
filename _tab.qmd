@@ -1,0 +1,45 @@
+
+
+
+
+::: {#tbl-methods}
+
+\scriptsize
+
+| Research Method | Task Types | Key Measures | Example Studies |
+|-------------|-------------|-------------|-------------|
+| **Laboratory Experiments** | Simplified, controlled tasks (e.g., classification, judgment, resource allocation, logic puzzles) | Decision accuracy, response time, trust ratings, reliance on AI, eye-tracking, think-aloud protocols, physiological measures | Chiang et al. (2024); Buçinca et al. (2021); Swaroop et al. (2024) |
+| **Field Studies** | Complex, real-world tasks (e.g., medical diagnosis, emergency response, project planning, incident response) | Team performance, communication patterns, system adoption, qualitative observations (interviews, focus groups), workflow analysis | Bienefeld et al. (2023); Yang et al. (2024) |
+| **Online Experiments** | Varied tasks (e.g., text analysis, opinion formation, consensus building, games, surveys, simulated work tasks) | Group agreement, information sharing, bias measures, survey responses, behavioral logs, communication content analysis | Tessler et al. (2024); Chuang et al. (2024); Sidji et al. (2024); Nishida et al. (2024) |
+| **Observational Studies** | Real-world collaborative activities (e.g., collaborative writing, decision support usage, team coordination, online discussions) | Usage patterns, adaptation over time, natural behaviors, communication analysis, qualitative observations | Radivojevic et al. (2024); Ma et al. (2024) |
+
+Research methods in human-AI decision making 
+:::
+
+
+\newpage
+
+\NewPage
+
+
+
+
+::: {#tbl-ai-types}
+
+\scriptsize
+
+| AI Type | Key Capabilities | Primary Applications | Representative Studies |
+|---------------|---------------|---------------|---------------|
+| **Large Language Models** | Natural language understanding; Open-ended dialogue; Context adaptation; Knowledge synthesis; Abstract reasoning | Group facilitation; Information synthesis; Creative ideation; Deliberation support | Tessler et al. (2024); Chiang et al. (2024); Collins et al. (2024); Du et al. (2024) |
+| **Domain-Specific AI** | Expert knowledge; Precise calculations; Consistent performance; Real-time processing; Specialized optimization | Medical diagnosis; Resource allocation; Risk assessment; Pattern detection | Bienefeld et al. (2023); Marjieh et al. (2024); Yang et al. (2024) |
+| **Hybrid Systems** | Combined generalist/specialist capabilities; Integrated expertise; Adaptive reasoning; Multi-modal processing | Complex decision-making; Strategic planning; Knowledge management | Burton et al. (2024); Ma et al. (2024); Gao et al. (2024) |
+| **Autonomous Agents** | Independent operation; Goal-directed behavior; Environmental interaction; Continuous learning | Team collaboration; Process automation; Distributed tasks | McNeese et al. (2023); Guo et al. (2024); Zhang et al. (2024) |
+| **Recommender Systems** | Personalization; Pattern recognition; Preference learning; Information filtering | Information curation; Decision support; Resource suggestions | Stadler et al. (2024); Kumar et al. (2024); Swaroop et al. (2024) |
+
+Types of AI used in decision-making tasks 
+:::
+
+\normalsize
+
+\newpage
+
