@@ -1,0 +1,36 @@
+project:
+  type: website
+  output-dir: docs
+  preview:
+    port: 4200
+  render:
+    - "v1.md"
+    - "tables.qmd"
+    #- "*.qmd"
+  # resources: 
+  #     - "Manuscript/output/"
+  #     - "Manuscript/Assets/"
+  #     #- "Manuscript/assets/figs/"
+    
+# exclude: ["*.rds","*.tex","*.csl","*.bib","docs*","404.html","_old*","out.bib",
+#   "*.pdf","*.R",".obsidian","Rproj","R","Bib","exp","HTW_Analysis/**","*HTW_Modelling/**","Motivated*"]
+
+
+website:
+  title: "GD Chapter"
+  # repo-url: https://github.com/tegorman13/htw
+  # site-url: "https://tegorman13.github.io/htw/"
+  repo-actions: [source, edit, issue]
+  reader-mode: true
+  page-navigation: true
+
+format:
+  html:
+    theme:
+    #   - spacelab
+    #   - Assets/Style/style.scss
+      light: cosmo #spacelab #[default]
+      dark: cyborg
+
+bibliography: [Assets/ccl_bib.bib]
+csl: Assets/apa.csl

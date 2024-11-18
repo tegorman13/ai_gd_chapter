@@ -1,0 +1,27 @@
+
+
+### Table 1: Research Methods in Human-AI Group Decision-Making
+
+| Research Method | Task Types | Key Measures | Example Studies | Strengths | Limitations |
+|-----------|-----------|-----------|-----------|-----------|-----------|
+| **Laboratory Experiments** | Simplified, controlled tasks (e.g., classification, judgment, resource allocation, logic puzzles) | Decision accuracy, response time, trust ratings, reliance on AI, eye-tracking, think-aloud protocols, physiological measures | Chiang et al. (2024); Buçinca et al. (2021); Swaroop et al. (2024) | High control, causal inference, precise measurement of behavior | Limited ecological validity, often simplified tasks, potential for demand characteristics, limited generalizability |
+| **Field Studies** | Complex, real-world tasks (e.g., medical diagnosis, emergency response, project planning, incident response) | Team performance, communication patterns, system adoption, qualitative observations (interviews, focus groups), workflow analysis | Bienefeld et al. (2023); Yang et al. (2024) | High ecological validity, real-world outcomes | Less experimental control, smaller sample sizes, difficult to isolate specific AI effects, potential for confounding variables |
+| **Online Experiments** | Varied tasks (e.g., text analysis, opinion formation, consensus building, games, surveys, simulated work tasks) | Group agreement, information sharing, bias measures, survey responses, behavioral logs, communication content analysis | Tessler et al. (2024); Chuang et al. (2024); Sidji et al. (2024); Nishida et al. (2024) | Large samples, cost-effective, access to diverse populations, can study large-scale dynamics | Less control over participation, limited interaction depth, potential for self-selection bias, difficulty ensuring data quality |
+| **Observational Studies** | Real-world collaborative activities (e.g., collaborative writing, decision support usage, team coordination, online discussions) | Usage patterns, adaptation over time, natural behaviors, communication analysis, qualitative observations | Radivojevic et al. (2024); Ma et al. (2024) | Natural behavior, temporal dynamics, rich qualitative data, can study evolving interactions | No experimental manipulation, selection effects, difficulty in establishing causality, observer bias |
+
+: Research methods in human-AI decision making {#tbl-methods}
+
+
+{{< pagebreak >}}
+
+### Table 2: Types of AI Used in Decision-Making Tasks
+
+| AI Type | Key Capabilities | Limitations | Primary Applications | Representative Studies |
+|---------------|---------------|---------------|---------------|---------------|
+| **Large Language Models** | Natural language understanding; Open-ended dialogue; Context adaptation; Knowledge synthesis; Abstract reasoning | Hallucinations; Inconsistency; Limited causal reasoning; Training data cutoff | Group facilitation; Information synthesis; Creative ideation; Deliberation support | Tessler et al. (2024); Chiang et al. (2024); Collins et al. (2024); Du et al. (2024) |
+| **Domain-Specific AI** | Expert knowledge; Precise calculations; Consistent performance; Real-time processing; Specialized optimization | Limited generalization; Rigid decision rules; Poor adaptation to novel scenarios | Medical diagnosis; Resource allocation; Risk assessment; Pattern detection | Bienefeld et al. (2023); Marjieh et al. (2024); Yang et al. (2024) |
+| **Hybrid Systems** | Combined generalist/specialist capabilities; Integrated expertise; Adaptive reasoning; Multi-modal processing | Integration complexity; System conflicts; Higher computational needs | Complex decision-making; Strategic planning; Knowledge management | Burton et al. (2024); Ma et al. (2024); Gao et al. (2024) |
+| **Autonomous Agents** | Independent operation; Goal-directed behavior; Environmental interaction; Continuous learning | Limited social awareness; Trust-building challenges; Coordination issues | Team collaboration; Process automation; Distributed tasks | McNeese et al. (2023); Guo et al. (2024); Zhang et al. (2024) |
+| **Recommender Systems** | Personalization; Pattern recognition; Preference learning; Information filtering | Cold start problems; Filter bubbles; Limited context awareness | Information curation; Decision support; Resource suggestions | Stadler et al. (2024); Kumar et al. (2024); Swaroop et al. (2024) |
+
+: Types of AI used in decision-making tasks {#tbl-ai-types}
