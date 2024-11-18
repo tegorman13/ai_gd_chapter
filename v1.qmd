@@ -20,6 +20,7 @@ format:
     toc: true
     lightbox: true
   gfm: default
+  hikmah-manuscript-docx: default
   hikmah-manuscript-pdf:
     echo: false
     output-file: "gd_chapter_v1.2.pdf"
