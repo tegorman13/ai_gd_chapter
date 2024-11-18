@@ -18,8 +18,8 @@ project:
 
 website:
   title: "GD Chapter"
-  # repo-url: https://github.com/tegorman13/htw
-  # site-url: "https://tegorman13.github.io/htw/"
+  repo-url: https://github.com/tegorman13/ai_gd_chapter/
+  site-url: "https://tegorman13.github.io/ai_gd_chapter/v1.html"
   repo-actions: [source, edit, issue]
   reader-mode: true
   page-navigation: true

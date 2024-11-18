@@ -14,6 +14,7 @@
 
 {{< pagebreak >}}
 
+
 ### Table 2: Types of AI Used in Decision-Making Tasks
 
 | AI Type | Key Capabilities | Limitations | Primary Applications | Representative Studies |

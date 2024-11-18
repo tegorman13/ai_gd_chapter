@@ -198,7 +198,7 @@ contribution of each agent to the task outcome.
 
 ### Utilization
 
-Recent work by Buçinca et al. (2021) presents an innovative approach to
+Recent work by Buçinca et al. (2021) presents an innovative approach to
 addressing overreliance on AI systems through interface design rather
 than explanation quality. Their study evaluated three “cognitive forcing
 functions” - interface elements designed to disrupt quick, heuristic
@@ -230,7 +230,7 @@ potential intervention-generated inequalities.
 <div class="quarto-embed-nb-cell"
 notebook="/Users/thomasgorman/Library/CloudStorage/GoogleDrive-tegorman13@gmail.com/My Drive/Purdue/book_chapter/tab.qmd"
 notebook-title="Table 1: Research Methods in Human-AI Group Decision-Making"
-notebook-cellId="321602dc-d61d-4e9a-a72b-edffa9a4e656">
+notebook-cellId="61287f6b-14a8-44fd-91db-038b63e3adf3">
 
 # 
 
