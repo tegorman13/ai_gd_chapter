@@ -73,7 +73,9 @@ format:
 ### Group Member Roles
 
 
-Deciding how best to assign team members to roles is crucial in group decision-making, particularly when learning who is best suited for what role within a team. @marjiehTaskAllocationTeams2024 explore how humans allocate tasks within teams comprising both human and AI agents to maximize overall performance. The central theme of their research is understanding the mechanisms by which individuals discern and act upon their own strengths and those of their team members in a dynamic task allocation setting. In their experimental paradigm, participants had to repeatedly allocate three different types of tasks (visual, auditory, and lexical tasks) between themselves and two AI agents. Unbeknownst to participants, each AI agent was configured to have high competence (70% success rate) in one task type but low competence (15% success rate) in others.
+Deciding how best to assign team members to roles is crucial in group decision-making, particularly when learning who is best suited for what role within a team. @marjiehTaskAllocationTeams2024 explore how humans allocate tasks within teams comprising both human and AI agents to maximize overall performance. The central theme of their research is understanding the mechanisms by which individuals discern and act upon their own strengths and those of their team members in a dynamic task allocation setting. In their experimental paradigm, participants had to repeatedly allocate three different types of tasks (visual, auditory, and lexical tasks) between themselves and two AI agents. Unbeknownst to participants, each AI agent was configured to have high competence (70% success rate) in one task type but low competence (15% success rate) in others. 
+
+Building upon this, @mcneeseSteppingOutShadow2023 argue that human-autonomy teams (HATs) should be recognized as distinct from traditional human teams. They emphasize that HATs should not strive to replicate human-human team dynamics but instead should leverage the unique capabilities of AI agents. The authors propose several research trajectories to advance our understanding of HATs, including exploring diverse teaming models, redefining roles for AI teammates, expanding communication modalities, focusing on AI behavior design, developing specialized training, and emphasizing teamwork in AI design. These insights highlight the necessity of adjusting our approaches to team composition and role assignment when AI agents are involved, ensuring that both human and AI strengths are optimized in the decision-making process.
 
 
 
@@ -176,52 +178,6 @@ Recent work by @bucincaTrustThinkCognitive2021 presents an innovative approach t
 - [@zhuLanguageModelsTrained2024]
 
 
-
-{{< pagebreak >}}
-
-## Tables 
-
-<!-- ::: {.column-page-inset-right}
-
-{{< include _tab.qmd >}}
-
-::: -->
-
-:::: {.column-page-inset-right}
-::: {#tbl-methods}
-
-\scriptsize
-
-| Research Method | Task Types | Key Measures | Example Studies |
-|-------------|-------------|-------------|-------------|
-| **Laboratory Experiments** | Simplified, controlled tasks (e.g., classification, judgment, resource allocation, logic puzzles) | Decision accuracy, response time, trust ratings, reliance on AI, eye-tracking, think-aloud protocols, physiological measures | Chiang et al. (2024); Buçinca et al. (2021); Swaroop et al. (2024) |
-| **Field Studies** | Complex, real-world tasks (e.g., medical diagnosis, emergency response, project planning, incident response) | Team performance, communication patterns, system adoption, qualitative observations (interviews, focus groups), workflow analysis | Bienefeld et al. (2023); Yang et al. (2024) |
-| **Online Experiments** | Varied tasks (e.g., text analysis, opinion formation, consensus building, games, surveys, simulated work tasks) | Group agreement, information sharing, bias measures, survey responses, behavioral logs, communication content analysis | Tessler et al. (2024); Chuang et al. (2024); Sidji et al. (2024); Nishida et al. (2024) |
-| **Observational Studies** | Real-world collaborative activities (e.g., collaborative writing, decision support usage, team coordination, online discussions) | Usage patterns, adaptation over time, natural behaviors, communication analysis, qualitative observations | Radivojevic et al. (2024); Ma et al. (2024) |
-
-Research methods in human-AI decision making 
-:::
-
-\newpage
-
-::: {#tbl-ai-types}
-
-\scriptsize
-
-| AI Type | Key Capabilities | Primary Applications | Representative Studies |
-|---------------|---------------|---------------|---------------|
-| **Large Language Models** | Natural language understanding; Open-ended dialogue; Context adaptation; Knowledge synthesis; Abstract reasoning | Group facilitation; Information synthesis; Creative ideation; Deliberation support | Tessler et al. (2024); Chiang et al. (2024); Collins et al. (2024); Du et al. (2024) |
-| **Domain-Specific AI** | Expert knowledge; Precise calculations; Consistent performance; Real-time processing; Specialized optimization | Medical diagnosis; Resource allocation; Risk assessment; Pattern detection | Bienefeld et al. (2023); Marjieh et al. (2024); Yang et al. (2024) |
-| **Hybrid Systems** | Combined generalist/specialist capabilities; Integrated expertise; Adaptive reasoning; Multi-modal processing | Complex decision-making; Strategic planning; Knowledge management | Burton et al. (2024); Ma et al. (2024); Gao et al. (2024) |
-| **Autonomous Agents** | Independent operation; Goal-directed behavior; Environmental interaction; Continuous learning | Team collaboration; Process automation; Distributed tasks | McNeese et al. (2023); Guo et al. (2024); Zhang et al. (2024) |
-| **Recommender Systems** | Personalization; Pattern recognition; Preference learning; Information filtering | Information curation; Decision support; Resource suggestions | Stadler et al. (2024); Kumar et al. (2024); Swaroop et al. (2024) |
-
-Types of AI used in decision-making tasks 
-:::
-::::
-\normalsize
-
-\newpage
 
 
 

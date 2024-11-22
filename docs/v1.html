@@ -130,13 +130,12 @@ div.csl-indent {
   <li><a href="#utilization" id="toc-utilization" class="nav-link" data-scroll-target="#utilization">Utilization</a></li>
   <li><a href="#risk" id="toc-risk" class="nav-link" data-scroll-target="#risk">Risk</a></li>
   </ul></li>
-  <li><a href="#tables" id="toc-tables" class="nav-link" data-scroll-target="#tables">Tables</a></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/tegorman13/ai_gd_chapter/blob/main/v1.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/tegorman13/ai_gd_chapter/edit/main/v1.qmd" class="toc-action"><i class="bi empty"></i>Edit this page</a></li><li><a href="https://github.com/tegorman13/ai_gd_chapter/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="v1.md"><i class="bi bi-file-code"></i>Github (GFM)</a></li><li><a href="v1.docx"><i class="bi bi-file-word"></i>MS Word (hikmah-manuscript)</a></li><li><a href="gd_chapter_v1.2.pdf"><i class="bi bi-file-pdf"></i>PDF (hikmah-manuscript)</a></li><li><a href="gd_ai_chapter_v1.2.docx"><i class="bi bi-file-word"></i>MS Word</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<main class="content page-columns page-full column-page-left" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -209,6 +208,7 @@ div.csl-indent {
 <section id="group-member-roles" class="level3">
 <h3 class="anchored" data-anchor-id="group-member-roles">Group Member Roles</h3>
 <p>Deciding how best to assign team members to roles is crucial in group decision-making, particularly when learning who is best suited for what role within a team. <span class="citation" data-cites="marjiehTaskAllocationTeams2024">Marjieh et al. (<a href="#ref-marjiehTaskAllocationTeams2024" role="doc-biblioref">2024</a>)</span> explore how humans allocate tasks within teams comprising both human and AI agents to maximize overall performance. The central theme of their research is understanding the mechanisms by which individuals discern and act upon their own strengths and those of their team members in a dynamic task allocation setting. In their experimental paradigm, participants had to repeatedly allocate three different types of tasks (visual, auditory, and lexical tasks) between themselves and two AI agents. Unbeknownst to participants, each AI agent was configured to have high competence (70% success rate) in one task type but low competence (15% success rate) in others.</p>
+<p>Building upon this, <span class="citation" data-cites="mcneeseSteppingOutShadow2023">McNeese et al. (<a href="#ref-mcneeseSteppingOutShadow2023" role="doc-biblioref">2023</a>)</span> argue that human-autonomy teams (HATs) should be recognized as distinct from traditional human teams. They emphasize that HATs should not strive to replicate human-human team dynamics but instead should leverage the unique capabilities of AI agents. The authors propose several research trajectories to advance our understanding of HATs, including exploring diverse teaming models, redefining roles for AI teammates, expanding communication modalities, focusing on AI behavior design, developing specialized training, and emphasizing teamwork in AI design. These insights highlight the necessity of adjusting our approaches to team composition and role assignment when AI agents are involved, ensuring that both human and AI strengths are optimized in the decision-making process.</p>
 <hr>
 <p>Recent advances in large language models have dramatically expanded the potential roles of AI in group decision-making, enabling AI agents to move beyond simple advisory functions to serve as mediators, devil’s advocates, and active discussion participants</p>
 <p><span class="citation" data-cites="chiangEnhancingAIAssistedGroup2024">Chiang et al. (<a href="#ref-chiangEnhancingAIAssistedGroup2024" role="doc-biblioref">2024</a>)</span> investigated the potential of Large Language Models (LLMs) to act as devil’s advocates in AI-assisted group decision-making - in the hopes of fostering more critical engagement with AI assistance. In their experimental task, participants were first individually trained on the relationship between defendant profiles and recidivism. For each defendant, participants were also shown the prediction of a reccomendation AI model (RiskComp). Participants were then sorted into groups of three, where they reviewed and discussed novel defendant profiles, before making a group recidivism assessment. In the group stage, the reccomendations from the RiskComp model were biased against a subset of the defendants (black defendants with low prior crime counts). Of interest was whether the inclusion of an LLM-based devil’s advocate in the group discussions could help mitigate the bias introduced by the RiskComp AI model (note that the LLM devils advocate and RiskComp AI are separate AI models). The experimental manipulation consisted of four variants of an LLM-based devil’s advocate using, varying both the target of objection (challenging either RiskComp recommendations or majority group opinions) and the level of interactivity (static one-time comments versus dynamic engagement throughout the discussions). Their findings revealed that the dynamic devil’s advocate led to higher decision accuracy and improved discernment of when to trust the RiskComp model’s advice.</p>
@@ -301,173 +301,7 @@ div.csl-indent {
 <li><span class="citation" data-cites="bhatiaExploringVariabilityRisk2024">(<a href="#ref-bhatiaExploringVariabilityRisk2024" role="doc-biblioref">Bhatia, 2024</a>)</span></li>
 <li><span class="citation" data-cites="zhuLanguageModelsTrained2024">(<a href="#ref-zhuLanguageModelsTrained2024" role="doc-biblioref">Zhu et al., 2024</a>)</span></li>
 </ul>
-<div style="page-break-after: always;"></div>
 </section>
-</section>
-<section id="tables" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="tables">Tables</h2>
-<!-- ::: {.column-page-inset-right}
-
-
-
-
-
-
-::: {#tbl-methods}
-
-\scriptsize
-
-| Research Method | Task Types | Key Measures | Example Studies |
-|-------------|-------------|-------------|-------------|
-| **Laboratory Experiments** | Simplified, controlled tasks (e.g., classification, judgment, resource allocation, logic puzzles) | Decision accuracy, response time, trust ratings, reliance on AI, eye-tracking, think-aloud protocols, physiological measures | Chiang et al. (2024); Buçinca et al. (2021); Swaroop et al. (2024) |
-| **Field Studies** | Complex, real-world tasks (e.g., medical diagnosis, emergency response, project planning, incident response) | Team performance, communication patterns, system adoption, qualitative observations (interviews, focus groups), workflow analysis | Bienefeld et al. (2023); Yang et al. (2024) |
-| **Online Experiments** | Varied tasks (e.g., text analysis, opinion formation, consensus building, games, surveys, simulated work tasks) | Group agreement, information sharing, bias measures, survey responses, behavioral logs, communication content analysis | Tessler et al. (2024); Chuang et al. (2024); Sidji et al. (2024); Nishida et al. (2024) |
-| **Observational Studies** | Real-world collaborative activities (e.g., collaborative writing, decision support usage, team coordination, online discussions) | Usage patterns, adaptation over time, natural behaviors, communication analysis, qualitative observations | Radivojevic et al. (2024); Ma et al. (2024) |
-
-Research methods in human-AI decision making 
-:::
-
-
-\newpage
-
-\NewPage
-
-
-
-
-::: {#tbl-ai-types}
-
-\scriptsize
-
-| AI Type | Key Capabilities | Primary Applications | Representative Studies |
-|---------------|---------------|---------------|---------------|
-| **Large Language Models** | Natural language understanding; Open-ended dialogue; Context adaptation; Knowledge synthesis; Abstract reasoning | Group facilitation; Information synthesis; Creative ideation; Deliberation support | Tessler et al. (2024); Chiang et al. (2024); Collins et al. (2024); Du et al. (2024) |
-| **Domain-Specific AI** | Expert knowledge; Precise calculations; Consistent performance; Real-time processing; Specialized optimization | Medical diagnosis; Resource allocation; Risk assessment; Pattern detection | Bienefeld et al. (2023); Marjieh et al. (2024); Yang et al. (2024) |
-| **Hybrid Systems** | Combined generalist/specialist capabilities; Integrated expertise; Adaptive reasoning; Multi-modal processing | Complex decision-making; Strategic planning; Knowledge management | Burton et al. (2024); Ma et al. (2024); Gao et al. (2024) |
-| **Autonomous Agents** | Independent operation; Goal-directed behavior; Environmental interaction; Continuous learning | Team collaboration; Process automation; Distributed tasks | McNeese et al. (2023); Guo et al. (2024); Zhang et al. (2024) |
-| **Recommender Systems** | Personalization; Pattern recognition; Preference learning; Information filtering | Information curation; Decision support; Resource suggestions | Stadler et al. (2024); Kumar et al. (2024); Swaroop et al. (2024) |
-
-Types of AI used in decision-making tasks 
-:::
-
-\normalsize
-
-\newpage
-
-
-
-
-::: -->
-<div class="column-page-inset-right">
-<div id="tbl-methods" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-tbl figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-methods-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Table&nbsp;1: Research methods in human-AI decision making
-</figcaption>
-<div aria-describedby="tbl-methods-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<table class="caption-top table">
-<colgroup>
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Research Method</th>
-<th>Task Types</th>
-<th>Key Measures</th>
-<th>Example Studies</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Laboratory Experiments</strong></td>
-<td>Simplified, controlled tasks (e.g., classification, judgment, resource allocation, logic puzzles)</td>
-<td>Decision accuracy, response time, trust ratings, reliance on AI, eye-tracking, think-aloud protocols, physiological measures</td>
-<td>Chiang et al.&nbsp;(2024); Buçinca et al.&nbsp;(2021); Swaroop et al.&nbsp;(2024)</td>
-</tr>
-<tr class="even">
-<td><strong>Field Studies</strong></td>
-<td>Complex, real-world tasks (e.g., medical diagnosis, emergency response, project planning, incident response)</td>
-<td>Team performance, communication patterns, system adoption, qualitative observations (interviews, focus groups), workflow analysis</td>
-<td>Bienefeld et al.&nbsp;(2023); Yang et al.&nbsp;(2024)</td>
-</tr>
-<tr class="odd">
-<td><strong>Online Experiments</strong></td>
-<td>Varied tasks (e.g., text analysis, opinion formation, consensus building, games, surveys, simulated work tasks)</td>
-<td>Group agreement, information sharing, bias measures, survey responses, behavioral logs, communication content analysis</td>
-<td>Tessler et al.&nbsp;(2024); Chuang et al.&nbsp;(2024); Sidji et al.&nbsp;(2024); Nishida et al.&nbsp;(2024)</td>
-</tr>
-<tr class="even">
-<td><strong>Observational Studies</strong></td>
-<td>Real-world collaborative activities (e.g., collaborative writing, decision support usage, team coordination, online discussions)</td>
-<td>Usage patterns, adaptation over time, natural behaviors, communication analysis, qualitative observations</td>
-<td>Radivojevic et al.&nbsp;(2024); Ma et al.&nbsp;(2024)</td>
-</tr>
-</tbody>
-</table>
-</div>
-</figure>
-</div>
-<div id="tbl-ai-types" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-tbl figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-ai-types-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Table&nbsp;2: Types of AI used in decision-making tasks
-</figcaption>
-<div aria-describedby="tbl-ai-types-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<table class="caption-top table">
-<colgroup>
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>AI Type</th>
-<th>Key Capabilities</th>
-<th>Primary Applications</th>
-<th>Representative Studies</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Large Language Models</strong></td>
-<td>Natural language understanding; Open-ended dialogue; Context adaptation; Knowledge synthesis; Abstract reasoning</td>
-<td>Group facilitation; Information synthesis; Creative ideation; Deliberation support</td>
-<td>Tessler et al.&nbsp;(2024); Chiang et al.&nbsp;(2024); Collins et al.&nbsp;(2024); Du et al.&nbsp;(2024)</td>
-</tr>
-<tr class="even">
-<td><strong>Domain-Specific AI</strong></td>
-<td>Expert knowledge; Precise calculations; Consistent performance; Real-time processing; Specialized optimization</td>
-<td>Medical diagnosis; Resource allocation; Risk assessment; Pattern detection</td>
-<td>Bienefeld et al.&nbsp;(2023); Marjieh et al.&nbsp;(2024); Yang et al.&nbsp;(2024)</td>
-</tr>
-<tr class="odd">
-<td><strong>Hybrid Systems</strong></td>
-<td>Combined generalist/specialist capabilities; Integrated expertise; Adaptive reasoning; Multi-modal processing</td>
-<td>Complex decision-making; Strategic planning; Knowledge management</td>
-<td>Burton et al.&nbsp;(2024); Ma et al.&nbsp;(2024); Gao et al.&nbsp;(2024)</td>
-</tr>
-<tr class="even">
-<td><strong>Autonomous Agents</strong></td>
-<td>Independent operation; Goal-directed behavior; Environmental interaction; Continuous learning</td>
-<td>Team collaboration; Process automation; Distributed tasks</td>
-<td>McNeese et al.&nbsp;(2023); Guo et al.&nbsp;(2024); Zhang et al.&nbsp;(2024)</td>
-</tr>
-<tr class="odd">
-<td><strong>Recommender Systems</strong></td>
-<td>Personalization; Pattern recognition; Preference learning; Information filtering</td>
-<td>Information curation; Decision support; Resource suggestions</td>
-<td>Stadler et al.&nbsp;(2024); Kumar et al.&nbsp;(2024); Swaroop et al.&nbsp;(2024)</td>
-</tr>
-</tbody>
-</table>
-</div>
-</figure>
-</div>
-</div>
 </section>
 <section id="references" class="level2">
 <h2 class="anchored" data-anchor-id="references">References</h2>
