@@ -40,7 +40,7 @@ Our chapter: AI and Group Decision Making: An Information Processing Perspective
 
 - group members
 
-- Are AI agents group members
+#### Are AI agents group members
 
 - Lu - mix and match
 
@@ -48,13 +48,15 @@ Our chapter: AI and Group Decision Making: An Information Processing Perspective
 
 - McNeese et al. (2023)
 
-- AI roles
+#### AI roles
 
 - Advisor, mediator, devil's advocate
 
 - Tessler et al. (2024) - *AI helping humans find common ground*.
+	- De 2024 - Supernotes: Driving Consensus in Crowd-Sourced Fact-Checking
 
 - Chiang et al. (2024) - *LLM-powered devil's advocate in group decisions*.
+- Carter 2024 - Integrating artificial intelligence into team decision-making: Toward a theory of AI–human team effectiveness
 
 Marjieh 2024 - task allocation
 
@@ -93,27 +95,29 @@ Marjieh 2024 - task allocation
 
 - Radivojevic (2024) - LLMs in group discourse
 
-- Shared Mental Models
+####  Shared Mental Models
 
 - How AI contributes to shared mental models in groups.
 
 - Collins 2024 - *Vision for human-AI thought partnership*.
 
-- Cognitive Load
+####  Cognitive Load
 
 - Buçinca et al. (2021) - Cognitive forcing functions to reduce overreliance
 
 - Stadler (2024).-  Cognitive ease at a cost: LLMs reduce mental effort but compromise depth
+- 
+- Westby (2023) - Collective Intelligence in Human-AI Teams: A Bayesian Theory of Mind Approach
 
   
 
 ### Decision Making output
 
-- Use of AI reccomendations
+####  Use of AI reccomendations
 
 - Subramonyam et al. (2024)- *Utilization of AI recommendations*.
 
-- Consensus formation
+####  Consensus formation
 
 - Du et al. (2024) - *LLMs in collective problem-solving*.
 
@@ -123,7 +127,7 @@ Marjieh 2024 - task allocation
 
 - Nishida 2024 - Conversational Agent Dynamics with Minority Opinion and Cognitive Conflict in Small-Group Decision-Making
 
-- Decision quality
+####  Decision quality
 
 - in comparison to human only groups
 
@@ -151,7 +155,7 @@ Marjieh 2024 - task allocation
 
 - Tsirtsis (2024) - Responsibility judgement in ai-assisted decision making
 
-- Over vs. under utilization
+####  Over vs. under utilization
 
 - Hao 2024
 
@@ -159,7 +163,7 @@ Marjieh 2024 - task allocation
 
 - Stadler 2024 - cognitive ease at a cost
 
-- Risk
+####  Risk
 
 - Bhatia 2024 - Exploring variability in risk taking with llms
 

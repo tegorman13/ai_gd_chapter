@@ -18,6 +18,15 @@ Tried to mostly select those that are published or at least conference papers
 - BaniHani 2024 - AI and the decision-making process: a literature review in healthcare, financial, and technology sectors
 - Cui & Yasseri 2024 - AI-enhanced collective intelligence
 - Tsvetkova 2024 -A new sociology of humans and machines
+- Bao 2023 - A Literature Review of Human–AI Synergy in Decision Making: From the Perspective of Affordance Actualization Theory
+-  Askarisichani 2022 - Predictive models for human–AI nexus in group decision making
+- Carter & Wynee 2024 - Integrating artificial intelligence into team decision-making: Toward a theory of AI–human team effectiveness
+- Eigner 2024 - Determinants of LLM Assisted Decision Making
+- Bouschery 2023 - Augmenting human innovation teams with artificial intelligence: Exploring transformer-based language models
+- Csaszar - Artificial Intelligence and Strategic Decision-Making: Evidence from Entrepreneurs and Investors
+- Vaccaro 2024 - When combinations of humans and AI are useful: A systematic review and meta-analysis
+- Kleanthous 2024 -  Human-AI Teaming: Following the IMOI Framework
+- Molina 2024 - Towards Effective Human-AI Collaboration in Decision-Making: A Comprehensive Review and Conceptual Framework
 
 
 ### Group Decision LLM
@@ -34,6 +43,10 @@ Tried to mostly select those that are published or at least conference papers
 - Tsirtsis, S., Gomez Rodriguez, M., & Gerstenberg, T. (2024). **Towards a computational model of responsibility judgments in sequential human-AI collaboration.**
 - Ueshima 2024 - Simple autonomous agents can enhance creative semantic discovery by human groups
 - Argyle 2023 - Leveraging AI for democratic discourse: Chat interventions can improve online political conversations at scale
+-  Lee 2024 - Conversational Agents as Catalysts for Critical Thinking: Challenging Design Fixation in Group Design
+-  Papachristou 2024 - Leveraging Large Language Models for Collective Decision-Making
+- Askarisichani 2022 - Predictive models for human–AI nexus in group decision making
+- Bouschery 2023 - Augmenting human innovation teams with artificial intelligence: Exploring transformer-based language models
 
 
 
@@ -83,10 +96,13 @@ Tried to mostly select those that are published or at least conference papers
 - Bhatia 2024 - The Structure of Everyday Choice: Insights from 100K Real-life Decision Problems
 - Chatbot Catalysts: Improving Team Decision-Making Through Cognitive Diversity and Information Elaboration
 - - Kvam 2024 - Using artificial intelligence to fit, compare, evaluate, and discover computational models of decision behavior.
+- Ganesh 2022 - A Modeling Approach for Measuring the Performance of a Human-AI Collaborative Process
 
 
 ### Information Processing
 - Kneeland 2024 - How Do People Process Information from Automated Decision Aids: an Application of Systems Factorial Technology
+- Westby 2023 - Collective Intelligence in Human-AI Teams: A Bayesian Theory of Mind Approach
+- Eigner 2024- Determinants of LLM-assisted Decision Making
 
 ### Trust
 - Narayanan, S., Yu, G., Ho, C.-J., & Yin, M. 2023 -  How does Value Similarity affect Human Reliance in AI-Assisted Ethical Decision Making?
@@ -97,20 +113,52 @@ Tried to mostly select those that are published or at least conference papers
 - Westphal (2023). Decision control and explanations in human-AI collaboration: Improving user perceptions and compliance.
 - Cui_Yasseri_2024_AI-enhanced Collective Intelligence
 - Collins 2024 - Modulating Language Model Experiences through Frictions
-
+- Carter 2024 - Integrating artificial intelligence into team decision-making: Toward a theory of AI–human team effectiveness
+- Cui & Yasseri 2024- Ai enhanced collective intelligence
 
 ### Risk
 - Nishida 2024 - Conversational Agent Dynamics with Minority Opinion and Cognitive Conflict in Small-Group Decision-Making
 - Bhatia 2024 -  Exploring variability in risk taking with large language models.
 - Mei 2024 -  A Turing test of whether AI chatbots are behaviorally similar to humans
 - Zhu, Yan & Griffiths 2024 - Language Models Trained to do Arithmetic Predict Human Risky and Intertemporal Choice
+-   Askarisichani 2022 - Predictive models for human–AI nexus in group decision making
+- 
 
 
 
 ### Understanding AI output
 - Herzog 2024 - Boosting human competences with interpretable and explainable artificial intelligence
 - Cecil 2023 - The Effect of AI-generated Advice on Decision-Making in Personnel Selection
+- Barredo Arrieta - Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI
+- Liu 2021 - Understanding the Effect of Out-of-distribution Examples and Interactive Explanations on Human-AI Decision Making
+- Ferguson 2024 - The Explanation That Hits Home: The Characteristics of Verbal Explanations That Affect Human Perception in Subjective Decision-Making
+- Bansal 2021 - Does the Whole Exceed its Parts? The Effect of AI Explanations on Complementary Team Performance
 
 
 ### Mental Model
 - Subramonyam 2024 - _Bridging the Gulf of Envisioning: Cognitive Design Challenges in LLM Interfaces_ 
+- Westby 2023 - Collective Intelligence in Human-AI Teams: A Bayesian Theory of Mind Approach
+- Walsh & Feigh (2022) Understanding Human Decision Processes: Inferring Decision Strategies From Behavioral Data
+- Carter 2024 - Integrating artificial intelligence into team decision-making: Toward a theory of AI–human team effectiveness
+- Cui & Yasseri 2024- Ai enhanced collective intelligence
+- Kumar_2024_Human Mental Models of Self, Others, and AI Agents
+### Information Search
+- Giannoccaro 2020 - Search behavior of individuals working in teams: A behavioral study on complex landscapes
+	- not an AI study
+- Reimer 2006 & Reimer 2010
+- Burton 2024 - How large language models can reshape collective intelligence
+	- AI to provide starting points or ice breakers
+	- citation on gpt improving idea generation
+- Bouschery 2023 - Augmenting human innovation teams with artificial intelligence: Exploring transformer-based language models
+- Ashkinaze 2024 - How AI Ideas Affect the Creativity, Diversity, and Evolution of Human Ideas: Evidence From a Large, Dynamic Experiment
+- Zheng 2024 - DiscipLink: Unfolding Interdisciplinary Information Seeking Process via Human-AI Co-Exploration
+
+### Aggregation
+- Burton 2024 - How large language models can reshape collective intelligence
+- De 2024 - Supernotes: Driving Consensus in Crowd-Sourced Fact-Checking
+
+
+### Shared Memory
+- Hedley 2020 - Division of Labour and Team Performance: Human-Human Teams compared to Hybrid Human-Machine Teams
+- Aggarwal 2023 - Self-beliefs, Transactive Memory Systems, and Collective Identification in Teams: Articulating the Socio-Cognitive Underpinnings of COHUMAIN
+- Bennett 2023 - Human Performance in Competitive and Collaborative Human–Machine Teams

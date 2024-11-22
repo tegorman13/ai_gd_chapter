@@ -8,8 +8,12 @@
 ### Improving Decision Making
 
 - Becker et al. 2022 - Boosting Human Decision‑Making With Ai‑Generated Decision Aids
+- Burton
 
 
+
+### Group member similarity
+- Bang & Firth 2017 - group members too similar
 
 
 

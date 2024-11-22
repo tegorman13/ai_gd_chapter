@@ -59,12 +59,22 @@ format:
 ## Introduction
 
 
-- [@steyversThreeChallengesAIAssisted2024]
-- [@laiScienceHumanAIDecision2023]
-- [@burtonHowLargeLanguage2024]
-- [@rastogiTaxonomyHumanML2023]
+Artificial Intelligence (AI) is becoming an increasingly integral component of group decision-making processes across a range of domains. From healthcare to finance, education to policymaking, AI systems are increasingly integrated into group decision-making processes, offering new avenues for enhancing efficiency, accuracy, and innovation [@burtonHowLargeLanguage2024; @carterIntegratingArtificialIntelligence2024;@banihaniAIDecisionmakingProcess2024]. This growing collaboration between humans and AI brings forth both significant opportunities and pressing challenges. On one hand, AI systems offer the potential to enhance information processing efficiency, improve decision accuracy, and streamline communication within teams. On the other hand, the complexities inherent in human-AI interactions—such as issues of trust and over-reliance, susceptibility to cognitive biases, erosion of critical thinking skills, lack of transparency in AI algorithms, and ethical concerns regarding accountability and fairness.
+  
 
-....
+The use of AI in group settings has evolved from basic decision-support tools to more sophisticated roles, such as collaborative partners capable of generating novel insights. Large language models (LLMs), for instance, can facilitate collective intelligence by synthesizing information, generating alternative solutions, and even mediating group discussions​​. However, the extent to which AI enhances group performance remains context-dependent. Recent meta-analyses reveal that human-AI collaboration can lead to either augmentation of individual performance or to performance decrements [@vaccaroWhenCombinationsHumans2024], depending on the task and interaction design​​.
+
+To navigate these complexities, this chapter adopts the information processing framework as a lens for examining AI-assisted group decision-making [@hinszEmergingConceptualizationGroups1997]. This framework provides a structured method to analyze how AI systems interact with human cognitive processes at each stage of decision-making. By dissecting the inputs (information acquisition and sharing), the processing mechanisms (interpretation and integration of information), and the outputs (decisions and actions), we can gain insights into the opportunities and challenges presented by AI integration.
+
+Key questions we will seek to address within this framework::
+
+- **Inputs**: How does AI influence the way groups search for, gather, and share information? For example, AI can augment information search through advanced data retrieval but may also introduce biases based on the algorithms' training data.
+
+- **Processing**: In what ways do AI systems affect the interpretation and integration of information within the group? AI can facilitate complex data analysis but might obscure the reasoning process through opaque algorithms, impacting the group's shared understanding.
+
+- **Outputs**: How do AI recommendations influence the group's final decisions and actions? The reliance on AI outputs raises questions about trust, accountability, and the potential diminishment of human agency.
+
+This analysis is particularly timely given the rapid advancement of AI capabilities....
 
 ## Inputs
 
@@ -87,7 +97,6 @@ Recent advances in large language models have dramatically expanded the potentia
 
 @chiangEnhancingAIAssistedGroup2024 investigated the potential of Large Language Models (LLMs) to act as devil's advocates in AI-assisted group decision-making - in the hopes of fostering more critical engagement with AI assistance. In their experimental task, participants were first individually trained on the relationship between defendant profiles and recidivism. For each defendant, participants were also shown the prediction of a reccomendation AI model (RiskComp). Participants were then sorted into groups of three, where they reviewed and discussed novel defendant profiles, before making a group recidivism assessment. In the group stage, the reccomendations from the RiskComp model were biased against a subset of the defendants (black defendants with low prior crime counts). Of interest was whether the inclusion of an LLM-based devil's advocate in the group discussions could help mitigate the bias introduced by the RiskComp AI model (note that the LLM devils advocate and RiskComp AI are separate AI models). The experimental manipulation consisted of four variants of an LLM-based devil's advocate using, varying both the target of objection (challenging either RiskComp recommendations or majority group opinions) and the level of interactivity (static one-time comments versus dynamic engagement throughout the discussions). Their findings revealed that the dynamic devil's advocate led to higher decision accuracy and improved discernment of when to trust the RiskComp model's advice.
 
-- [@marjiehTaskAllocationTeams2024]
 - [@kumarAssessingImpactDiffering2024]
 - [@luMixMatchCharacterizing2024]
 - [@mcneeseSteppingOutShadow2023]
