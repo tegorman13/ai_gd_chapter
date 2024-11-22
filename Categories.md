@@ -72,6 +72,7 @@ Tried to mostly select those that are published or at least conference papers
 - Tjuatja, L., Chen, V., Wu, T., Talwalkwar, A., & Neubig, G. (2024). Do LLMs Exhibit Human-like Response Biases? A Case Study in Survey Design.
 - Cheung, V., Maier, M., & Lieder, F. (2024). **Large Language Models Amplify Human Biases in Moral Decision-Making**
 - Choi, A. S., Akter, S. S., Singh, J. P., & Anastasopoulos, A. (2024). **The LLM Effect: Are Humans Truly Using LLMs, or Are They Being Influenced By Them Instead?**
+- Echterhoff 2024 - Cognitive Bias in High-Stakes Decision-Making with LLMs
 
 
 ### Real time decision modeling
