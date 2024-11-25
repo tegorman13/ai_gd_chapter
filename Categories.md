@@ -47,6 +47,8 @@ Tried to mostly select those that are published or at least conference papers
 -  Papachristou 2024 - Leveraging Large Language Models for Collective Decision-Making
 - Askarisichani 2022 - Predictive models for human–AI nexus in group decision making
 - Bouschery 2023 - Augmenting human innovation teams with artificial intelligence: Exploring transformer-based language models
+- Wang 2024 - Social-RAG: Retrieving from Group Interactions to Socially Ground Proactive AI Generation to Group Preferences
+- Agarwal 2024 - Conversational Agents to Facilitate Deliberation on Harmful Content in WhatsApp Groups
 
 
 
@@ -97,6 +99,8 @@ Tried to mostly select those that are published or at least conference papers
 - Chatbot Catalysts: Improving Team Decision-Making Through Cognitive Diversity and Information Elaboration
 - - Kvam 2024 - Using artificial intelligence to fit, compare, evaluate, and discover computational models of decision behavior.
 - Ganesh 2022 - A Modeling Approach for Measuring the Performance of a Human-AI Collaborative Process
+- Nguyen 2024 - Predicting and Understanding Human Action Decisions: Insights from Large Language Models and Cognitive Instance-Based Learning
+- Malloy 2024 - Applying Generative Artificial Intelligence to cognitive models of decision making
 
 
 ### Information Processing
@@ -115,6 +119,7 @@ Tried to mostly select those that are published or at least conference papers
 - Collins 2024 - Modulating Language Model Experiences through Frictions
 - Carter 2024 - Integrating artificial intelligence into team decision-making: Toward a theory of AI–human team effectiveness
 - Cui & Yasseri 2024- Ai enhanced collective intelligence
+- Brody 2024 - Evaluating the Effectiveness of AI Source Disclosure in Human–AI Communication
 
 ### Risk
 - Nishida 2024 - Conversational Agent Dynamics with Minority Opinion and Cognitive Conflict in Small-Group Decision-Making
@@ -123,8 +128,6 @@ Tried to mostly select those that are published or at least conference papers
 - Zhu, Yan & Griffiths 2024 - Language Models Trained to do Arithmetic Predict Human Risky and Intertemporal Choice
 -   Askarisichani 2022 - Predictive models for human–AI nexus in group decision making
 - 
-
-
 
 ### Understanding AI output
 - Herzog 2024 - Boosting human competences with interpretable and explainable artificial intelligence
@@ -142,6 +145,8 @@ Tried to mostly select those that are published or at least conference papers
 - Carter 2024 - Integrating artificial intelligence into team decision-making: Toward a theory of AI–human team effectiveness
 - Cui & Yasseri 2024- Ai enhanced collective intelligence
 - Kumar_2024_Human Mental Models of Self, Others, and AI Agents
+- Wang 2024 - Social-RAG: Retrieving from Group Interactions to Socially Ground Proactive AI Generation to Group Preferences
+
 ### Information Search
 - Giannoccaro 2020 - Search behavior of individuals working in teams: A behavioral study on complex landscapes
 	- not an AI study
@@ -152,13 +157,72 @@ Tried to mostly select those that are published or at least conference papers
 - Bouschery 2023 - Augmenting human innovation teams with artificial intelligence: Exploring transformer-based language models
 - Ashkinaze 2024 - How AI Ideas Affect the Creativity, Diversity, and Evolution of Human Ideas: Evidence From a Large, Dynamic Experiment
 - Zheng 2024 - DiscipLink: Unfolding Interdisciplinary Information Seeking Process via Human-AI Co-Exploration
+- Hao 2024 - Exploring collaborative decision-making: A quasi-experimental study of human and Generative AI interaction
+- Bertolazzi 2023 - ChatGPT's Information Seeking Strategy: Insights from the 20-Questions Game
+- Mazzaccara 2024 - Learning to Ask Informative Questions: Enhancing LLMs with Preference Optimization and Expected Information Gain
+- Sun 2024 - Trusting the Search: Unraveling Human Trust in Health Information from Google and ChatGPT
+- Flores 2024 - **Information foraging in human-ChatGPT interactions**: factors of computational thinking dissociate exploration and exploitation
+- Stadler 2024 Cognitive ease at a cost: LLMs reduce mental effort but compromise depth in student scientific inquiry.
+	- llm vs search engine
+- Spatharioti 2023 - Comparing Traditional and LLM-based Search for Consumer Choice: A Randomized Experiment
+- Sharma 2024 - Generative Echo Chamber? Effect of LLM-Powered Search Systems on Diverse Information Seeking
+- Anderl 2024 - Conversational presentation mode increases credibility judgements during information search with ChatGPT
+- Yang 2024 - Can We Delegate Learning to Automation?: A Comparative Study of LLM Chatbots, Search Engines, and Books
+- Zvelebilova 2024 - Collective Attention in Human-AI Teams
+- Avula 2022 - The Effects of System Initiative during Conversational Collaborative Search
 
 ### Aggregation
 - Burton 2024 - How large language models can reshape collective intelligence
 - De 2024 - Supernotes: Driving Consensus in Crowd-Sourced Fact-Checking
+- Wang 2024 - Social-RAG: Retrieving from Group Interactions to Socially Ground Proactive AI Generation to Group Preferences
+- agarwal 2024 - Conversational Agents to Facilitate Deliberation on Harmful Content in WhatsApp Groups
 
 
 ### Shared Memory
 - Hedley 2020 - Division of Labour and Team Performance: Human-Human Teams compared to Hybrid Human-Machine Teams
 - Aggarwal 2023 - Self-beliefs, Transactive Memory Systems, and Collective Identification in Teams: Articulating the Socio-Cognitive Underpinnings of COHUMAIN
 - Bennett 2023 - Human Performance in Competitive and Collaborative Human–Machine Teams
+
+
+
+----
+
+Help me write a detailed prompt that I can re-use when querying llm's to to provide summary reports of academic papers. 
+
+Information I want: 
+
+Type of paper: (empirical research paper, simulation study, theoretical review, meta analysis). 
+Human data collection: (yes or no)
+Individual Decision Making: (yes or no)
+Group Decision Making: (yes or no)
+Large language model: (yes or no)
+
+Human and AI Interaction (HAI):(yes or no)
+
+If yes to HAI: 
+- what type(s) of AI (e.g., llm, classification model, vision model)
+- Is some aspect of the AI manipulated - if so how, and within-groups or between-groups?
+- What role does the AI play (e.g., advisor, devils advocate, mediator, Aggregation, other)
+
+Description of experimental task and procedure (if applicable)
+  
+Which of these issues does the paper touch on (if none - say nothing)
+
+1. **Information Acquisition**: AI can play a role in generating or supplying information that participants must evaluate.
+2. **Encoding and Representation:** How information is received, interpreted, and mentally organized by individuals.
+
+3. **Information Retrieval and Integration:** How individuals recall relevant information and combine it to form a collective understanding. OR Shared Mental model. OR Transactive Memory. 
+
+4. **Judgment and Choice:** How the group evaluates options and makes a final decision.
+5. Trust, Risk, Over-reliance, Cognitive Load, complementarity, explainable AI
+6. Decision Making Biases
+
+
+### Brief Summary of key idea from paper
+
+### Q & A
+
+ 1.) Analyze the input text and generate 3 essential questions that, when answered, capture the main points and core meaning of the text. 2.) When formulating your questions: a. Address the central theme or argument b. Identify key supporting ideas c. Highlight important facts or evidence d. Reveal the author's purpose or perspective e. Explore any significant implications or conclusions. 3.) Answer all of your generated questions one-by-one in detail.
+
+
+
