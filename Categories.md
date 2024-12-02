@@ -27,6 +27,9 @@ Tried to mostly select those that are published or at least conference papers
 - Vaccaro 2024 - When combinations of humans and AI are useful: A systematic review and meta-analysis
 - Kleanthous 2024 -  Human-AI Teaming: Following the IMOI Framework
 - Molina 2024 - Towards Effective Human-AI Collaboration in Decision-Making: A Comprehensive Review and Conceptual Framework
+- Baines 2024 - Advice from artificial intelligence: a review and practical implications
+- Berretta 2023 - Defining human-AI teaming the human-centered way: a scoping review and network analysis
+- Rastogi 2023 - A Taxonomy of Human and ML Strengths in Decision-Making to Investigate Human-ML Complementarity
 
 
 ### Group Decision LLM
@@ -55,6 +58,7 @@ Tried to mostly select those that are published or at least conference papers
 ### Interaction
 - Lai (2023) - Towards a Science of Human-AI Decision Making: An Overview of Design Space in Empirical Human-Subject Studies
 - Bucina (2021) - To Trust or to Think: Cognitive Forcing Functions Can Reduce Overreliance on AI in AI-assisted Decision-making
+- Pescetelli 2021 - Confidence, advice seeking and changes of mind in decision making
 
 ### General AI assistance
 
@@ -64,6 +68,9 @@ Tried to mostly select those that are published or at least conference papers
 - Choi, A. S., Akter, S. S., Singh, J. P., & Anastasopoulos, A. (2024). **The LLM Effect: Are Humans Truly Using LLMs, or Are They Being Influenced By Them Instead?**
 - Banerjee, D., Teso, S., Sayin, B., & Passerini, A. (2024). Learning To Guide Human Decision Makers With Vision-Language Models
 - Westphal 2024- Towards Understanding AI Delegation: The Role of Self-Efficacy and Visual Processing Ability
+-  Liang, Donkin, Newell 2022 - Adapting to the algorithm: how accuracy comparisons promote the use of a decision aid
+- Shin 2023 - Superhuman artificial intelligence can improve human decision-making by increasing novelty
+- Grgić-Hlača 2022 - Taking Advice from (Dis)Similar Machines: The Impact of Human-Machine Similarity on Machine-Assisted Decision-Making
 
 
 
@@ -88,6 +95,7 @@ Tried to mostly select those that are published or at least conference papers
 - Cheung, V., Maier, M., & Lieder, F. (2024). **Large Language Models Amplify Human Biases in Moral Decision-Making**
 - Choi, A. S., Akter, S. S., Singh, J. P., & Anastasopoulos, A. (2024). **The LLM Effect: Are Humans Truly Using LLMs, or Are They Being Influenced By Them Instead?**
 - Echterhoff 2024 - Cognitive Bias in High-Stakes Decision-Making with LLMs
+- Vicente 2023 - Humans inherit artificial intelligence biases
 
 
 ### Real time decision modeling
@@ -101,12 +109,14 @@ Tried to mostly select those that are published or at least conference papers
 - Ganesh 2022 - A Modeling Approach for Measuring the Performance of a Human-AI Collaborative Process
 - Nguyen 2024 - Predicting and Understanding Human Action Decisions: Insights from Large Language Models and Cognitive Instance-Based Learning
 - Malloy 2024 - Applying Generative Artificial Intelligence to cognitive models of decision making
+- Pescetelli 2022 - A variational-autoencoder approach to solve the hidden profile task in hybrid human-machine teams
 
 
 ### Information Processing
 - Kneeland 2024 - How Do People Process Information from Automated Decision Aids: an Application of Systems Factorial Technology
 - Westby 2023 - Collective Intelligence in Human-AI Teams: A Bayesian Theory of Mind Approach
 - Eigner 2024- Determinants of LLM-assisted Decision Making
+- Liang, Donkin, Newell 2022 - Adapting to the algorithm: how accuracy comparisons promote the use of a decision aid
 
 ### Trust
 - Narayanan, S., Yu, G., Ho, C.-J., & Yin, M. 2023 -  How does Value Similarity affect Human Reliance in AI-Assisted Ethical Decision Making?
@@ -120,6 +130,8 @@ Tried to mostly select those that are published or at least conference papers
 - Carter 2024 - Integrating artificial intelligence into team decision-making: Toward a theory of AI–human team effectiveness
 - Cui & Yasseri 2024- Ai enhanced collective intelligence
 - Brody 2024 - Evaluating the Effectiveness of AI Source Disclosure in Human–AI Communication
+- Pescetelli & Yeung 2021 - The role of decision confidence in advice-taking and trust formation
+- Pataranutaporn 2023 - Influencing human–AI interaction by priming beliefs about AI can increase perceived trustworthiness, empathy and effectiveness
 
 ### Risk
 - Nishida 2024 - Conversational Agent Dynamics with Minority Opinion and Cognitive Conflict in Small-Group Decision-Making
@@ -144,8 +156,14 @@ Tried to mostly select those that are published or at least conference papers
 - Walsh & Feigh (2022) Understanding Human Decision Processes: Inferring Decision Strategies From Behavioral Data
 - Carter 2024 - Integrating artificial intelligence into team decision-making: Toward a theory of AI–human team effectiveness
 - Cui & Yasseri 2024- Ai enhanced collective intelligence
-- Kumar_2024_Human Mental Models of Self, Others, and AI Agents
+- Kumar, A. (2024). Human Mental Models of Self, Others, and AI Agents
 - Wang 2024 - Social-RAG: Retrieving from Group Interactions to Socially Ground Proactive AI Generation to Group Preferences
+-  Liang, Donkin, Newell 2022 - Adapting to the algorithm: how accuracy comparisons promote the use of a decision aid
+-  Pescetelli & Yeung 2021 - The role of decision confidence in advice-taking and trust formation
+- Carlebach & Yeung 2023 - Flexible use of confidence to guide advice requests
+	- Using your own confidence to choose when to learn about advisor accuracy
+- Zhang 2022 - You Complete Me: Human-AI Teams and Complementary Expertise
+	- Shape categorization task
 
 ### Information Search
 - Giannoccaro 2020 - Search behavior of individuals working in teams: A behavioral study on complex landscapes
@@ -176,6 +194,7 @@ Tried to mostly select those that are published or at least conference papers
 - De 2024 - Supernotes: Driving Consensus in Crowd-Sourced Fact-Checking
 - Wang 2024 - Social-RAG: Retrieving from Group Interactions to Socially Ground Proactive AI Generation to Group Preferences
 - agarwal 2024 - Conversational Agents to Facilitate Deliberation on Harmful Content in WhatsApp Groups
+- Steyvers 2022 - Bayesian modeling of human–AI complementarity
 
 
 ### Shared Memory

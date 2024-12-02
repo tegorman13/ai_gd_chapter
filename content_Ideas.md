@@ -1,5 +1,15 @@
 
 
+
+
+## Questions
+
+- Should things like trust/reliance, roles, beliefs about accuracy, go into the "Inputs" section? As these can be construed as contextual factors influencing the decision making
+	- Or should they be 'information processing' - as they can be updated over the course of a task
+
+
+
+
 ### LLM Interaction
 
 
