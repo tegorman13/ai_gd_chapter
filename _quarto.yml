@@ -4,9 +4,10 @@ project:
   preview:
     port: 4200
   render:
-    - "v1.qmd"
-    - "tables.qmd"
+    #- "v1.qmd"
     - "working.qmd"
+    - "tables.qmd"
+    
     #- "*.qmd"
   # resources: 
   #     - "Manuscript/output/"
