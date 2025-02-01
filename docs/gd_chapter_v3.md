@@ -1,4 +1,5 @@
 # AI and Group Decision Making: An Information Processing Perspective
+Thomas E. Gorman, Torsten Reimer
 
 ## Introduction
 
@@ -55,12 +56,13 @@ Key questions we will seek to address within this framework::
   about trust, accountability, and the potential diminishment of human
   agency.
 
-This analysis is particularly timely given the rapid advancement of AI
-capabilities….
+By examining these questions through the lens of the information
+processing framework, we can better understand the complex interplay
+between humans and AI in group decision-making contexts and identify
+strategies for optimizing the benefits of AI-assisted collaboration
+while mitigating its risks.
 
 ## Inputs
-
-..
 
 ### Group Member Roles
 
@@ -91,6 +93,16 @@ insights highlight the necessity of adjusting our approaches to team
 composition and role assignment when AI agents are involved, ensuring
 that both human and AI strengths are optimized in the decision-making
 process.
+
+- AI can help identify missing expertise or knowledge within a group
+
+- diversity in human-AI teams, considering both human and AI
+  characteristics (Cui & Yasseri, 2024).
+
+- When and how AI might be assigned leadership or specialized roles (Guo
+  et al., 2024)
+
+<img src="Assets/ipo.png" style="width:105.0%" alt="Framework" />
 
 ------------------------------------------------------------------------
 
@@ -125,8 +137,6 @@ discernment of when to trust the RiskComp model’s advice.
 - (A. Kumar et al., 2024)
 - (Lu et al., 2024)
 - (McNeese et al., 2023)
-
-## Information Processing
 
 ### Information Search
 
@@ -177,6 +187,16 @@ engagement with the material, leading to less sophisticated reasoning
 and argumentation (Stadler et al., 2024). Therefore, careful design and
 implementation are crucial to mitigate these risks and leverage the full
 potential of LLMs for enhanced information retrieval and synthesis.
+
+### Initial Trust, Expertise Assumptions, and Biases
+
+- Trust Baselines: Pre-existing attitudes toward AI, perceived
+  reliability, anthropomorphism (Cui & Yasseri, 2024)
+
+- Bias and Training Data: Potential for AI to introduce or amplify
+  biases from training corpora (Cecil et al., 2024; Bhatia, 2024)
+
+## Information Processing
 
 #### AI in Idea Generation and Creative Discovery
 
@@ -260,15 +280,48 @@ potential user experience challenges to fully realize their potential
 advantages.
 
 - (Yang et al., 2024)
+
 - (Ma et al., 2024)
+
 - (Radivojevic et al., 2024)
+
 - (Sidji et al., 2024)
+
 - (Nishida et al., 2024)
+
 - (Chuang et al., 2024)
+
+- AI-Mediated Communication: Smart replies, devil’s advocacy, and AI as
+  a discussion facilitator (Chiang et al., 2024; Duan et al., 2025)
+
+- Transactive Memory and Shared Mental Models: How AI systems function
+  as external knowledge repositories (Bienefeld et al., 2023; Narayanan
+  & Feigh, 2024)
+
+- chat-based collaboration (ChatCollab, Klieger et al., 2024)
 
 ### Shared Mental Models
 
 - (Collins et al., 2024)
+
+- role of shared mental models in effective teamwork (N. J. McNeese et
+  al., 2023; Narayanan & Feigh, 2024).
+
+- challenge of developing shared mental models in human-AI teams due to
+  the opacity of AI reasoning (Collins et al., 2024; S. Zhang et al.,
+  2024).
+
+- potential solutions, such as increasing AI transparency, providing
+  explanations, or using interactive interfaces (Chiang et al., 2024;
+  Klieger et al., 2024; Ma et al., 2024; Sidji et al., 2024).
+
+- Role of training in developing effective mental models of AI and in
+  calibrating trust (Kelly et al., 2023; Tejeda et al., 2022).
+
+Future Directions: Research on how to measure and visualize shared
+mental models in human-AI teams, how to design AI systems that actively
+contribute to the development of shared understanding, how to adapt AI
+behavior based on the evolving mental models of human teammates.
 
 …
 
@@ -291,9 +344,11 @@ these interventions, suggesting that the effectiveness of such cognitive
 load manipulations may be moderated by individual differences in
 information processing preferences.
 
-## Decision-Making Output
+- Cognitive Load and Overreliance: Role of interface design in prompting
+  deeper analytic thinking (Buçinca et al., 2021; Vodrahalli et al.,
+  2022)
 
-..
+- Cognitive offloading effects (Stadler et al., 2024)
 
 ### Consensus Formation
 
@@ -315,6 +370,10 @@ replicated in a virtual citizens’ assembly with a demographically
 representative sample of the UK population. The AI-mediated process
 again resulted in high-quality group statements and facilitated
 consensus among participants on contentious issues.
+
+## Decision-Making Output
+
+..
 
 ### Decision Accuracy and Complementarity
 
@@ -349,6 +408,9 @@ collaborative advantage in human-AI teams appears to stem from
 difficulties in developing shared mental models and coordinating actions
 effectively, suggesting that current AI systems may lack crucial
 capabilities for fluid team interaction.
+
+- Performance Gains and Limits: Complementarity vs. overreliance (Liang
+  et al., 2022)
 
 ## Trust, Risk and Reliance
 
@@ -396,6 +458,13 @@ highlight the complexity of trust in AI within team environments, where
 both the design of AI agents and their subtle influences on team
 dynamics must be carefully managed to enhance collaborative outcomes.
 
+- Contagion Effects of (Dis)Trust: Spread of distrust or overconfidence
+  within human–AI teams (Duan et al., 2025)
+
+- Uncalibrated vs. Well-Calibrated AI: Conditions under which
+  uncalibrated AI might paradoxically enhance outcomes (Vodrahalli et
+  al., 2022)
+
 ### Utilization
 
 Recent work by Buçinca et al. (2021) presents an innovative approach to
@@ -438,3 +507,506 @@ contribution of each agent to the task outcome.
 
 - (Bhatia, 2024)
 - (Zhu et al., 2024)
+
+## Future Directions
+
+- Opportunities for real-time AI moderation (Han et al., 2024)
+- Evolving norms around AI accountability (Smith et al., 2025)
+- potential negative impacts of AI on human skills, critical thinking,
+  and agency (Gerlich, 2025; H. Kumar et al., 2024)
+- Effects of AI on group extremity and the emergence of echo chambers or
+  polarization phenomena (van Swol et al., 2023).
+- privacy, accountability, and fairness in AI-assisted group decision
+  making (Cui & Yasseri, 2024; Barredo Arrieta et al., 2020).
+
+## References
+
+<div id="refs" class="references csl-bib-body hanging-indent"
+entry-spacing="0" line-spacing="2">
+
+<div id="ref-anderlConversationalPresentationMode2024"
+class="csl-entry">
+
+Anderl, C., Klein, S. H., Sarigül, B., Schneider, F. M., Han, J.,
+Fiedler, P. L., & Utz, S. (2024). Conversational presentation mode
+increases credibility judgements during information search with ChatGPT.
+*Scientific Reports*, *14*(1), 17127.
+<https://doi.org/10.1038/s41598-024-67829-6>
+
+</div>
+
+<div id="ref-ashkinazeHowAIIdeas2024" class="csl-entry">
+
+Ashkinaze, J., Mendelsohn, J., Qiwei, L., Budak, C., & Gilbert, E.
+(2024). *How AI Ideas Affect the Creativity, Diversity, and Evolution of
+Human Ideas: Evidence From a Large, Dynamic Experiment*
+(arXiv:2401.13481). arXiv. <https://doi.org/10.48550/arXiv.2401.13481>
+
+</div>
+
+<div id="ref-banihaniAIDecisionmakingProcess2024" class="csl-entry">
+
+BaniHani, I., Alawadi, S., & Elmrayyan, N. (2024). AI and the
+decision-making process: A literature review in healthcare, financial,
+and technology sectors. *Journal of Decision Systems*, 1–11.
+<https://doi.org/10.1080/12460125.2024.2349425>
+
+</div>
+
+<div id="ref-bastolaLLMbasedSmartReply2024" class="csl-entry">
+
+Bastola, A., Wang, H., Hembree, J., Yadav, P., Gong, Z., Dixon, E.,
+Razi, A., & McNeese, N. (2024). *<span class="nocase">LLM-based Smart
+Reply</span> (LSR): Enhancing Collaborative Performance with
+<span class="nocase">ChatGPT-mediated Smart Reply System</span>*
+(arXiv:2306.11980). arXiv. <https://arxiv.org/abs/2306.11980>
+
+</div>
+
+<div id="ref-beckerBoostingHumanDecisionmaking2022" class="csl-entry">
+
+Becker, F., Skirzyński, J., van Opheusden, B., & Lieder, F. (2022).
+Boosting <span class="nocase">Human Decision-making</span> with
+AI-Generated Decision Aids. *Computational Brain & Behavior*, *5*(4),
+467–490. <https://doi.org/10.1007/s42113-022-00149-y>
+
+</div>
+
+<div id="ref-bennettHumanPerformanceCompetitive2023" class="csl-entry">
+
+Bennett, M. S., Hedley, L., Love, J., Houpt, J. W., Brown, S. D., &
+Eidels, A. (2023). Human Performance in Competitive and Collaborative
+Human–Machine Teams. *Topics in Cognitive Science*, 1–25.
+<https://doi.org/10.1111/tops.12683>
+
+</div>
+
+<div id="ref-bhatiaExploringVariabilityRisk2024" class="csl-entry">
+
+Bhatia, S. (2024). Exploring variability in risk taking with large
+language models. *Journal of Experimental Psychology: General*,
+*153*(7), 1838–1860. <https://doi.org/10.1037/xge0001607>
+
+</div>
+
+<div id="ref-bienefeldHumanAITeamingLeveraging2023" class="csl-entry">
+
+Bienefeld, N., Kolbe, M., Camen, G., Huser, D., & Buehler, P. K. (2023).
+Human-AI teaming: Leveraging transactive memory and speaking up for
+enhanced team effectiveness. *Frontiers in Psychology*, *14*.
+<https://doi.org/10.3389/fpsyg.2023.1208019>
+
+</div>
+
+<div id="ref-bouscheryAugmentingHumanInnovation2023" class="csl-entry">
+
+Bouschery, S. G., Blazevic, V., & Piller, F. T. (2023). Augmenting human
+innovation teams with artificial intelligence: Exploring
+transformer-based language models. *Journal of Product Innovation
+Management*, *40*(2), 139–153. <https://doi.org/10.1111/jpim.12656>
+
+</div>
+
+<div id="ref-boussiouxCrowdlessFutureGenerative2024" class="csl-entry">
+
+Boussioux, L., Lane, J. N., Zhang, M., Jacimovic, V., & Lakhani, K. R.
+(2024). The Crowdless Future? Generative AI and Creative
+Problem-Solving. *Organization Science*, *35*(5), 1589–1607.
+<https://doi.org/10.1287/orsc.2023.18430>
+
+</div>
+
+<div id="ref-bucincaTrustThinkCognitive2021" class="csl-entry">
+
+Buçinca, Z., Malaya, M. B., & Gajos, K. Z. (2021). To Trust or to Think:
+Cognitive Forcing Functions Can Reduce Overreliance on AI in
+<span class="nocase">AI-assisted Decision-making</span>. *Proceedings of
+the ACM on Human-Computer Interaction*, *5*(CSCW1), 1–21.
+<https://doi.org/10.1145/3449287>
+
+</div>
+
+<div id="ref-burtonHowLargeLanguage2024" class="csl-entry">
+
+Burton, J. W., Lopez-Lopez, E., Hechtlinger, S., Rahwan, Z., Aeschbach,
+S., Bakker, M. A., Becker, J. A., Berditchevskaia, A., Berger, J.,
+Brinkmann, L., Flek, L., Herzog, S. M., Huang, S., Kapoor, S.,
+Narayanan, A., Nussberger, A.-M., Yasseri, T., Nickl, P., Almaatouq, A.,
+… Hertwig, R. (2024). How large language models can reshape collective
+intelligence. *Nature Human Behaviour*, 1–13.
+<https://doi.org/10.1038/s41562-024-01959-9>
+
+</div>
+
+<div id="ref-carlebachFlexibleUseConfidence2023" class="csl-entry">
+
+Carlebach, N., & Yeung, N. (2023). Flexible use of confidence to guide
+advice requests. *Cognition*, *230*, 105264.
+<https://doi.org/10.1016/j.cognition.2022.105264>
+
+</div>
+
+<div id="ref-carterIntegratingArtificialIntelligence2024"
+class="csl-entry">
+
+Carter, W., & Wynne, K. T. (2024). Integrating artificial intelligence
+into team decision-making: Toward a theory of AI–human team
+effectiveness. *European Management Review*.
+<https://doi.org/10.1111/emre.12685>
+
+</div>
+
+<div id="ref-chiangEnhancingAIAssistedGroup2024" class="csl-entry">
+
+Chiang, C.-W., Lu, Z., Li, Z., & Yin, M. (2024). Enhancing AI-Assisted
+Group Decision Making through LLM-Powered Devil’s Advocate. *Proceedings
+of the 29th International Conference on Intelligent User Interfaces*,
+103–119. <https://doi.org/10.1145/3640543.3645199>
+
+</div>
+
+<div id="ref-chuangWisdomPartisanCrowds2024" class="csl-entry">
+
+Chuang, Y.-S., Harlalka, N., Suresh, S., Goyal, A., Hawkins, R., Yang,
+S., Shah, D., Hu, J., & Rogers, T. T. (2024). *The Wisdom of Partisan
+Crowds: Comparing Collective Intelligence in Humans and
+<span class="nocase">LLM-based Agents</span>*.
+
+</div>
+
+<div id="ref-collinsBuildingMachinesThat2024a" class="csl-entry">
+
+Collins, K. M., Sucholutsky, I., Bhatt, U., Chandra, K., Wong, L., Lee,
+M., Zhang, C. E., Zhi-Xuan, T., Ho, M., Mansinghka, V., Weller, A.,
+Tenenbaum, J. B., & Griffiths, T. L. (2024). Building machines that
+learn and think with people. *Nature Human Behaviour*, *8*(10),
+1851–1863. <https://doi.org/10.1038/s41562-024-01991-9>
+
+</div>
+
+<div id="ref-cuiAIenhancedCollectiveIntelligence2024" class="csl-entry">
+
+Cui, H., & Yasseri, T. (2024). <span class="nocase">AI-enhanced</span>
+collective intelligence. *Patterns*, *5*(11), 101074.
+<https://doi.org/10.1016/j.patter.2024.101074>
+
+</div>
+
+<div id="ref-floresInformationForagingHumanChatGPT2024"
+class="csl-entry">
+
+Flores, P., Rong, G., & Cowley, B. (2024). Information foraging in
+human-ChatGPT interactions: Factors of computational thinking dissociate
+exploration and exploitation. *Proceedings of the Annual Meeting of the
+Cognitive Science Society*, *46*.
+
+</div>
+
+<div id="ref-hinszEmergingConceptualizationGroups1997"
+class="csl-entry">
+
+Hinsz, V. B., Tindale, R. S., & Vollrath, D. A. (1997). The emerging
+conceptualization of groups as information processors. *Psychological
+Bulletin*, *121*(1), 43–64. <https://doi.org/10.1037/0033-2909.121.1.43>
+
+</div>
+
+<div id="ref-joostenComparingIdeationQuality2024" class="csl-entry">
+
+Joosten, J., Bilgram, V., Hahn, A., & Totzek, D. (2024). Comparing the
+Ideation Quality of Humans With Generative Artificial Intelligence.
+*IEEE Engineering Management Review*, *52*(2), 153–164.
+<https://doi.org/10.1109/EMR.2024.3353338>
+
+</div>
+
+<div id="ref-kumarAssessingImpactDiffering2024" class="csl-entry">
+
+Kumar, A., Tham, R.-H. M., & Steyvers, M. (2024). *Assessing the Impact
+of Differing Perspectives in Advice-Taking Behavior*.
+<https://doi.org/10.31234/osf.io/seqjr>
+
+</div>
+
+<div id="ref-kumarHumanCreativityAge2024" class="csl-entry">
+
+Kumar, H., Vincentius, J., Jordan, E., & Anderson, A. (2024). *Human
+Creativity in the Age of LLMs: Randomized Experiments on Divergent and
+Convergent Thinking* (arXiv:2410.03703). arXiv.
+<https://arxiv.org/abs/2410.03703>
+
+</div>
+
+<div id="ref-liangAdaptingAlgorithmHow2022" class="csl-entry">
+
+Liang, G., Sloane, J. F., Donkin, C., & Newell, B. R. (2022). Adapting
+to the algorithm: How accuracy comparisons promote the use of a decision
+aid. *Cognitive Research: Principles and Implications*, *7*(1), 14.
+<https://doi.org/10.1186/s41235-022-00364-y>
+
+</div>
+
+<div id="ref-luMixMatchCharacterizing2024" class="csl-entry">
+
+Lu, Z., Amin Mahmoo, S. H., Li, Z., & Yin, M. (2024). Mix and Match:
+Characterizing Heterogeneous Human Behavior in
+<span class="nocase">AI-assisted Decision Making</span>. *Proceedings of
+the AAAI Conference on Human Computation and Crowdsourcing*, *12*,
+95–104. <https://doi.org/10.1609/hcomp.v12i1.31604>
+
+</div>
+
+<div id="ref-maHumanAIDeliberationDesign2024" class="csl-entry">
+
+Ma, S., Chen, Q., Wang, X., Zheng, C., Peng, Z., Yin, M., & Ma, X.
+(2024). *Towards Human-AI Deliberation: Design and Evaluation of
+LLM-Empowered Deliberative AI for AI-Assisted Decision-Making*
+(arXiv:2403.16812). arXiv. <https://arxiv.org/abs/2403.16812>
+
+</div>
+
+<div id="ref-marjiehTaskAllocationTeams2024" class="csl-entry">
+
+Marjieh, R., Gokhale, A., Bullo, F., & Griffiths, T. L. (2024). *Task
+Allocation in Teams as a Multi-Armed Bandit*.
+
+</div>
+
+<div id="ref-mcneeseSteppingOutShadow2023" class="csl-entry">
+
+McNeese, N. J., Flathmann, C., O’Neill, T. A., & Salas, E. (2023).
+Stepping out of the shadow of human-human teaming: Crafting a unique
+identity for human-autonomy teams. *Computers in Human Behavior*, *148*,
+107874. <https://doi.org/10.1016/j.chb.2023.107874>
+
+</div>
+
+<div id="ref-meinckeUsingLargeLanguage2024" class="csl-entry">
+
+Meincke, L., Girotra, K., Nave, G., Terwiesch, C., & Ulrich, K. T.
+(2024). *Using Large Language Models for Idea Generation in Innovation*.
+<https://doi.org/10.2139/ssrn.4526071>
+
+</div>
+
+<div id="ref-narayananHowDoesValue2023" class="csl-entry">
+
+Narayanan, S., Yu, G., Ho, C.-J., & Yin, M. (2023). How does Value
+Similarity affect Human Reliance in AI-Assisted Ethical Decision Making?
+*Proceedings of the 2023 AAAI/ACM Conference on AI, Ethics, and
+Society*, 49–57. <https://doi.org/10.1145/3600211.3604709>
+
+</div>
+
+<div id="ref-nishidaConversationalAgentDynamics2024" class="csl-entry">
+
+Nishida, Y., Shimojo, S., & Hayashi, Y. (2024). Conversational Agent
+Dynamics with Minority Opinion and Cognitive Conflict in Small-Group
+Decision-Making. *Japanese Psychological Research*.
+<https://doi.org/10.1111/jpr.12552>
+
+</div>
+
+<div id="ref-pescetelliRoleDecisionConfidence2021" class="csl-entry">
+
+Pescetelli, N., & Yeung, N. (2021). The role of decision confidence in
+advice-taking and trust formation. *Journal of Experimental Psychology:
+General*, *150*(3), 507–526. <https://doi.org/10.1037/xge0000960>
+
+</div>
+
+<div id="ref-radivojevicLLMsUsGenerative2024" class="csl-entry">
+
+Radivojevic, K., Clark, N., & Brenner, P. (2024). LLMs Among Us:
+Generative AI Participating in Digital Discourse. *Proceedings of the
+AAAI Symposium Series*, *3*(1), 209–218.
+<https://doi.org/10.1609/aaaiss.v3i1.31202>
+
+</div>
+
+<div id="ref-rastogiTaxonomyHumanML2023" class="csl-entry">
+
+Rastogi, C., Leqi, L., Holstein, K., & Heidari, H. (2023). A Taxonomy of
+Human and ML Strengths in Decision-Making to Investigate Human-ML
+Complementarity. *Proceedings of the AAAI Conference on Human
+Computation and Crowdsourcing*, *11*, 127–139.
+<https://doi.org/10.1609/hcomp.v11i1.27554>
+
+</div>
+
+<div id="ref-sharmaGenerativeEchoChamber2024" class="csl-entry">
+
+Sharma, N., Liao, Q. V., & Xiao, Z. (2024). Generative Echo Chamber?
+Effect of LLM-Powered Search Systems on Diverse Information Seeking.
+*Proceedings of the CHI Conference on Human Factors in Computing
+Systems*, 1–17. <https://doi.org/10.1145/3613904.3642459>
+
+</div>
+
+<div id="ref-shinSuperhumanArtificialIntelligence2023"
+class="csl-entry">
+
+Shin, M., Kim, J., van Opheusden, B., & Griffiths, T. L. (2023).
+Superhuman artificial intelligence can improve human decision-making by
+increasing novelty. *Proceedings of the National Academy of Sciences*,
+*120*(12), e2214840120. <https://doi.org/10.1073/pnas.2214840120>
+
+</div>
+
+<div id="ref-siCanLLMsGenerate2024" class="csl-entry">
+
+Si, C., Yang, D., & Hashimoto, T. (2024). *Can LLMs Generate Novel
+Research Ideas? A Large-Scale Human Study with 100+ NLP Researchers*
+(arXiv:2409.04109). arXiv. <https://doi.org/10.48550/arXiv.2409.04109>
+
+</div>
+
+<div id="ref-sidjiHumanAICollaborationCooperative2024"
+class="csl-entry">
+
+Sidji, M., Smith, W., & Rogerson, M. J. (2024). Human-AI Collaboration
+in Cooperative Games: A Study of Playing Codenames with an LLM
+Assistant. *Proc. ACM Hum.-Comput. Interact.*, *8*(CHI PLAY),
+316:1–316:25. <https://doi.org/10.1145/3677081>
+
+</div>
+
+<div id="ref-spathariotiComparingTraditionalLLMbased2023"
+class="csl-entry">
+
+Spatharioti, S. E., Rothschild, D. M., Goldstein, D. G., & Hofman, J. M.
+(2023). *Comparing Traditional and <span class="nocase">LLM-based
+Search</span> for Consumer Choice: A Randomized Experiment*
+(arXiv:2307.03744). arXiv. <https://doi.org/10.48550/arXiv.2307.03744>
+
+</div>
+
+<div id="ref-stadlerCognitiveEaseCost2024" class="csl-entry">
+
+Stadler, M., Bannert, M., & Sailer, M. (2024). Cognitive ease at a cost:
+LLMs reduce mental effort but compromise depth in student scientific
+inquiry. *Computers in Human Behavior*, *160*, 108386.
+<https://doi.org/10.1016/j.chb.2024.108386>
+
+</div>
+
+<div id="ref-steyversCalibrationGapModel2024" class="csl-entry">
+
+Steyvers, M., Tejeda, H., Kumar, A., Belem, C., Karny, S., Hu, X.,
+Mayer, L., & Smyth, P. (2024). *The Calibration Gap between Model and
+Human Confidence in Large Language Models* (arXiv:2401.13835). arXiv.
+<https://arxiv.org/abs/2401.13835>
+
+</div>
+
+<div id="ref-tesslerAICanHelp2024" class="csl-entry">
+
+Tessler, M. H., Bakker, M. A., Jarrett, D., Sheahan, H., Chadwick, M.
+J., Koster, R., Evans, G., Campbell-Gillingham, L., Collins, T., Parkes,
+D. C., Botvinick, M., & Summerfield, C. (2024). AI can help humans find
+common ground in democratic deliberation. *Science*, *386*(6719),
+eadq2852. <https://doi.org/10.1126/science.adq2852>
+
+</div>
+
+<div id="ref-tsirtsisComputationalModelResponsibility2024"
+class="csl-entry">
+
+Tsirtsis, S., Rodriguez, M. G., & Gerstenberg, T. (2024). *Towards a
+computational model of responsibility judgments in sequential human-AI
+collaboration*. <https://doi.org/10.31234/osf.io/m4yad>
+
+</div>
+
+<div id="ref-ueshimaDiscoveringNovelSocial2024" class="csl-entry">
+
+Ueshima, A., & Takikawa, H. (2024). Discovering Novel Social Preferences
+Using Simple Artificial Neural Networks. *Collabra: Psychology*,
+*10*(1), 121234. <https://doi.org/10.1525/collabra.121234>
+
+</div>
+
+<div id="ref-vaccaroWhenCombinationsHumans2024" class="csl-entry">
+
+Vaccaro, M., Almaatouq, A., & Malone, T. (2024). When combinations of
+humans and AI are useful: A systematic review and meta-analysis. *Nature
+Human Behaviour*, 1–11. <https://doi.org/10.1038/s41562-024-02024-1>
+
+</div>
+
+<div id="ref-wangSocialRAGRetrievingGroup2024" class="csl-entry">
+
+Wang, R., Zhou, X., Qiu, L., Chang, J. C., Bragg, J., & Zhang, A. X.
+(2024). *Social-RAG: Retrieving from Group Interactions to Socially
+Ground Proactive AI Generation to Group Preferences* (arXiv:2411.02353).
+arXiv. <https://doi.org/10.48550/arXiv.2411.02353>
+
+</div>
+
+<div id="ref-wegnerTransactiveMemoryContemporary1987" class="csl-entry">
+
+Wegner, D. M. (1987). Transactive Memory: A Contemporary Analysis of the
+Group Mind. In B. Mullen & G. R. Goethals (Eds.), *Theories of Group
+Behavior* (pp. 185–208). Springer.
+<https://doi.org/10.1007/978-1-4612-4634-3_9>
+
+</div>
+
+<div id="ref-yanCommunicationTransactiveMemory2021" class="csl-entry">
+
+Yan, B., Hollingshead, A. B., Alexander, K. S., Cruz, I., & Shaikh, S.
+J. (2021). Communication in Transactive Memory Systems: A Review and
+Multidimensional Network Perspective. *Small Group Research*, *52*(1),
+3–32. <https://doi.org/10.1177/1046496420967764>
+
+</div>
+
+<div id="ref-yangTalk2CareLLMbasedVoice2024" class="csl-entry">
+
+Yang, Z., Xu, X., Yao, B., Rogers, E., Zhang, S., Intille, S., Shara,
+N., Gao, G. G., & Wang, D. (2024). Talk2Care: <span class="nocase">An
+LLM-based Voice Assistant</span> for Communication between Healthcare
+Providers and Older Adults. *Proceedings of the ACM on Interactive,
+Mobile, Wearable and Ubiquitous Technologies*, *8*(2), 1–35.
+<https://doi.org/10.1145/3659625>
+
+</div>
+
+<div id="ref-yenSearchGenExploring2024" class="csl-entry">
+
+Yen, R., Sultanum, N., & Zhao, J. (2024). To Search or To Gen? Exploring
+the Synergy between Generative AI and Web Search in Programming.
+*Extended Abstracts of the CHI Conference on Human Factors in Computing
+Systems*, 1–8. <https://doi.org/10.1145/3613905.3650867>
+
+</div>
+
+<div id="ref-zhengDiscipLinkUnfoldingInterdisciplinary2024"
+class="csl-entry">
+
+Zheng, C., Zhang, Y., Huang, Z., Shi, C., Xu, M., & Ma, X. (2024).
+DiscipLink: Unfolding Interdisciplinary Information Seeking Process via
+Human-AI Co-Exploration. *Proceedings of the 37th Annual ACM Symposium
+on User Interface Software and Technology*, 1–20.
+<https://doi.org/10.1145/3654777.3676366>
+
+</div>
+
+<div id="ref-zhuLanguageModelsTrained2024" class="csl-entry">
+
+Zhu, J.-Q., Yan, H., & Griffiths, T. L. (2024). *Language Models Trained
+to do Arithmetic Predict Human Risky and Intertemporal Choice*
+(arXiv:2405.19313). arXiv. <https://arxiv.org/abs/2405.19313>
+
+</div>
+
+<div id="ref-zvelebilovaCollectiveAttentionHumanAI2024"
+class="csl-entry">
+
+Zvelebilova, J., Savage, S., & Riedl, C. (2024). *Collective Attention
+in Human-AI Teams* (arXiv:2407.17489). arXiv.
+<https://doi.org/10.48550/arXiv.2407.17489>
+
+</div>
+
+</div>

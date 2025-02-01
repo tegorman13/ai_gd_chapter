@@ -1,0 +1,1124 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.13">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Thomas E. Gorman">
+<meta name="author" content="Torsten Reimer">
+<meta name="dcterms.date" content="2025-01-31">
+
+<title>AI and Group Decision Making: An Information Processing Perspective – GD Chapter</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-66ab7fd5e73b7f0a764e0d49b3e29ab1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-7a0e04ec82617701cd34937292aa414e.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-6bd9cfa162949bde0a231f530c97869d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-7f2ec24aee834e62cd2de1bda3d4642b.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body>
+
+<div id="quarto-search-results"></div>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#inputs" id="toc-inputs" class="nav-link" data-scroll-target="#inputs">Inputs</a>
+  <ul class="collapse">
+  <li><a href="#group-member-roles" id="toc-group-member-roles" class="nav-link" data-scroll-target="#group-member-roles">Group Member Roles</a></li>
+  <li><a href="#information-search" id="toc-information-search" class="nav-link" data-scroll-target="#information-search">Information Search</a></li>
+  <li><a href="#initial-trust-expertise-assumptions-and-biases" id="toc-initial-trust-expertise-assumptions-and-biases" class="nav-link" data-scroll-target="#initial-trust-expertise-assumptions-and-biases">Initial Trust, Expertise Assumptions, and Biases</a></li>
+  </ul></li>
+  <li><a href="#information-processing" id="toc-information-processing" class="nav-link" data-scroll-target="#information-processing">Information Processing</a>
+  <ul class="collapse">
+  <li><a href="#communication-information-sharing" id="toc-communication-information-sharing" class="nav-link" data-scroll-target="#communication-information-sharing">Communication; information sharing</a></li>
+  <li><a href="#shared-mental-models" id="toc-shared-mental-models" class="nav-link" data-scroll-target="#shared-mental-models">Shared Mental Models</a></li>
+  <li><a href="#cognitive-load" id="toc-cognitive-load" class="nav-link" data-scroll-target="#cognitive-load">Cognitive Load</a></li>
+  <li><a href="#consensus-formation" id="toc-consensus-formation" class="nav-link" data-scroll-target="#consensus-formation">Consensus Formation</a></li>
+  </ul></li>
+  <li><a href="#decision-making-output" id="toc-decision-making-output" class="nav-link" data-scroll-target="#decision-making-output">Decision-Making Output</a>
+  <ul class="collapse">
+  <li><a href="#decision-accuracy-and-complementarity" id="toc-decision-accuracy-and-complementarity" class="nav-link" data-scroll-target="#decision-accuracy-and-complementarity">Decision Accuracy and Complementarity</a></li>
+  </ul></li>
+  <li><a href="#trust-risk-and-reliance" id="toc-trust-risk-and-reliance" class="nav-link" data-scroll-target="#trust-risk-and-reliance">Trust, Risk and Reliance</a>
+  <ul class="collapse">
+  <li><a href="#trust-in-ai" id="toc-trust-in-ai" class="nav-link" data-scroll-target="#trust-in-ai">Trust in AI</a></li>
+  <li><a href="#utilization" id="toc-utilization" class="nav-link" data-scroll-target="#utilization">Utilization</a></li>
+  <li><a href="#responsibility" id="toc-responsibility" class="nav-link" data-scroll-target="#responsibility">Responsibility</a></li>
+  <li><a href="#risk" id="toc-risk" class="nav-link" data-scroll-target="#risk">Risk</a></li>
+  </ul></li>
+  <li><a href="#future-directions" id="toc-future-directions" class="nav-link" data-scroll-target="#future-directions">Future Directions</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/tegorman13/ai_gd_chapter/blob/main/working.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/tegorman13/ai_gd_chapter/edit/main/working.qmd" class="toc-action"><i class="bi empty"></i>Edit this page</a></li><li><a href="https://github.com/tegorman13/ai_gd_chapter/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="gd_chapter_v3.md"><i class="bi bi-file-code"></i>Github (GFM)</a></li><li><a href="gd_chapter_v3_hikmah.docx"><i class="bi bi-file-word"></i>MS Word (hikmah-manuscript)</a></li><li><a href="gd_chapter_v3.pdf"><i class="bi bi-file-pdf"></i>PDF (hikmah-manuscript)</a></li><li><a href="gd_ai_chapter_v3.docx"><i class="bi bi-file-word"></i>MS Word</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content column-page-left" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">AI and Group Decision Making: An Information Processing Perspective</h1>
+</div>
+
+
+<div class="quarto-title-meta-author column-page-left">
+  <div class="quarto-title-meta-heading">Authors</div>
+  <div class="quarto-title-meta-heading">Affiliations</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author"><a href="https://tegorman13.github.io/">Thomas E. Gorman</a> <a href="mailto:tegorman@purdue.edu" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0001-5366-5442" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            <a href="https://web.ics.purdue.edu/~treimer/">
+            Communication and Cognition Lab, Purdue University, USA
+            </a>
+          </p>
+        <p class="affiliation">
+            <a href="https://cla.purdue.edu/about/college-initiatives/research-academy/">
+            College of Liberal Arts Research Academy
+            </a>
+          </p>
+      </div>
+    <div class="quarto-title-meta-contents">
+    <p class="author"><a href="https://web.ics.purdue.edu/~treimer/">Torsten Reimer</a> <a href="mailto:treimer@purdue.edu" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0002-7419-0076" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            <a href="https://cla.purdue.edu/communication/">
+            Communication and Cognition Lab, Purdue University, USA
+            </a>
+          </p>
+      </div>
+  </div>
+
+<div class="quarto-title-meta column-page-left">
+
+      
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">January 31, 2025</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>Artificial Intelligence (AI) is becoming a central component of group decision-making processes across a range of domains. From healthcare to finance, education to policymaking, AI systems are being integrated into group decision-making processes, offering new avenues for enhancing efficiency, accuracy, and innovation <span class="citation" data-cites="burtonHowLargeLanguage2024 carterIntegratingArtificialIntelligence2024 banihaniAIDecisionmakingProcess2024">(<a href="#ref-banihaniAIDecisionmakingProcess2024" role="doc-biblioref">BaniHani et al., 2024</a>; <a href="#ref-burtonHowLargeLanguage2024" role="doc-biblioref">Burton et al., 2024</a>; <a href="#ref-carterIntegratingArtificialIntelligence2024" role="doc-biblioref">Carter &amp; Wynne, 2024</a>)</span>. This growing collaboration between humans and AI brings forth both significant opportunities and pressing challenges. On one hand, AI systems offer the potential to enhance information processing efficiency, improve decision accuracy, and streamline communication within teams. On the other hand, the complexities inherent in human-AI interactions—such as issues of trust and over-reliance, susceptibility to cognitive biases, erosion of critical thinking skills, lack of transparency in AI algorithms, and ethical concerns regarding accountability and fairness.</p>
+<p>The use of AI in group settings has evolved from basic decision-support tools to more sophisticated roles, such as collaborative partners capable of generating novel insights. Large language models (LLMs), for instance, can facilitate collective intelligence by synthesizing information, generating alternative solutions, and even mediating group discussions​​. However, the extent to which AI enhances group performance remains context-dependent. Recent meta-analyses reveal that human-AI collaboration can lead to either augmentation of individual performance or to performance decrements <span class="citation" data-cites="vaccaroWhenCombinationsHumans2024">(<a href="#ref-vaccaroWhenCombinationsHumans2024" role="doc-biblioref">Vaccaro et al., 2024</a>)</span>, depending on the task and interaction design​​.</p>
+<p>To navigate these complexities, this chapter adopts the information processing framework as a lens for examining AI-assisted group decision-making <span class="citation" data-cites="hinszEmergingConceptualizationGroups1997">(<a href="#ref-hinszEmergingConceptualizationGroups1997" role="doc-biblioref">Hinsz et al., 1997</a>)</span>. This framework provides a structured method to analyze how AI systems interact with human cognitive processes at each stage of decision-making. By dissecting the inputs (information acquisition and sharing), the processing mechanisms (interpretation and integration of information), and the outputs (decisions and actions), we can gain insights into the opportunities and challenges presented by AI integration.</p>
+<p>Key questions we will seek to address within this framework::</p>
+<ul>
+<li><p><strong>Inputs</strong>: How does AI influence the way groups search for, gather, and share information? For example, AI can augment information search through advanced data retrieval but may also introduce biases based on the algorithms’ training data.</p></li>
+<li><p><strong>Processing</strong>: In what ways do AI systems affect the interpretation and integration of information within the group? AI can facilitate complex data analysis but might obscure the reasoning process through opaque algorithms, impacting the group’s shared understanding.</p></li>
+<li><p><strong>Outputs</strong>: How do AI recommendations influence the group’s final decisions and actions? The reliance on AI outputs raises questions about trust, accountability, and the potential diminishment of human agency.</p></li>
+</ul>
+<p>By examining these questions through the lens of the information processing framework, we can better understand the complex interplay between humans and AI in group decision-making contexts and identify strategies for optimizing the benefits of AI-assisted collaboration while mitigating its risks.</p>
+</section>
+<section id="inputs" class="level2">
+<h2 class="anchored" data-anchor-id="inputs">Inputs</h2>
+<section id="group-member-roles" class="level3">
+<h3 class="anchored" data-anchor-id="group-member-roles">Group Member Roles</h3>
+<p>Deciding how best to assign team members to roles is crucial in group decision-making, particularly when learning who is best suited for what role within a team. <span class="citation" data-cites="marjiehTaskAllocationTeams2024">Marjieh et al. (<a href="#ref-marjiehTaskAllocationTeams2024" role="doc-biblioref">2024</a>)</span> explore how humans allocate tasks within teams comprising both human and AI agents to maximize overall performance. The central theme of their research is understanding the mechanisms by which individuals discern and act upon their own strengths and those of their team members in a dynamic task allocation setting. In their experimental paradigm, participants had to repeatedly allocate three different types of tasks (visual, auditory, and lexical tasks) between themselves and two AI agents. Unbeknownst to participants, each AI agent was configured to have high competence (70% success rate) in one task type but low competence (15% success rate) in others.</p>
+<p>Building upon this, <span class="citation" data-cites="mcneeseSteppingOutShadow2023">McNeese et al. (<a href="#ref-mcneeseSteppingOutShadow2023" role="doc-biblioref">2023</a>)</span> argue that human-autonomy teams (HATs) should be recognized as distinct from traditional human teams. They emphasize that HATs should not strive to replicate human-human team dynamics but instead should leverage the unique capabilities of AI agents. The authors propose several research trajectories to advance our understanding of HATs, including exploring diverse teaming models, redefining roles for AI teammates, expanding communication modalities, focusing on AI behavior design, developing specialized training, and emphasizing teamwork in AI design. These insights highlight the necessity of adjusting our approaches to team composition and role assignment when AI agents are involved, ensuring that both human and AI strengths are optimized in the decision-making process.</p>
+<ul>
+<li><p>AI can help identify missing expertise or knowledge within a group</p></li>
+<li><p>diversity in human-AI teams, considering both human and AI characteristics (Cui &amp; Yasseri, 2024).</p></li>
+<li><p>When and how AI might be assigned leadership or specialized roles (Guo et al., 2024)</p></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="Assets/ipo.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Framework"><img src="Assets/ipo.png" class="img-fluid figure-img" style="width:105.0%" alt="Framework"></a></p>
+<figcaption>Framework</figcaption>
+</figure>
+</div>
+<hr>
+<p>Recent advances in large language models have dramatically expanded the potential roles of AI in group decision-making, enabling AI agents to move beyond simple advisory functions to serve as mediators, devil’s advocates, and active discussion participants</p>
+<p><span class="citation" data-cites="chiangEnhancingAIAssistedGroup2024">Chiang et al. (<a href="#ref-chiangEnhancingAIAssistedGroup2024" role="doc-biblioref">2024</a>)</span> investigated the potential of Large Language Models (LLMs) to act as devil’s advocates in AI-assisted group decision-making - in the hopes of fostering more critical engagement with AI assistance. In their experimental task, participants were first individually trained on the relationship between defendant profiles and recidivism. For each defendant, participants were also shown the prediction of a recommendation AI model (RiskComp). Participants were then sorted into groups of three, where they reviewed and discussed novel defendant profiles, before making a group recidivism assessment. In the group stage, the recommendations from the RiskComp model were biased against a subset of the defendants (black defendants with low prior crime counts). Of interest was whether the inclusion of an LLM-based devil’s advocate in the group discussions could help mitigate the bias introduced by the RiskComp AI model (note that the LLM devils advocate and RiskComp AI are separate AI models). The experimental manipulation consisted of four variants of an LLM-based devil’s advocate using, varying both the target of objection (challenging either RiskComp recommendations or majority group opinions) and the level of interactivity (static one-time comments versus dynamic engagement throughout the discussions). Their findings revealed that the dynamic devil’s advocate led to higher decision accuracy and improved discernment of when to trust the RiskComp model’s advice.</p>
+<ul>
+<li><span class="citation" data-cites="kumarAssessingImpactDiffering2024">(<a href="#ref-kumarAssessingImpactDiffering2024" role="doc-biblioref">A. Kumar et al., 2024</a>)</span></li>
+<li><span class="citation" data-cites="luMixMatchCharacterizing2024">(<a href="#ref-luMixMatchCharacterizing2024" role="doc-biblioref">Lu et al., 2024</a>)</span></li>
+<li><span class="citation" data-cites="mcneeseSteppingOutShadow2023">(<a href="#ref-mcneeseSteppingOutShadow2023" role="doc-biblioref">McNeese et al., 2023</a>)</span></li>
+</ul>
+</section>
+<section id="information-search" class="level3">
+<h3 class="anchored" data-anchor-id="information-search">Information Search</h3>
+<p>The information search stage of decision-making, once reliant on human capacity to locate and synthesize data, has been transformed by the advent of artificial intelligence (AI), particularly Large Language Models (LLMs). This section explores how AI reshapes information search, augmenting both data retrieval and synthesis, and fostering idea generation and creative discovery.</p>
+<section id="ai-assisted-data-retrieval-and-synthesis" class="level4">
+<h4 class="anchored" data-anchor-id="ai-assisted-data-retrieval-and-synthesis">AI-Assisted Data Retrieval and Synthesis</h4>
+<p>LLMs significantly enhance the efficiency and comprehensiveness of information gathering, enabling access to a broader knowledge base and deeper insights <span class="citation" data-cites="bouscheryAugmentingHumanInnovation2023">(<a href="#ref-bouscheryAugmentingHumanInnovation2023" role="doc-biblioref">Bouschery et al., 2023</a>)</span>. These models process vast datasets, identifying connections and patterns beyond human capacity. Furthermore, individual differences, such as computational thinking skills, influence how users interact with LLMs, with those possessing higher creativity and algorithmic thinking more effectively leveraging AI-generated content for deeper engagement within a specific information landscape <span class="citation" data-cites="floresInformationForagingHumanChatGPT2024">(<a href="#ref-floresInformationForagingHumanChatGPT2024" role="doc-biblioref">Flores et al., 2024</a>)</span>. Programmers, for example, navigate between traditional web search and generative AI tools, strategically selecting between them based on factors like task familiarity and goal clarity, demonstrating the synergistic use of both resources <span class="citation" data-cites="yenSearchGenExploring2024">(<a href="#ref-yenSearchGenExploring2024" role="doc-biblioref">Yen et al., 2024</a>)</span>. DiscipLink, for instance, uses LLMs to generate exploratory questions across disciplines, automatically expand queries with field-specific terminology, and extract themes from retrieved papers, effectively bridging knowledge gaps in interdisciplinary research <span class="citation" data-cites="zhengDiscipLinkUnfoldingInterdisciplinary2024">(<a href="#ref-zhengDiscipLinkUnfoldingInterdisciplinary2024" role="doc-biblioref">Zheng et al., 2024</a>)</span>. Moreover, AI facilitates advanced techniques like retrieval-augmented generation (RAG), allowing LLMs to access and process real-time information, enhancing the accuracy and relevance of their output <span class="citation" data-cites="siCanLLMsGenerate2024 wangSocialRAGRetrievingGroup2024">(<a href="#ref-siCanLLMsGenerate2024" role="doc-biblioref">Si et al., 2024</a>; <a href="#ref-wangSocialRAGRetrievingGroup2024" role="doc-biblioref">Wang et al., 2024</a>)</span>. This capability empowers decision-makers with synthesized insights from diverse sources, crucial for informed choices across various fields, from scientific research to policy analysis <span class="citation" data-cites="burtonHowLargeLanguage2024">(<a href="#ref-burtonHowLargeLanguage2024" role="doc-biblioref">Burton et al., 2024</a>)</span>.</p>
+<p>LLM-based search tools offer natural language interfaces, streamlining complex queries and providing detailed responses, often leading to increased efficiency and user satisfaction <span class="citation" data-cites="spathariotiComparingTraditionalLLMbased2023">(<a href="#ref-spathariotiComparingTraditionalLLMbased2023" role="doc-biblioref">Spatharioti et al., 2023</a>)</span>. However, this ease of use can also lead to overreliance on potentially inaccurate information and decreased critical evaluation, particularly when presented conversationally <span class="citation" data-cites="anderlConversationalPresentationMode2024">(<a href="#ref-anderlConversationalPresentationMode2024" role="doc-biblioref">Anderl et al., 2024</a>)</span>. This can contribute to confirmation bias and the formation of “generative echo chambers,” limiting exposure to diverse perspectives <span class="citation" data-cites="sharmaGenerativeEchoChamber2024">(<a href="#ref-sharmaGenerativeEchoChamber2024" role="doc-biblioref">Sharma et al., 2024</a>)</span>. Furthermore, while LLMs can reduce cognitive load during information seeking, this may come at the cost of deeper learning and engagement with the material, leading to less sophisticated reasoning and argumentation <span class="citation" data-cites="stadlerCognitiveEaseCost2024">(<a href="#ref-stadlerCognitiveEaseCost2024" role="doc-biblioref">Stadler et al., 2024</a>)</span>. Therefore, careful design and implementation are crucial to mitigate these risks and leverage the full potential of LLMs for enhanced information retrieval and synthesis.</p>
+</section>
+</section>
+<section id="initial-trust-expertise-assumptions-and-biases" class="level3">
+<h3 class="anchored" data-anchor-id="initial-trust-expertise-assumptions-and-biases">Initial Trust, Expertise Assumptions, and Biases</h3>
+<ul>
+<li><p>Trust Baselines: Pre-existing attitudes toward AI, perceived reliability, anthropomorphism (Cui &amp; Yasseri, 2024)</p></li>
+<li><p>Bias and Training Data: Potential for AI to introduce or amplify biases from training corpora (Cecil et al., 2024; Bhatia, 2024)</p></li>
+</ul>
+</section>
+</section>
+<section id="information-processing" class="level2">
+<h2 class="anchored" data-anchor-id="information-processing">Information Processing</h2>
+<section id="ai-in-idea-generation-and-creative-discovery" class="level4">
+<h4 class="anchored" data-anchor-id="ai-in-idea-generation-and-creative-discovery">AI in Idea Generation and Creative Discovery</h4>
+<p>AI’s role extends beyond data retrieval to fostering creative discovery. LLMs act as catalysts, offering alternative perspectives, challenging assumptions, and proposing unexpected connections <span class="citation" data-cites="bouscheryAugmentingHumanInnovation2023">(<a href="#ref-bouscheryAugmentingHumanInnovation2023" role="doc-biblioref">Bouschery et al., 2023</a>)</span>. In structured tasks like semantic search, AI agents enhance group performance by selectively sharing information, amplifying collective intelligence <span class="citation" data-cites="ueshimaDiscoveringNovelSocial2024">(<a href="#ref-ueshimaDiscoveringNovelSocial2024" role="doc-biblioref">Ueshima &amp; Takikawa, 2024</a>)</span>. Studies comparing human and AI-generated ideas reveal a nuanced picture: while LLMs excel at generating ideas with higher average quality (e.g., purchase intent) and even surpassing human experts in novelty <span class="citation" data-cites="joostenComparingIdeationQuality2024 meinckeUsingLargeLanguage2024 siCanLLMsGenerate2024">(<a href="#ref-joostenComparingIdeationQuality2024" role="doc-biblioref">Joosten et al., 2024</a>; <a href="#ref-meinckeUsingLargeLanguage2024" role="doc-biblioref">Meincke et al., 2024</a>; <a href="#ref-siCanLLMsGenerate2024" role="doc-biblioref">Si et al., 2024</a>)</span>, they may exhibit lower feasibility <span class="citation" data-cites="joostenComparingIdeationQuality2024">(<a href="#ref-joostenComparingIdeationQuality2024" role="doc-biblioref">Joosten et al., 2024</a>)</span> and reduced diversity <span class="citation" data-cites="meinckeUsingLargeLanguage2024">(<a href="#ref-meinckeUsingLargeLanguage2024" role="doc-biblioref">Meincke et al., 2024</a>)</span>. This highlights the importance of strategic prompt engineering, as demonstrated by <span class="citation" data-cites="boussiouxCrowdlessFutureGenerative2024">Boussioux et al. (<a href="#ref-boussiouxCrowdlessFutureGenerative2024" role="doc-biblioref">2024</a>)</span>, who found that human-guided prompts—specifically differentiated search (i.e., prompts designed to encourage diverse and varied responses) — enhanced the novelty of LLM-generated solutions while maintaining high value.</p>
+<p>The type of AI interaction also significantly influences human creativity. <span class="citation" data-cites="ashkinazeHowAIIdeas2024">Ashkinaze et al. (<a href="#ref-ashkinazeHowAIIdeas2024" role="doc-biblioref">2024</a>)</span> found that exposure to AI-generated ideas increased the diversity of collective ideas without affecting individual creativity. In contrast, <span class="citation" data-cites="kumarHumanCreativityAge2024">H. Kumar et al. (<a href="#ref-kumarHumanCreativityAge2024" role="doc-biblioref">2024</a>)</span> observed that while providing direct answers had minimal negative impact, exposure to LLM-generated strategies decreased both originality and creative flexibility in subsequent unassisted tasks.</p>
+</section>
+<section id="communication-information-sharing" class="level3">
+<h3 class="anchored" data-anchor-id="communication-information-sharing">Communication; information sharing</h3>
+<p>Transactive memory systems (TMS) represent a critical aspect of group cognition, referring to the shared understanding within a group regarding the distribution of knowledge and expertise among its members <span class="citation" data-cites="wegnerTransactiveMemoryContemporary1987 yanCommunicationTransactiveMemory2021">(<a href="#ref-wegnerTransactiveMemoryContemporary1987" role="doc-biblioref">Wegner, 1987</a>; <a href="#ref-yanCommunicationTransactiveMemory2021" role="doc-biblioref">Yan et al., 2021</a>)</span>. A well-functioning TMS enables team members not only to know who possesses specific knowledge but also to access and share this distributed expertise efficiently.</p>
+<p><span class="citation" data-cites="bienefeldHumanAITeamingLeveraging2023">Bienefeld et al. (<a href="#ref-bienefeldHumanAITeamingLeveraging2023" role="doc-biblioref">2023</a>)</span> conducted an observational study to examine the role of transactive memory systems and speaking-up behaviors in human-AI teams within an intensive care unit (ICU) setting. In this study, ICU physicians and nurses, divided into groups of four, who collaborated with an AI agent named “Autovent.” Autovent is an auto-adaptive ventilator system that autonomously manages patient ventilation by processing continuous, individualized data streams. Participants, all with a minimum of six months’ experience using Autovent, engaged in simulated clinical scenarios that required diagnosing and treating critically ill patients. Using behavioral coding of video recordings, the researchers analyzed how team members accessed information from both human teammates and the AI system, investigating how these human-human and human-ai interactions related to subsequent behaviors like hypothesis generation and speaking up with concerns. The researchers found that in higher-performing teams, accessing knowledge from the AI agent was positively correlated with developing new hypotheses and increased speaking-up behavior. Conversely, accessing information from human team members was negatively associated with these behaviors, regardless of team performance. These results suggest that AI systems may serve as unique knowledge repositories that help teams overcome some of the social barriers that typically inhibit information sharing and voice behaviors in purely human teams.</p>
+<p><span class="citation" data-cites="bastolaLLMbasedSmartReply2024">Bastola et al. (<a href="#ref-bastolaLLMbasedSmartReply2024" role="doc-biblioref">2024</a>)</span> further explored the potential of AI-mediated communication by examining how an LLM-based Smart Reply (LSR) system could impact collaborative performance in professional settings. They developed a system utilizing ChatGPT to generate context-aware, personalized responses during workplace interactions, aiming to reduce the cognitive effort required for message composition in multitasking scenarios. In their study, participants engaged in a cognitively demanding Dual N-back task while managing scheduling activities via Google Calendar and responding to simulated co-workers on Slack. The findings indicated that the use of the LSR system not only improved work performance—evidenced by higher accuracy in the N-back task—but also increased messaging efficiency and reduced cognitive load, as participants could more readily focus on primary tasks without the distraction of composing responses. However, it is important to note that participants expressed concerns about the appropriateness and accuracy of AI-generated messages, as well as issues related to trust and privacy. Thus, while AI-mediated communication tools like the LSR system may facilitate information sharing and alleviate cognitive demands in collaborative work, these benefits must be balanced against potential user experience challenges to fully realize their potential advantages.</p>
+<ul>
+<li><p><span class="citation" data-cites="yangTalk2CareLLMbasedVoice2024">(<a href="#ref-yangTalk2CareLLMbasedVoice2024" role="doc-biblioref">Yang et al., 2024</a>)</span></p></li>
+<li><p><span class="citation" data-cites="maHumanAIDeliberationDesign2024">(<a href="#ref-maHumanAIDeliberationDesign2024" role="doc-biblioref">Ma et al., 2024</a>)</span></p></li>
+<li><p><span class="citation" data-cites="radivojevicLLMsUsGenerative2024">(<a href="#ref-radivojevicLLMsUsGenerative2024" role="doc-biblioref">Radivojevic et al., 2024</a>)</span></p></li>
+<li><p><span class="citation" data-cites="sidjiHumanAICollaborationCooperative2024">(<a href="#ref-sidjiHumanAICollaborationCooperative2024" role="doc-biblioref">Sidji et al., 2024</a>)</span></p></li>
+<li><p><span class="citation" data-cites="nishidaConversationalAgentDynamics2024">(<a href="#ref-nishidaConversationalAgentDynamics2024" role="doc-biblioref">Nishida et al., 2024</a>)</span></p></li>
+<li><p><span class="citation" data-cites="chuangWisdomPartisanCrowds2024">(<a href="#ref-chuangWisdomPartisanCrowds2024" role="doc-biblioref">Chuang et al., 2024</a>)</span></p></li>
+<li><p>AI-Mediated Communication: Smart replies, devil’s advocacy, and AI as a discussion facilitator (Chiang et al., 2024; Duan et al., 2025)</p></li>
+<li><p>Transactive Memory and Shared Mental Models: How AI systems function as external knowledge repositories (Bienefeld et al., 2023; Narayanan &amp; Feigh, 2024)</p></li>
+<li><p>chat-based collaboration (ChatCollab, Klieger et al., 2024)</p></li>
+</ul>
+</section>
+<section id="shared-mental-models" class="level3">
+<h3 class="anchored" data-anchor-id="shared-mental-models">Shared Mental Models</h3>
+<ul>
+<li><p><span class="citation" data-cites="collinsBuildingMachinesThat2024a">(<a href="#ref-collinsBuildingMachinesThat2024a" role="doc-biblioref">Collins et al., 2024</a>)</span></p></li>
+<li><p>role of shared mental models in effective teamwork (N. J. McNeese et al., 2023; Narayanan &amp; Feigh, 2024).</p></li>
+<li><p>challenge of developing shared mental models in human-AI teams due to the opacity of AI reasoning (Collins et al., 2024; S. Zhang et al., 2024).</p></li>
+<li><p>potential solutions, such as increasing AI transparency, providing explanations, or using interactive interfaces (Chiang et al., 2024; Klieger et al., 2024; Ma et al., 2024; Sidji et al., 2024).</p></li>
+<li><p>Role of training in developing effective mental models of AI and in calibrating trust (Kelly et al., 2023; Tejeda et al., 2022).</p></li>
+</ul>
+<p>Future Directions: Research on how to measure and visualize shared mental models in human-AI teams, how to design AI systems that actively contribute to the development of shared understanding, how to adapt AI behavior based on the evolving mental models of human teammates.</p>
+<p>…</p>
+</section>
+<section id="cognitive-load" class="level3">
+<h3 class="anchored" data-anchor-id="cognitive-load">Cognitive Load</h3>
+<p><span class="citation" data-cites="bucincaTrustThinkCognitive2021">Buçinca et al. (<a href="#ref-bucincaTrustThinkCognitive2021" role="doc-biblioref">2021</a>)</span> examined how interface design might influence cognitive engagement with AI recommendations through what they term “cognitive forcing functions.” Drawing on dual-process theory, they implemented three distinct interface interventions (e.g., requiring explicit requests for AI input, mandating initial independent decisions, introducing temporal delays) designed to disrupt automatic processing and promote more analytical engagement with AI suggestions. Their findings demonstrated that while these interventions successfully reduced overreliance on incorrect AI recommendations, they also increased perceived cognitive load and decreased user satisfaction. Of particular methodological interest was their systematic investigation of individual differences in cognitive motivation: participants with high Need for Cognition (NFC) showed substantially greater benefits from these interventions, suggesting that the effectiveness of such cognitive load manipulations may be moderated by individual differences in information processing preferences.</p>
+<ul>
+<li><p>Cognitive Load and Overreliance: Role of interface design in prompting deeper analytic thinking (Buçinca et al., 2021; Vodrahalli et al., 2022)</p></li>
+<li><p>Cognitive offloading effects (Stadler et al., 2024)</p></li>
+</ul>
+</section>
+<section id="consensus-formation" class="level3">
+<h3 class="anchored" data-anchor-id="consensus-formation">Consensus Formation</h3>
+<p><span class="citation" data-cites="tesslerAICanHelp2024">Tessler et al. (<a href="#ref-tesslerAICanHelp2024" role="doc-biblioref">2024</a>)</span> investigated the potential of AI in facilitating consensus formation through their development of the “Habermas Machine” (HM), an LLM-based system fine-tuned to mediate human deliberation. The HM system receives input statements from individual participants, and attempts to generate consensus statements which will maximize group endorsement. The findings revealed that the AI-generated group statements were consistently preferred over comparison statements written by human mediators. Participants rated the AI-mediated statements higher in terms of informativeness, clarity, and lack of bias. This suggests that AI can effectively capture the collective sentiment of a group and articulate it in a way that resonates with its members. Notably, the researchers also verified that the HM system reliably incorporated minority opinions into the consensus statements, preventing dominance by majority perspectives. These results were replicated in a virtual citizens’ assembly with a demographically representative sample of the UK population. The AI-mediated process again resulted in high-quality group statements and facilitated consensus among participants on contentious issues.</p>
+</section>
+</section>
+<section id="decision-making-output" class="level2">
+<h2 class="anchored" data-anchor-id="decision-making-output">Decision-Making Output</h2>
+<p>..</p>
+<section id="decision-accuracy-and-complementarity" class="level3">
+<h3 class="anchored" data-anchor-id="decision-accuracy-and-complementarity">Decision Accuracy and Complementarity</h3>
+<p>The integration of AI into group decision-making holds significant promise for leveraging the complementary strengths of humans and machines. <span class="citation" data-cites="rastogiTaxonomyHumanML2023">Rastogi et al. (<a href="#ref-rastogiTaxonomyHumanML2023" role="doc-biblioref">2023</a>)</span> proposed a taxonomy to characterize differences in human and machine decision-making, providing a framework for understanding how to combine their unique capabilities optimally. This taxonomy highlights areas where AI can augment human decision processes, such as handling large data sets or identifying patterns beyond human perceptual abilities. <span class="citation" data-cites="beckerBoostingHumanDecisionmaking2022">Becker et al. (<a href="#ref-beckerBoostingHumanDecisionmaking2022" role="doc-biblioref">2022</a>)</span> demonstrated that AI-generated decision aids, when presented as interpretable procedural instructions, can significantly improve human decision-making by promoting more resource-rational strategies. In complex domains, <span class="citation" data-cites="shinSuperhumanArtificialIntelligence2023">Shin et al. (<a href="#ref-shinSuperhumanArtificialIntelligence2023" role="doc-biblioref">2023</a>)</span> showed that exposure to superhuman AI, as in the game of Go, can enhance human decision-making by encouraging the exploration of novel strategies, thereby increasing overall performance and innovation. However, the effectiveness of human-AI collaboration depends on the dynamics of the interaction.</p>
+<p>Recent research has revealed complex trade-offs in human-AI team performance that depend heavily on task structure and collaboration dynamics. <span class="citation" data-cites="bennettHumanPerformanceCompetitive2023">Bennett et al. (<a href="#ref-bennettHumanPerformanceCompetitive2023" role="doc-biblioref">2023</a>)</span> found that while both human-human and human-AI teams experienced performance costs relative to theoretical benchmarks, human-human teams showed particular advantages in collaborative versus competitive conditions—an effect that diminished when humans worked with AI partners. This aligns with findings from <span class="citation" data-cites="liangAdaptingAlgorithmHow2022">Liang et al. (<a href="#ref-liangAdaptingAlgorithmHow2022" role="doc-biblioref">2022</a>)</span> showing that humans can learn to selectively rely on AI assistance based on task difficulty, but often require explicit feedback and training to optimize this collaboration. The reduced collaborative advantage in human-AI teams appears to stem from difficulties in developing shared mental models and coordinating actions effectively, suggesting that current AI systems may lack crucial capabilities for fluid team interaction.</p>
+<ul>
+<li>Performance Gains and Limits: Complementarity vs.&nbsp;overreliance (Liang et al., 2022)</li>
+</ul>
+</section>
+</section>
+<section id="trust-risk-and-reliance" class="level2">
+<h2 class="anchored" data-anchor-id="trust-risk-and-reliance">Trust, Risk and Reliance</h2>
+<section id="trust-in-ai" class="level3">
+<h3 class="anchored" data-anchor-id="trust-in-ai">Trust in AI</h3>
+<p>Trust and confidence are crucial determinants of how individuals and groups interact with AI systems during decision-making processes. Research indicates that individuals’ confidence levels significantly influence their propensity to seek and utilize AI-generated advice. <span class="citation" data-cites="pescetelliRoleDecisionConfidence2021">Pescetelli &amp; Yeung (<a href="#ref-pescetelliRoleDecisionConfidence2021" role="doc-biblioref">2021</a>)</span> found that people are more likely to seek advice when their confidence in their own decisions is low; however, they often deviate from optimal Bayesian integration when incorporating this advice, sometimes relying on heuristic strategies instead. <span class="citation" data-cites="carlebachFlexibleUseConfidence2023">Carlebach &amp; Yeung (<a href="#ref-carlebachFlexibleUseConfidence2023" role="doc-biblioref">2023</a>)</span> further demonstrated that the relationship between confidence and advice-seeking is context-dependent. When the reliability of an AI advisor is unknown, individuals may paradoxically seek advice even when they are confident, using their own confidence as a feedback mechanism to learn about the advisor’s quality. <span class="citation" data-cites="liangAdaptingAlgorithmHow2022">Liang et al. (<a href="#ref-liangAdaptingAlgorithmHow2022" role="doc-biblioref">2022</a>)</span> explored how explicit performance comparisons between humans and AI affect reliance on decision aids, revealing that individuals adapt their use of AI recommendations based on task difficulty and perceived accuracy differences. <span class="citation" data-cites="steyversCalibrationGapModel2024">Steyvers et al. (<a href="#ref-steyversCalibrationGapModel2024" role="doc-biblioref">2024</a>)</span> demonstrated that humans tend to overestimate AI system accuracy when presented with default explanations, particularly when those explanations are lengthy. However, this miscalibration can be mitigated by explicitly communicating the AI’s uncertainty levels.</p>
+<p>In group settings, trust in AI systems significantly influences how teams interact and make decisions. <span class="citation" data-cites="cuiAIenhancedCollectiveIntelligence2024">Cui &amp; Yasseri (<a href="#ref-cuiAIenhancedCollectiveIntelligence2024" role="doc-biblioref">2024</a>)</span> emphasize that trust between humans and AI is crucial for achieving collective intelligence in teams. They argue that factors such as the perceived competence, benevolence, and integrity of AI systems shape this trust, mirroring the dynamics of trust in human relationships. The level of anthropomorphism in AI agents can also affect trust; while human-like features may initially enhance trust, this effect can wane if the AI’s performance does not meet team expectations. <span class="citation" data-cites="zvelebilovaCollectiveAttentionHumanAI2024">Zvelebilova et al. (<a href="#ref-zvelebilovaCollectiveAttentionHumanAI2024" role="doc-biblioref">2024</a>)</span> further demonstrate that even when teams do not fully trust an AI assistant or consider it a genuine team member, the AI can still significantly influence team discourse and collective attention. Their study found that teams adopted terminology introduced by the AI, indicating an automatic integration of AI input despite doubts about its reliability. This suggests that AI systems can impact group cognition and coordination regardless of explicit trust levels. These findings highlight the complexity of trust in AI within team environments, where both the design of AI agents and their subtle influences on team dynamics must be carefully managed to enhance collaborative outcomes.</p>
+<ul>
+<li><p>Contagion Effects of (Dis)Trust: Spread of distrust or overconfidence within human–AI teams (Duan et al., 2025)</p></li>
+<li><p>Uncalibrated vs.&nbsp;Well-Calibrated AI: Conditions under which uncalibrated AI might paradoxically enhance outcomes (Vodrahalli et al., 2022)</p></li>
+</ul>
+</section>
+<section id="utilization" class="level3">
+<h3 class="anchored" data-anchor-id="utilization">Utilization</h3>
+<p>Recent work by <span class="citation" data-cites="bucincaTrustThinkCognitive2021">Buçinca et al. (<a href="#ref-bucincaTrustThinkCognitive2021" role="doc-biblioref">2021</a>)</span> presents an innovative approach to addressing overreliance on AI systems through interface design rather than explanation quality. Their study evaluated three “cognitive forcing functions” - interface elements designed to disrupt quick, heuristic processing of AI recommendations. Although these interventions significantly reduced overreliance on incorrect AI recommendations, an important trade-off emerged: interfaces that most effectively prevented overreliance were also rated as most complex and least preferred by users. Moreover, their analysis revealed potential equity concerns, as the interventions provided substantially greater benefits to individuals with high Need for Cognition. These findings suggest that while interface design can effectively modulate AI utilization patterns, careful consideration must be given to both user experience and potential intervention-generated inequalities.</p>
+</section>
+<section id="responsibility" class="level3">
+<h3 class="anchored" data-anchor-id="responsibility">Responsibility</h3>
+<ul>
+<li><span class="citation" data-cites="narayananHowDoesValue2023">(<a href="#ref-narayananHowDoesValue2023" role="doc-biblioref">Narayanan et al., 2023</a>)</span></li>
+</ul>
+<p>Recent work has begun examining how people attribute responsibility in human-AI collaborative contexts where control is shared and actions are interdependent <span class="citation" data-cites="tsirtsisComputationalModelResponsibility2024">(<a href="#ref-tsirtsisComputationalModelResponsibility2024" role="doc-biblioref">Tsirtsis et al., 2024</a>)</span>. Their study employs a stylized semi-autonomous driving simulation where participants observe how a ‘human agent’ and an ‘AI agent’ collaborate to reach a destination within a time limit. In their setup, the human and AI agents shared control of a vehicle, with each agent having partial and differing knowledge of the environment (i.e., the AI knew about traffic conditions but not road closures, while humans knew about closures but not traffic). Participants observe illustrated simulations of a variety of commute scenarios, and then make judgements about how responsible each agent was for the commute outcome (reaching the destination on time, or not). The study reveals that participants’ responsibility judgments are influenced by factors such as the unexpectedness of an agent’s action, counterfactual simulations of alternative actions, and the actual contribution of each agent to the task outcome.</p>
+</section>
+<section id="risk" class="level3">
+<h3 class="anchored" data-anchor-id="risk">Risk</h3>
+<ul>
+<li><span class="citation" data-cites="bhatiaExploringVariabilityRisk2024">(<a href="#ref-bhatiaExploringVariabilityRisk2024" role="doc-biblioref">Bhatia, 2024</a>)</span></li>
+<li><span class="citation" data-cites="zhuLanguageModelsTrained2024">(<a href="#ref-zhuLanguageModelsTrained2024" role="doc-biblioref">Zhu et al., 2024</a>)</span></li>
+</ul>
+</section>
+</section>
+<section id="future-directions" class="level2">
+<h2 class="anchored" data-anchor-id="future-directions">Future Directions</h2>
+<ul>
+<li>Opportunities for real-time AI moderation (Han et al., 2024)</li>
+<li>Evolving norms around AI accountability (Smith et al., 2025)</li>
+<li>potential negative impacts of AI on human skills, critical thinking, and agency (Gerlich, 2025; H. Kumar et al., 2024)</li>
+<li>Effects of AI on group extremity and the emergence of echo chambers or polarization phenomena (van Swol et al., 2023).</li>
+<li>privacy, accountability, and fairness in AI-assisted group decision making (Cui &amp; Yasseri, 2024; Barredo Arrieta et al., 2020).</li>
+</ul>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-anderlConversationalPresentationMode2024" class="csl-entry" role="listitem">
+Anderl, C., Klein, S. H., Sarigül, B., Schneider, F. M., Han, J., Fiedler, P. L., &amp; Utz, S. (2024). Conversational presentation mode increases credibility judgements during information search with <span>ChatGPT</span>. <em>Scientific Reports</em>, <em>14</em>(1), 17127. <a href="https://doi.org/10.1038/s41598-024-67829-6">https://doi.org/10.1038/s41598-024-67829-6</a>
+</div>
+<div id="ref-ashkinazeHowAIIdeas2024" class="csl-entry" role="listitem">
+Ashkinaze, J., Mendelsohn, J., Qiwei, L., Budak, C., &amp; Gilbert, E. (2024). <em>How <span>AI Ideas Affect</span> the <span>Creativity</span>, <span>Diversity</span>, and <span>Evolution</span> of <span>Human Ideas</span>: <span>Evidence From</span> a <span>Large</span>, <span>Dynamic Experiment</span></em> (arXiv:2401.13481). arXiv. <a href="https://doi.org/10.48550/arXiv.2401.13481">https://doi.org/10.48550/arXiv.2401.13481</a>
+</div>
+<div id="ref-banihaniAIDecisionmakingProcess2024" class="csl-entry" role="listitem">
+BaniHani, I., Alawadi, S., &amp; Elmrayyan, N. (2024). <span>AI</span> and the decision-making process: A literature review in healthcare, financial, and technology sectors. <em>Journal of Decision Systems</em>, 1–11. <a href="https://doi.org/10.1080/12460125.2024.2349425">https://doi.org/10.1080/12460125.2024.2349425</a>
+</div>
+<div id="ref-bastolaLLMbasedSmartReply2024" class="csl-entry" role="listitem">
+Bastola, A., Wang, H., Hembree, J., Yadav, P., Gong, Z., Dixon, E., Razi, A., &amp; McNeese, N. (2024). <em><span class="nocase">LLM-based Smart Reply</span> (<span>LSR</span>): <span>Enhancing Collaborative Performance</span> with <span class="nocase">ChatGPT-mediated Smart Reply System</span></em> (arXiv:2306.11980). arXiv. <a href="https://arxiv.org/abs/2306.11980">https://arxiv.org/abs/2306.11980</a>
+</div>
+<div id="ref-beckerBoostingHumanDecisionmaking2022" class="csl-entry" role="listitem">
+Becker, F., Skirzyński, J., van Opheusden, B., &amp; Lieder, F. (2022). Boosting <span class="nocase">Human Decision-making</span> with <span>AI-Generated Decision Aids</span>. <em>Computational Brain &amp; Behavior</em>, <em>5</em>(4), 467–490. <a href="https://doi.org/10.1007/s42113-022-00149-y">https://doi.org/10.1007/s42113-022-00149-y</a>
+</div>
+<div id="ref-bennettHumanPerformanceCompetitive2023" class="csl-entry" role="listitem">
+Bennett, M. S., Hedley, L., Love, J., Houpt, J. W., Brown, S. D., &amp; Eidels, A. (2023). Human <span>Performance</span> in <span>Competitive</span> and <span>Collaborative Human</span>–<span>Machine Teams</span>. <em>Topics in Cognitive Science</em>, 1–25. <a href="https://doi.org/10.1111/tops.12683">https://doi.org/10.1111/tops.12683</a>
+</div>
+<div id="ref-bhatiaExploringVariabilityRisk2024" class="csl-entry" role="listitem">
+Bhatia, S. (2024). Exploring variability in risk taking with large language models. <em>Journal of Experimental Psychology: General</em>, <em>153</em>(7), 1838–1860. <a href="https://doi.org/10.1037/xge0001607">https://doi.org/10.1037/xge0001607</a>
+</div>
+<div id="ref-bienefeldHumanAITeamingLeveraging2023" class="csl-entry" role="listitem">
+Bienefeld, N., Kolbe, M., Camen, G., Huser, D., &amp; Buehler, P. K. (2023). Human-<span>AI</span> teaming: Leveraging transactive memory and speaking up for enhanced team effectiveness. <em>Frontiers in Psychology</em>, <em>14</em>. <a href="https://doi.org/10.3389/fpsyg.2023.1208019">https://doi.org/10.3389/fpsyg.2023.1208019</a>
+</div>
+<div id="ref-bouscheryAugmentingHumanInnovation2023" class="csl-entry" role="listitem">
+Bouschery, S. G., Blazevic, V., &amp; Piller, F. T. (2023). Augmenting human innovation teams with artificial intelligence: <span>Exploring</span> transformer-based language models. <em>Journal of Product Innovation Management</em>, <em>40</em>(2), 139–153. <a href="https://doi.org/10.1111/jpim.12656">https://doi.org/10.1111/jpim.12656</a>
+</div>
+<div id="ref-boussiouxCrowdlessFutureGenerative2024" class="csl-entry" role="listitem">
+Boussioux, L., Lane, J. N., Zhang, M., Jacimovic, V., &amp; Lakhani, K. R. (2024). The <span>Crowdless Future</span>? <span>Generative AI</span> and <span>Creative Problem-Solving</span>. <em>Organization Science</em>, <em>35</em>(5), 1589–1607. <a href="https://doi.org/10.1287/orsc.2023.18430">https://doi.org/10.1287/orsc.2023.18430</a>
+</div>
+<div id="ref-bucincaTrustThinkCognitive2021" class="csl-entry" role="listitem">
+Buçinca, Z., Malaya, M. B., &amp; Gajos, K. Z. (2021). To <span>Trust</span> or to <span>Think</span>: <span>Cognitive Forcing Functions Can Reduce Overreliance</span> on <span>AI</span> in <span class="nocase">AI-assisted Decision-making</span>. <em>Proceedings of the ACM on Human-Computer Interaction</em>, <em>5</em>(CSCW1), 1–21. <a href="https://doi.org/10.1145/3449287">https://doi.org/10.1145/3449287</a>
+</div>
+<div id="ref-burtonHowLargeLanguage2024" class="csl-entry" role="listitem">
+Burton, J. W., Lopez-Lopez, E., Hechtlinger, S., Rahwan, Z., Aeschbach, S., Bakker, M. A., Becker, J. A., Berditchevskaia, A., Berger, J., Brinkmann, L., Flek, L., Herzog, S. M., Huang, S., Kapoor, S., Narayanan, A., Nussberger, A.-M., Yasseri, T., Nickl, P., Almaatouq, A., … Hertwig, R. (2024). How large language models can reshape collective intelligence. <em>Nature Human Behaviour</em>, 1–13. <a href="https://doi.org/10.1038/s41562-024-01959-9">https://doi.org/10.1038/s41562-024-01959-9</a>
+</div>
+<div id="ref-carlebachFlexibleUseConfidence2023" class="csl-entry" role="listitem">
+Carlebach, N., &amp; Yeung, N. (2023). Flexible use of confidence to guide advice requests. <em>Cognition</em>, <em>230</em>, 105264. <a href="https://doi.org/10.1016/j.cognition.2022.105264">https://doi.org/10.1016/j.cognition.2022.105264</a>
+</div>
+<div id="ref-carterIntegratingArtificialIntelligence2024" class="csl-entry" role="listitem">
+Carter, W., &amp; Wynne, K. T. (2024). Integrating artificial intelligence into team decision-making: <span>Toward</span> a theory of <span>AI</span>–human team effectiveness. <em>European Management Review</em>. <a href="https://doi.org/10.1111/emre.12685">https://doi.org/10.1111/emre.12685</a>
+</div>
+<div id="ref-chiangEnhancingAIAssistedGroup2024" class="csl-entry" role="listitem">
+Chiang, C.-W., Lu, Z., Li, Z., &amp; Yin, M. (2024). Enhancing <span>AI-Assisted Group Decision Making</span> through <span>LLM-Powered Devil</span>’s <span>Advocate</span>. <em>Proceedings of the 29th <span>International Conference</span> on <span>Intelligent User Interfaces</span></em>, 103–119. <a href="https://doi.org/10.1145/3640543.3645199">https://doi.org/10.1145/3640543.3645199</a>
+</div>
+<div id="ref-chuangWisdomPartisanCrowds2024" class="csl-entry" role="listitem">
+Chuang, Y.-S., Harlalka, N., Suresh, S., Goyal, A., Hawkins, R., Yang, S., Shah, D., Hu, J., &amp; Rogers, T. T. (2024). <em>The <span>Wisdom</span> of <span>Partisan Crowds</span>: <span>Comparing Collective Intelligence</span> in <span>Humans</span> and <span class="nocase">LLM-based Agents</span></em>.
+</div>
+<div id="ref-collinsBuildingMachinesThat2024a" class="csl-entry" role="listitem">
+Collins, K. M., Sucholutsky, I., Bhatt, U., Chandra, K., Wong, L., Lee, M., Zhang, C. E., Zhi-Xuan, T., Ho, M., Mansinghka, V., Weller, A., Tenenbaum, J. B., &amp; Griffiths, T. L. (2024). Building machines that learn and think with people. <em>Nature Human Behaviour</em>, <em>8</em>(10), 1851–1863. <a href="https://doi.org/10.1038/s41562-024-01991-9">https://doi.org/10.1038/s41562-024-01991-9</a>
+</div>
+<div id="ref-cuiAIenhancedCollectiveIntelligence2024" class="csl-entry" role="listitem">
+Cui, H., &amp; Yasseri, T. (2024). <span class="nocase">AI-enhanced</span> collective intelligence. <em>Patterns</em>, <em>5</em>(11), 101074. <a href="https://doi.org/10.1016/j.patter.2024.101074">https://doi.org/10.1016/j.patter.2024.101074</a>
+</div>
+<div id="ref-floresInformationForagingHumanChatGPT2024" class="csl-entry" role="listitem">
+Flores, P., Rong, G., &amp; Cowley, B. (2024). Information foraging in human-<span>ChatGPT</span> interactions: Factors of computational thinking dissociate exploration and exploitation. <em>Proceedings of the <span>Annual Meeting</span> of the <span>Cognitive Science Society</span></em>, <em>46</em>.
+</div>
+<div id="ref-hinszEmergingConceptualizationGroups1997" class="csl-entry" role="listitem">
+Hinsz, V. B., Tindale, R. S., &amp; Vollrath, D. A. (1997). The emerging conceptualization of groups as information processors. <em>Psychological Bulletin</em>, <em>121</em>(1), 43–64. <a href="https://doi.org/10.1037/0033-2909.121.1.43">https://doi.org/10.1037/0033-2909.121.1.43</a>
+</div>
+<div id="ref-joostenComparingIdeationQuality2024" class="csl-entry" role="listitem">
+Joosten, J., Bilgram, V., Hahn, A., &amp; Totzek, D. (2024). Comparing the <span>Ideation Quality</span> of <span>Humans With Generative Artificial Intelligence</span>. <em>IEEE Engineering Management Review</em>, <em>52</em>(2), 153–164. <a href="https://doi.org/10.1109/EMR.2024.3353338">https://doi.org/10.1109/EMR.2024.3353338</a>
+</div>
+<div id="ref-kumarAssessingImpactDiffering2024" class="csl-entry" role="listitem">
+Kumar, A., Tham, R.-H. M., &amp; Steyvers, M. (2024). <em>Assessing the <span>Impact</span> of <span>Differing Perspectives</span> in <span>Advice-Taking Behavior</span></em>. <a href="https://doi.org/10.31234/osf.io/seqjr">https://doi.org/10.31234/osf.io/seqjr</a>
+</div>
+<div id="ref-kumarHumanCreativityAge2024" class="csl-entry" role="listitem">
+Kumar, H., Vincentius, J., Jordan, E., &amp; Anderson, A. (2024). <em>Human <span>Creativity</span> in the <span>Age</span> of <span>LLMs</span>: <span>Randomized Experiments</span> on <span>Divergent</span> and <span>Convergent Thinking</span></em> (arXiv:2410.03703). arXiv. <a href="https://arxiv.org/abs/2410.03703">https://arxiv.org/abs/2410.03703</a>
+</div>
+<div id="ref-liangAdaptingAlgorithmHow2022" class="csl-entry" role="listitem">
+Liang, G., Sloane, J. F., Donkin, C., &amp; Newell, B. R. (2022). Adapting to the algorithm: How accuracy comparisons promote the use of a decision aid. <em>Cognitive Research: Principles and Implications</em>, <em>7</em>(1), 14. <a href="https://doi.org/10.1186/s41235-022-00364-y">https://doi.org/10.1186/s41235-022-00364-y</a>
+</div>
+<div id="ref-luMixMatchCharacterizing2024" class="csl-entry" role="listitem">
+Lu, Z., Amin Mahmoo, S. H., Li, Z., &amp; Yin, M. (2024). Mix and <span>Match</span>: <span>Characterizing Heterogeneous Human Behavior</span> in <span class="nocase">AI-assisted Decision Making</span>. <em>Proceedings of the AAAI Conference on Human Computation and Crowdsourcing</em>, <em>12</em>, 95–104. <a href="https://doi.org/10.1609/hcomp.v12i1.31604">https://doi.org/10.1609/hcomp.v12i1.31604</a>
+</div>
+<div id="ref-maHumanAIDeliberationDesign2024" class="csl-entry" role="listitem">
+Ma, S., Chen, Q., Wang, X., Zheng, C., Peng, Z., Yin, M., &amp; Ma, X. (2024). <em>Towards <span>Human-AI Deliberation</span>: <span>Design</span> and <span>Evaluation</span> of <span>LLM-Empowered Deliberative AI</span> for <span>AI-Assisted Decision-Making</span></em> (arXiv:2403.16812). arXiv. <a href="https://arxiv.org/abs/2403.16812">https://arxiv.org/abs/2403.16812</a>
+</div>
+<div id="ref-marjiehTaskAllocationTeams2024" class="csl-entry" role="listitem">
+Marjieh, R., Gokhale, A., Bullo, F., &amp; Griffiths, T. L. (2024). <em>Task <span>Allocation</span> in <span>Teams</span> as a <span>Multi-Armed Bandit</span></em>.
+</div>
+<div id="ref-mcneeseSteppingOutShadow2023" class="csl-entry" role="listitem">
+McNeese, N. J., Flathmann, C., O’Neill, T. A., &amp; Salas, E. (2023). Stepping out of the shadow of human-human teaming: <span>Crafting</span> a unique identity for human-autonomy teams. <em>Computers in Human Behavior</em>, <em>148</em>, 107874. <a href="https://doi.org/10.1016/j.chb.2023.107874">https://doi.org/10.1016/j.chb.2023.107874</a>
+</div>
+<div id="ref-meinckeUsingLargeLanguage2024" class="csl-entry" role="listitem">
+Meincke, L., Girotra, K., Nave, G., Terwiesch, C., &amp; Ulrich, K. T. (2024). <em>Using <span>Large Language Models</span> for <span>Idea Generation</span> in <span>Innovation</span></em>. <a href="https://doi.org/10.2139/ssrn.4526071">https://doi.org/10.2139/ssrn.4526071</a>
+</div>
+<div id="ref-narayananHowDoesValue2023" class="csl-entry" role="listitem">
+Narayanan, S., Yu, G., Ho, C.-J., &amp; Yin, M. (2023). How does <span>Value Similarity</span> affect <span>Human Reliance</span> in <span>AI-Assisted Ethical Decision Making</span>? <em>Proceedings of the 2023 <span>AAAI</span>/<span>ACM Conference</span> on <span>AI</span>, <span>Ethics</span>, and <span>Society</span></em>, 49–57. <a href="https://doi.org/10.1145/3600211.3604709">https://doi.org/10.1145/3600211.3604709</a>
+</div>
+<div id="ref-nishidaConversationalAgentDynamics2024" class="csl-entry" role="listitem">
+Nishida, Y., Shimojo, S., &amp; Hayashi, Y. (2024). Conversational <span>Agent Dynamics</span> with <span>Minority Opinion</span> and <span>Cognitive Conflict</span> in <span>Small-Group Decision-Making</span>. <em>Japanese Psychological Research</em>. <a href="https://doi.org/10.1111/jpr.12552">https://doi.org/10.1111/jpr.12552</a>
+</div>
+<div id="ref-pescetelliRoleDecisionConfidence2021" class="csl-entry" role="listitem">
+Pescetelli, N., &amp; Yeung, N. (2021). The role of decision confidence in advice-taking and trust formation. <em>Journal of Experimental Psychology: General</em>, <em>150</em>(3), 507–526. <a href="https://doi.org/10.1037/xge0000960">https://doi.org/10.1037/xge0000960</a>
+</div>
+<div id="ref-radivojevicLLMsUsGenerative2024" class="csl-entry" role="listitem">
+Radivojevic, K., Clark, N., &amp; Brenner, P. (2024). <span>LLMs Among Us</span>: <span>Generative AI Participating</span> in <span>Digital Discourse</span>. <em>Proceedings of the AAAI Symposium Series</em>, <em>3</em>(1), 209–218. <a href="https://doi.org/10.1609/aaaiss.v3i1.31202">https://doi.org/10.1609/aaaiss.v3i1.31202</a>
+</div>
+<div id="ref-rastogiTaxonomyHumanML2023" class="csl-entry" role="listitem">
+Rastogi, C., Leqi, L., Holstein, K., &amp; Heidari, H. (2023). A <span>Taxonomy</span> of <span>Human</span> and <span>ML Strengths</span> in <span>Decision-Making</span> to <span>Investigate Human-ML Complementarity</span>. <em>Proceedings of the AAAI Conference on Human Computation and Crowdsourcing</em>, <em>11</em>, 127–139. <a href="https://doi.org/10.1609/hcomp.v11i1.27554">https://doi.org/10.1609/hcomp.v11i1.27554</a>
+</div>
+<div id="ref-sharmaGenerativeEchoChamber2024" class="csl-entry" role="listitem">
+Sharma, N., Liao, Q. V., &amp; Xiao, Z. (2024). Generative <span>Echo Chamber</span>? <span>Effect</span> of <span>LLM-Powered Search Systems</span> on <span>Diverse Information Seeking</span>. <em>Proceedings of the <span>CHI Conference</span> on <span>Human Factors</span> in <span>Computing Systems</span></em>, 1–17. <a href="https://doi.org/10.1145/3613904.3642459">https://doi.org/10.1145/3613904.3642459</a>
+</div>
+<div id="ref-shinSuperhumanArtificialIntelligence2023" class="csl-entry" role="listitem">
+Shin, M., Kim, J., van Opheusden, B., &amp; Griffiths, T. L. (2023). Superhuman artificial intelligence can improve human decision-making by increasing novelty. <em>Proceedings of the National Academy of Sciences</em>, <em>120</em>(12), e2214840120. <a href="https://doi.org/10.1073/pnas.2214840120">https://doi.org/10.1073/pnas.2214840120</a>
+</div>
+<div id="ref-siCanLLMsGenerate2024" class="csl-entry" role="listitem">
+Si, C., Yang, D., &amp; Hashimoto, T. (2024). <em>Can <span>LLMs Generate Novel Research Ideas</span>? <span>A Large-Scale Human Study</span> with 100+ <span>NLP Researchers</span></em> (arXiv:2409.04109). arXiv. <a href="https://doi.org/10.48550/arXiv.2409.04109">https://doi.org/10.48550/arXiv.2409.04109</a>
+</div>
+<div id="ref-sidjiHumanAICollaborationCooperative2024" class="csl-entry" role="listitem">
+Sidji, M., Smith, W., &amp; Rogerson, M. J. (2024). Human-<span>AI Collaboration</span> in <span>Cooperative Games</span>: <span>A Study</span> of <span>Playing Codenames</span> with an <span>LLM Assistant</span>. <em>Proc. ACM Hum.-Comput. Interact.</em>, <em>8</em>(CHI PLAY), 316:1–316:25. <a href="https://doi.org/10.1145/3677081">https://doi.org/10.1145/3677081</a>
+</div>
+<div id="ref-spathariotiComparingTraditionalLLMbased2023" class="csl-entry" role="listitem">
+Spatharioti, S. E., Rothschild, D. M., Goldstein, D. G., &amp; Hofman, J. M. (2023). <em>Comparing <span>Traditional</span> and <span class="nocase">LLM-based Search</span> for <span>Consumer Choice</span>: <span>A Randomized Experiment</span></em> (arXiv:2307.03744). arXiv. <a href="https://doi.org/10.48550/arXiv.2307.03744">https://doi.org/10.48550/arXiv.2307.03744</a>
+</div>
+<div id="ref-stadlerCognitiveEaseCost2024" class="csl-entry" role="listitem">
+Stadler, M., Bannert, M., &amp; Sailer, M. (2024). Cognitive ease at a cost: <span>LLMs</span> reduce mental effort but compromise depth in student scientific inquiry. <em>Computers in Human Behavior</em>, <em>160</em>, 108386. <a href="https://doi.org/10.1016/j.chb.2024.108386">https://doi.org/10.1016/j.chb.2024.108386</a>
+</div>
+<div id="ref-steyversCalibrationGapModel2024" class="csl-entry" role="listitem">
+Steyvers, M., Tejeda, H., Kumar, A., Belem, C., Karny, S., Hu, X., Mayer, L., &amp; Smyth, P. (2024). <em>The <span>Calibration Gap</span> between <span>Model</span> and <span>Human Confidence</span> in <span>Large Language Models</span></em> (arXiv:2401.13835). arXiv. <a href="https://arxiv.org/abs/2401.13835">https://arxiv.org/abs/2401.13835</a>
+</div>
+<div id="ref-tesslerAICanHelp2024" class="csl-entry" role="listitem">
+Tessler, M. H., Bakker, M. A., Jarrett, D., Sheahan, H., Chadwick, M. J., Koster, R., Evans, G., Campbell-Gillingham, L., Collins, T., Parkes, D. C., Botvinick, M., &amp; Summerfield, C. (2024). <span>AI</span> can help humans find common ground in democratic deliberation. <em>Science</em>, <em>386</em>(6719), eadq2852. <a href="https://doi.org/10.1126/science.adq2852">https://doi.org/10.1126/science.adq2852</a>
+</div>
+<div id="ref-tsirtsisComputationalModelResponsibility2024" class="csl-entry" role="listitem">
+Tsirtsis, S., Rodriguez, M. G., &amp; Gerstenberg, T. (2024). <em>Towards a computational model of responsibility judgments in sequential human-<span>AI</span> collaboration</em>. <a href="https://doi.org/10.31234/osf.io/m4yad">https://doi.org/10.31234/osf.io/m4yad</a>
+</div>
+<div id="ref-ueshimaDiscoveringNovelSocial2024" class="csl-entry" role="listitem">
+Ueshima, A., &amp; Takikawa, H. (2024). Discovering <span>Novel Social Preferences Using Simple Artificial Neural Networks</span>. <em>Collabra: Psychology</em>, <em>10</em>(1), 121234. <a href="https://doi.org/10.1525/collabra.121234">https://doi.org/10.1525/collabra.121234</a>
+</div>
+<div id="ref-vaccaroWhenCombinationsHumans2024" class="csl-entry" role="listitem">
+Vaccaro, M., Almaatouq, A., &amp; Malone, T. (2024). When combinations of humans and <span>AI</span> are useful: <span>A</span> systematic review and meta-analysis. <em>Nature Human Behaviour</em>, 1–11. <a href="https://doi.org/10.1038/s41562-024-02024-1">https://doi.org/10.1038/s41562-024-02024-1</a>
+</div>
+<div id="ref-wangSocialRAGRetrievingGroup2024" class="csl-entry" role="listitem">
+Wang, R., Zhou, X., Qiu, L., Chang, J. C., Bragg, J., &amp; Zhang, A. X. (2024). <em>Social-<span>RAG</span>: <span>Retrieving</span> from <span>Group Interactions</span> to <span>Socially Ground Proactive AI Generation</span> to <span>Group Preferences</span></em> (arXiv:2411.02353). arXiv. <a href="https://doi.org/10.48550/arXiv.2411.02353">https://doi.org/10.48550/arXiv.2411.02353</a>
+</div>
+<div id="ref-wegnerTransactiveMemoryContemporary1987" class="csl-entry" role="listitem">
+Wegner, D. M. (1987). Transactive <span>Memory</span>: <span>A Contemporary Analysis</span> of the <span>Group Mind</span>. In B. Mullen &amp; G. R. Goethals (Eds.), <em>Theories of <span>Group Behavior</span></em> (pp. 185–208). Springer. <a href="https://doi.org/10.1007/978-1-4612-4634-3_9">https://doi.org/10.1007/978-1-4612-4634-3_9</a>
+</div>
+<div id="ref-yanCommunicationTransactiveMemory2021" class="csl-entry" role="listitem">
+Yan, B., Hollingshead, A. B., Alexander, K. S., Cruz, I., &amp; Shaikh, S. J. (2021). Communication in <span>Transactive Memory Systems</span>: <span>A Review</span> and <span>Multidimensional Network Perspective</span>. <em>Small Group Research</em>, <em>52</em>(1), 3–32. <a href="https://doi.org/10.1177/1046496420967764">https://doi.org/10.1177/1046496420967764</a>
+</div>
+<div id="ref-yangTalk2CareLLMbasedVoice2024" class="csl-entry" role="listitem">
+Yang, Z., Xu, X., Yao, B., Rogers, E., Zhang, S., Intille, S., Shara, N., Gao, G. G., &amp; Wang, D. (2024). <span>Talk2Care</span>: <span class="nocase">An LLM-based Voice Assistant</span> for <span>Communication</span> between <span>Healthcare Providers</span> and <span>Older Adults</span>. <em>Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies</em>, <em>8</em>(2), 1–35. <a href="https://doi.org/10.1145/3659625">https://doi.org/10.1145/3659625</a>
+</div>
+<div id="ref-yenSearchGenExploring2024" class="csl-entry" role="listitem">
+Yen, R., Sultanum, N., &amp; Zhao, J. (2024). To <span>Search</span> or <span>To Gen</span>? <span>Exploring</span> the <span>Synergy</span> between <span>Generative AI</span> and <span>Web Search</span> in <span>Programming</span>. <em>Extended <span>Abstracts</span> of the <span>CHI Conference</span> on <span>Human Factors</span> in <span>Computing Systems</span></em>, 1–8. <a href="https://doi.org/10.1145/3613905.3650867">https://doi.org/10.1145/3613905.3650867</a>
+</div>
+<div id="ref-zhengDiscipLinkUnfoldingInterdisciplinary2024" class="csl-entry" role="listitem">
+Zheng, C., Zhang, Y., Huang, Z., Shi, C., Xu, M., &amp; Ma, X. (2024). <span>DiscipLink</span>: <span>Unfolding Interdisciplinary Information Seeking Process</span> via <span>Human-AI Co-Exploration</span>. <em>Proceedings of the 37th <span>Annual ACM Symposium</span> on <span>User Interface Software</span> and <span>Technology</span></em>, 1–20. <a href="https://doi.org/10.1145/3654777.3676366">https://doi.org/10.1145/3654777.3676366</a>
+</div>
+<div id="ref-zhuLanguageModelsTrained2024" class="csl-entry" role="listitem">
+Zhu, J.-Q., Yan, H., &amp; Griffiths, T. L. (2024). <em>Language <span>Models Trained</span> to do <span>Arithmetic Predict Human Risky</span> and <span>Intertemporal Choice</span></em> (arXiv:2405.19313). arXiv. <a href="https://arxiv.org/abs/2405.19313">https://arxiv.org/abs/2405.19313</a>
+</div>
+<div id="ref-zvelebilovaCollectiveAttentionHumanAI2024" class="csl-entry" role="listitem">
+Zvelebilova, J., Savage, S., &amp; Riedl, C. (2024). <em>Collective <span>Attention</span> in <span>Human-AI Teams</span></em> (arXiv:2407.17489). arXiv. <a href="https://doi.org/10.48550/arXiv.2407.17489">https://doi.org/10.48550/arXiv.2407.17489</a>
+</div>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/tegorman13\.github\.io\/ai_gd_chapter\/working\.html");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/tegorman13/ai_gd_chapter/blob/main/working.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/tegorman13/ai_gd_chapter/edit/main/working.qmd" class="toc-action"><i class="bi empty"></i>Edit this page</a></li><li><a href="https://github.com/tegorman13/ai_gd_chapter/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer><script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
+
+
+
+
+</body></html>

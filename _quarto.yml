@@ -6,6 +6,7 @@ project:
   render:
     - "v1.qmd"
     - "tables.qmd"
+    - "working.qmd"
     #- "*.qmd"
   # resources: 
   #     - "Manuscript/output/"
@@ -19,20 +20,77 @@ project:
 website:
   title: "GD Chapter"
   repo-url: https://github.com/tegorman13/ai_gd_chapter/
-  site-url: "https://tegorman13.github.io/ai_gd_chapter/v1.html"
+  site-url: "https://tegorman13.github.io/ai_gd_chapter/working.html"
   repo-actions: [source, edit, issue]
   reader-mode: true
   page-navigation: true
 
 format:
-  html:
-    theme:
-    #   - spacelab
-    #   - Assets/Style/style.scss
-      light: cosmo #spacelab #[default]
-      dark: cyborg
+  html: 
+    date: today
+    toc: true
+    lightbox: true
     link-citations: true
     page-layout: full
+    theme: 
+      light: cosmo
+      dark: cyborg
+  gfm: 
+    output-file: "gd_chapter_v3.md"
+  hikmah-manuscript-docx: 
+    output-file: "gd_chapter_v3_hikmah.docx"
+    toc: false
+  hikmah-manuscript-pdf:
+    echo: false
+    output-file: "gd_chapter_v3.pdf"
+    mainfont: "EB Garamond"
+    mainfontoptions:
+        - "Numbers=Proportional"
+        - "Numbers=OldStyle"
+    mathfont: "Libertinus Math"
+    include-in-header:
+      text: |
+          \newcommand*\NewPage{\newpage\null\thispagestyle{empty}\newpage}
+          \usepackage{mathtools}
+          \everydisplay\expandafter{\the\everydisplay\small}
+          \usepackage{float}
+          \floatplacement{figure}{H}
+          \floatplacement{table}{H}
+          \usepackage{setspace}
+          \pagenumbering{arabic}
+          \usepackage{titlesec}
+#   pdf: 
+#     documentclass: article
+#     papersize: letter
+#     toc: false
+#     fontsize: 11pt
+#     linestretch: 1.5
+  docx:
+    prefer-html: true
+    output-file: "gd_ai_chapter_v3.docx"
+    toc: false
+
+
+
+author:
+- name: Thomas E. Gorman
+  affiliations: 
+  - name: Communication and Cognition Lab, Purdue University, USA
+    affiliation-url: https://web.ics.purdue.edu/~treimer/
+  - name: College of Liberal Arts Research Academy
+    affiliation-url: https://cla.purdue.edu/about/college-initiatives/research-academy/
+  url: https://tegorman13.github.io/
+  email: tegorman@purdue.edu
+  orcid: "0000-0001-5366-5442"
+- name: Torsten Reimer
+  affiliation: Communication and Cognition Lab, Purdue University, USA
+  affiliation-url: https://cla.purdue.edu/communication/
+  url: https://web.ics.purdue.edu/~treimer/
+  email: treimer@purdue.edu
+  orcid: 0000-0002-7419-0076
+
+
+
 
 bibliography: [Assets/ccl_bib.bib]
 csl: Assets/apa.csl

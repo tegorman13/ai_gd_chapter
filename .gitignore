@@ -16,6 +16,7 @@
 *.vdoc.r
 *.here
 
+
 ~$*
 
 .lintr
@@ -37,6 +38,7 @@ package-lock.json
 package.json
 
 
+fig/old/*
 
 
 tables.qmd
@@ -46,3 +48,5 @@ tables.qmd
 read*
 
 misc/*
+misc/_CH_29 Beattie Chatbots.docx
+misc/_CH_30 Prahl PerceptionsMachines.docx
