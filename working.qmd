@@ -1,7 +1,8 @@
 ---
 title: "AI and Group Decision Making: An Information Processing Perspective"
-# aliases:
-#   - /manuscript.html
+aliases:
+  - /v1.html
+  - /index.html
 ---
 
 
