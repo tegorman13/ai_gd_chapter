@@ -262,6 +262,16 @@ Tried to mostly select those that are published or at least conference papers
 - Kovač 2024 - Stick to your role! Stability of personal values expressed in large language models.
 
 
+- [@kumarAssessingImpactDiffering2024]
+- [@luMixMatchCharacterizing2024]
+- [@mcneeseSteppingOutShadow2023]
+
+- AI can help identify missing expertise or knowledge within a group 
+
+- diversity in human-AI teams, considering both human and AI characteristics (Cui & Yasseri, 2024).
+
+- When and how AI might be assigned leadership or specialized roles (Guo et al., 2024)
+
 
 ### **Reliance**
 - Gerlich 2025 - AI Tools in Society: Impacts on Cognitive Offloading and the Future of Critical Thinking

@@ -6,8 +6,8 @@ project:
   render:
     #- "v1.qmd"
     - "working.qmd"
-    - "tables.qmd"
-    - "misc/def_box.qmd"
+   # - "tables.qmd"
+    #- "misc/def_box.qmd"
     
     #- "*.qmd"
   # resources: 

@@ -18,6 +18,27 @@ The use of AI in group settings has evolved from basic decision-support tools to
 
 To navigate these complexities, this chapter adopts the information processing framework as a lens for examining AI-assisted group decision-making [@hinszEmergingConceptualizationGroups1997]. This framework provides a structured method to analyze how AI systems interact with human cognitive processes at each stage of decision-making. By dissecting the inputs (information acquisition and sharing), the processing mechanisms (interpretation and integration of information), and the outputs (decisions and actions), we can gain insights into the opportunities and challenges presented by AI integration.
 
+
+\scriptsize
+
+::: {.callout}
+{{< fa regular lightbulb >}} **Box 1: Glossary of Terms**
+
+**Complementarity.** In the context of human-AI teams, complementarity refers to the synergistic integration of human and artificial intelligence, leveraging the unique strengths of each to achieve performance outcomes that exceed those attainable by either humans or AI systems operating in isolation (Steyvers et al., 2022). Effective complementarity involves a balanced division of labor and mutual enhancement of capabilities.
+
+**Information Processing Framework.** A theoretical framework in cognitive psychology that conceptualizes the human mind, and by extension, groups, as systems that acquire, process, store, retrieve, and transmit information, akin to computational systems (Hinsz et al., 1997). This framework provides a structured lens for analyzing decision-making as a sequence of stages, from inputs to outputs.
+
+**Large Language Model (LLM).** A sophisticated type of artificial intelligence algorithm characterized by its use of deep learning techniques and training on massive datasets to enable the understanding, generation, and prediction of human language. LLMs, such as GPT-4, are foundational to many contemporary AI applications in decision support and communication.
+
+**Overreliance.** A cognitive bias characterized by excessive trust in and dependence on AI recommendations, often leading to the uncritical acceptance of AI outputs, even when they are flawed or suboptimal. Overreliance can undermine human vigilance and critical evaluation in AI-assisted decision-making contexts.
+
+**Transactive Memory Systems (TMS).** A system of distributed knowledge within a group, where members develop specialized knowledge and rely on each other for access to that knowledge.
+::: 
+
+\normalsize
+
+
+
 Key questions we will seek to address within this framework::
 
 - **Inputs**: How does AI influence the way groups search for, gather, and share information? For example, AI can augment information search through advanced data retrieval but may also introduce biases based on the algorithms' training data.
@@ -30,42 +51,41 @@ By examining these questions through the lens of the information processing fram
 
 
 
+![Framework](Assets/ip2.png){width=105%}
 
 
-## Inputs
 
-### Group Member Roles
+## Inputs: Resources and Factors Shaping AI-Assisted Group Decision Making
 
+The input stage is characterized by a multifaceted array of resources and factors, each contributing uniquely to the subsequent processing and ultimate decision outputs. These inputs can be broadly categorized into human member characteristics, AI system attributes, task and contextual factors, and initial trust, expertise assumptions, and biases, each playing a critical role in shaping the dynamics of human-AI collaboration.
+
+### Member Characteristics and Roles
+
+**Roles and Functionality of AI**.The roles and functionality assigned to AI systems significantly impact group dynamics and decision-making processes [@berrettaDefiningHumanAITeaming2023; @carterIntegratingArtificialIntelligence2024; @duanUnderstandingProcessesTrust2025; @guoDecisionTheoreticFramework2024; @bennettHumanPerformanceCompetitive2023; @nomuraCollaborativeBrainstormingHumans2024]. AI can act as an advisor, providing recommendations and insights; a peer collaborator, actively participating in discussions; a devil's advocate, challenging the group's assumptions; a mediator, facilitating consensus formation; or even a manager, coordinating tasks and assigning roles. The role of the AI will affect how humans interact with it and how much responsibility is assigned to the AI in the decision-making process.
+
+For instance, an AI acting as an advisor might provide information and suggestions, which group members then evaluate and integrate into their decision-making process. In contrast, an AI acting as a peer collaborator might actively engage in discussions, contributing its own opinions and analyses. A devil's advocate AI could challenge the group's consensus, promoting critical evaluation and potentially reducing groupthink. A mediator AI might help to synthesize diverse perspectives and facilitate agreement, as demonstrated by the Habermas Machine [@tesslerAICanHelp2024]. The proactivity or reactiveness of the AI also influences its role and impact [@diebelWhenAIBasedAgents2025]. A proactive AI might initiate suggestions or interventions, while a reactive AI would only respond to user prompts. Proactive AI can enhance efficiency but may also reduce user control and satisfaction, particularly if the AI's actions are perceived as intrusive or misaligned with user needs.
 
 Deciding how best to assign team members to roles is crucial in group decision-making, particularly when learning who is best suited for what role within a team. @marjiehTaskAllocationTeams2024 explore how humans allocate tasks within teams comprising both human and AI agents to maximize overall performance. The central theme of their research is understanding the mechanisms by which individuals discern and act upon their own strengths and those of their team members in a dynamic task allocation setting. In their experimental paradigm, participants had to repeatedly allocate three different types of tasks (visual, auditory, and lexical tasks) between themselves and two AI agents. Unbeknownst to participants, each AI agent was configured to have high competence (70% success rate) in one task type but low competence (15% success rate) in others. 
 
 Building upon this, @mcneeseSteppingOutShadow2023 argue that human-autonomy teams (HATs) should be recognized as distinct from traditional human teams. They emphasize that HATs should not strive to replicate human-human team dynamics but instead should leverage the unique capabilities of AI agents. The authors propose several research trajectories to advance our understanding of HATs, including exploring diverse teaming models, redefining roles for AI teammates, expanding communication modalities, focusing on AI behavior design, developing specialized training, and emphasizing teamwork in AI design. These insights highlight the necessity of adjusting our approaches to team composition and role assignment when AI agents are involved, ensuring that both human and AI strengths are optimized in the decision-making process.
 
-
-- AI can help identify missing expertise or knowledge within a group 
-
-- diversity in human-AI teams, considering both human and AI characteristics (Cui & Yasseri, 2024).
-
-- When and how AI might be assigned leadership or specialized roles (Guo et al., 2024)
+Recent advances in large language models have dramatically expanded the potential roles of AI in group decision-making, enabling AI agents to move beyond simple advisory functions to serve as mediators, devil's advocates, and active discussion participants. @chiangEnhancingAIAssistedGroup2024 investigated the potential of Large Language Models (LLMs) to act as devil's advocates in AI-assisted group decision-making - in the hopes of fostering more critical engagement with AI assistance. In their experimental task, participants were first individually trained on the relationship between defendant profiles and recidivism. For each defendant, participants were also shown the prediction of a recommendation AI model (RiskComp). Participants were then sorted into groups of three, where they reviewed and discussed novel defendant profiles, before making a group recidivism assessment. In the group stage, the recommendations from the RiskComp model were biased against a subset of the defendants (black defendants with low prior crime counts). Of interest was whether the inclusion of an LLM-based devil's advocate in the group discussions could help mitigate the bias introduced by the RiskComp AI model (note that the LLM devils advocate and RiskComp AI are separate AI models). The experimental manipulation consisted of four variants of an LLM-based devil's advocate using, varying both the target of objection (challenging either RiskComp recommendations or majority group opinions) and the level of interactivity (static one-time comments versus dynamic engagement throughout the discussions). Their findings revealed that the dynamic devil's advocate led to higher decision accuracy and improved discernment of when to trust the RiskComp model's advice.
 
 
+**Human Member Characteristics.** The composition of human teams, in terms of expertise, cognitive styles, and diversity, represents a foundational input layer. For instance, the expertise and knowledge that individual members bring to a team are crucial determinants of the quality of information available for processing [@aggarwalSelfbeliefsTransactiveMemory2023], influencing the depth and breadth of the group's understanding of the decision context. Furthermore, cognitive diversity, encompassing varied approaches to problem-solving and information processing, can enrich the group's cognitive resources, potentially enhancing its ability to tackle complex problems [@aggarwalSelfbeliefsTransactiveMemory2023].  However, the benefits of diversity are not unqualified, as factors such as team longevity and task complexity can moderate the diversity-performance relationship [@wallrichRelationshipTeamDiversity2024]. In addition to expertise and cognitive styles, the roles assigned to team members, particularly in hierarchical structures, shape how information is accessed, shared, and utilized within the group [@narayananHowDoesValue2023; @marjiehLargeLanguageModels2024].  Moreover, demographic diversity, while having a statistically significant but practically small overall effect on team performance, can interact with contextual factors to influence group dynamics and outcomes [@wallrichRelationshipTeamDiversity2024]. These varied human characteristics collectively form a crucial input layer, setting the stage for how groups interact with and leverage AI in decision-making processes.
 
-![Framework](Assets/ip2.png){width=105%}
+**Demographics and Individual Differences**. Demographic factors such as age, gender, and education, as well as individual differences in personality traits, digital affinity, and cultural background, can moderate human-AI interaction [@diebelWhenAIBasedAgents2025; @gerlichAIToolsSociety2025; @roeslerNumericVsVerbal2024]. For instance, younger individuals or those with higher digital affinity may be more comfortable integrating AI into their decision-making processes. Cultural background can also play a role, influencing attitudes towards authority, technology, and collaboration [@chugunovaWeItInterdisciplinary2022]. 
 
 
-
----
-
-Recent advances in large language models have dramatically expanded the potential roles of AI in group decision-making, enabling AI agents to move beyond simple advisory functions to serve as mediators, devil's advocates, and active discussion participants
-
-@chiangEnhancingAIAssistedGroup2024 investigated the potential of Large Language Models (LLMs) to act as devil's advocates in AI-assisted group decision-making - in the hopes of fostering more critical engagement with AI assistance. In their experimental task, participants were first individually trained on the relationship between defendant profiles and recidivism. For each defendant, participants were also shown the prediction of a recommendation AI model (RiskComp). Participants were then sorted into groups of three, where they reviewed and discussed novel defendant profiles, before making a group recidivism assessment. In the group stage, the recommendations from the RiskComp model were biased against a subset of the defendants (black defendants with low prior crime counts). Of interest was whether the inclusion of an LLM-based devil's advocate in the group discussions could help mitigate the bias introduced by the RiskComp AI model (note that the LLM devils advocate and RiskComp AI are separate AI models). The experimental manipulation consisted of four variants of an LLM-based devil's advocate using, varying both the target of objection (challenging either RiskComp recommendations or majority group opinions) and the level of interactivity (static one-time comments versus dynamic engagement throughout the discussions). Their findings revealed that the dynamic devil's advocate led to higher decision accuracy and improved discernment of when to trust the RiskComp model's advice.
-
-- [@kumarAssessingImpactDiffering2024]
-- [@luMixMatchCharacterizing2024]
-- [@mcneeseSteppingOutShadow2023]
+**Task and Contextual Factors.** The nature of the decision-making task itself and the broader context within which it is embedded form another essential layer of inputs. Task complexity, for instance, significantly influences the type of information processing required and the potential benefits of AI assistance [@hamadaWisdomCrowdsCollective2020; @eignerDeterminantsLLMassistedDecisionMaking2024]. Complex tasks may necessitate more sophisticated AI support to manage information overload and enhance analytical capabilities. The decision environment, encompassing factors such as time pressure and risk levels, also shapes the input requirements and the dynamics of human-AI interaction [@zhangInvestigatingAITeammate2023]. For example, time pressure may alter reliance on AI assistance, as individuals adapt their decision-making strategies to balance speed and accuracy [@swaroopAccuracyTimeTradeoffsAIAssisted2024]. Moreover, the specific decision-making setting, whether in healthcare, finance, or policy, introduces unique contextual factors that influence the relevance and effectiveness of AI inputs [@narayananHowDoesValue2023]. These task and contextual factors, therefore, represent a critical input layer, moderating the interplay between human and AI contributions.
 
 
 
+### Initial Trust, Expertise Assumptions, and Biases
+
+- Trust Baselines: Pre-existing attitudes toward AI, perceived reliability, anthropomorphism [@cuiAIenhancedCollectiveIntelligence2024]
+
+- Bias and Training Data: Potential for AI to introduce or amplify biases from training corpora  [@cecilExplainabilityDoesNot2024; @bhatiaExploringVariabilityRisk2024]
 
 
 
@@ -80,18 +100,23 @@ LLMs significantly enhance the efficiency and comprehensiveness of information g
 LLM-based search tools offer natural language interfaces, streamlining complex queries and providing detailed responses, often leading to increased efficiency and user satisfaction [@spathariotiComparingTraditionalLLMbased2023]. However, this ease of use can also lead to overreliance on potentially inaccurate information and decreased critical evaluation, particularly when presented conversationally [@anderlConversationalPresentationMode2024]. This can contribute to confirmation bias and the formation of "generative echo chambers," limiting exposure to diverse perspectives [@sharmaGenerativeEchoChamber2024]. Furthermore, while LLMs can reduce cognitive load during information seeking, this may come at the cost of deeper learning and engagement with the material, leading to less sophisticated reasoning and argumentation [@stadlerCognitiveEaseCost2024]. Therefore, careful design and implementation are crucial to mitigate these risks and leverage the full potential of LLMs for enhanced information retrieval and synthesis.
 
 
+### Future Research Directions (Inputs)
 
-### Initial Trust, Expertise Assumptions, and Biases
+Future research should address several gaps in our understanding of inputs in human-AI group decision-making.
 
-- Trust Baselines: Pre-existing attitudes toward AI, perceived reliability, anthropomorphism (Cui & Yasseri, 2024)
+1. **Interplay of Input Categories:** A more detailed exploration of the interplay between different input categories is warranted. This includes investigating how human characteristics interact with specific AI system attributes within varying contextual demands. For instance, how does the level of human expertise moderate the impact of AI transparency on trust and reliance? How do different communication modalities influence the integration of AI advice in groups with varying cognitive styles?
+2. **Longitudinal Studies:** There is a need for longitudinal studies to investigate the long-term effects of input factors on the evolution of human-AI team dynamics and decision-making strategies over time. How do initial trust, expertise assumptions, and biases change with repeated interactions? How do groups adapt their communication patterns and shared mental models as they gain experience working with AI systems?
+3. **Dynamic Role Adjustment:** Research should explore dynamic role adjustment in human-AI teams, where roles are not fixed but can change based on the task demands and the performance of individual team members. This includes developing metrics to evaluate the effectiveness of AI-augmented team structures. Such metrics should go beyond traditional measures of team performance and consider factors like trust, communication quality, and the development of shared mental models.
 
-- Bias and Training Data: Potential for AI to introduce or amplify biases from training corpora (Cecil et al., 2024; Bhatia, 2024)
+
+
+
 
 
 
 ## Information Processing
 
-
+The processing stage reveals the complex mechanisms through which humans and AI interact and transform information into collective decisions.
 
 #### AI in Idea Generation and Creative Discovery
 
@@ -142,10 +167,12 @@ Transactive memory systems (TMS) represent a critical aspect of group cognition,
 Future Directions: Research on how to measure and visualize shared mental models in human-AI teams, how to design AI systems that actively contribute to the development of shared understanding, how to adapt AI behavior based on the evolving mental models of human teammates.
 
 
-...
 
 
 ### Cognitive Load
+
+AI assistance can influence the workload and cognitive load experienced by human team members [@bastolaLLMbasedSmartReply2024; @bucincaTrustThinkCognitive2021; @choiLLMEffectAre2024; @gerlichAIToolsSociety2025]. While AI can reduce cognitive load by automating certain tasks and providing ready-made solutions (Hao et al., 2024), it can also increase cognitive load if the AI interface is poorly designed or if the AI's reasoning is opaque [@bucincaTrustThinkCognitive2021; @westphalDecisionControlExplanations2023].
+
 
 @bucincaTrustThinkCognitive2021 examined how interface design might influence cognitive engagement with AI recommendations through what they term "cognitive forcing functions." Drawing on dual-process theory, they implemented three distinct interface interventions (e.g., requiring explicit requests for AI input, mandating initial independent decisions, introducing temporal delays) designed to disrupt automatic processing and promote more analytical engagement with AI suggestions. Their findings demonstrated that while these interventions successfully reduced overreliance on incorrect AI recommendations, they also increased perceived cognitive load and decreased user satisfaction. Of particular methodological interest was their systematic investigation of individual differences in cognitive motivation: participants with high Need for Cognition (NFC) showed substantially greater benefits from these interventions, suggesting that the effectiveness of such cognitive load manipulations may be moderated by individual differences in information processing preferences.
 
@@ -162,10 +189,19 @@ Future Directions: Research on how to measure and visualize shared mental models
 
 
 
-## Decision-Making Output
+### Future Research Directions (Processing)
 
-..
+Future research should address several gaps in our understanding of cognitive processing in human-AI teams.
 
+1. **Dynamic Interplay:** A deeper understanding of the dynamic interplay between different processing mechanisms is needed. This includes investigating how AI-mediated communication shapes shared mental models and how cognitive load influences information integration.
+2. **Emotions and Social Factors:** The role of emotions and social factors in human-AI information processing should be explored. How do factors like trust, rapport, and social identity influence the way humans interact with and rely on AI teammates?
+3. **Adaptive AI Systems:** More research is needed on how to design AI systems that can adapt to the cognitive styles and abilities of individual human team members. This includes developing personalized AI interfaces that provide tailored explanations, adjust the level of interactivity, and offer appropriate cognitive support.
+
+
+
+
+
+## Output
 
 
 
@@ -227,23 +263,7 @@ Recent work has begun examining how people attribute responsibility in human-AI 
 
 
 
-{{< pagebreak >}}
 
-::: {.callout}
-{{< fa regular lightbulb >}} **Box 1: Glossary of Terms**
-
-**Complementarity.** In the context of human-AI teams, complementarity refers to the synergistic integration of human and artificial intelligence, leveraging the unique strengths of each to achieve performance outcomes that exceed those attainable by either humans or AI systems operating in isolation (Steyvers et al., 2022). Effective complementarity involves a balanced division of labor and mutual enhancement of capabilities.
-
-**Information Processing Framework.** A theoretical framework in cognitive psychology that conceptualizes the human mind, and by extension, groups, as systems that acquire, process, store, retrieve, and transmit information, akin to computational systems (Hinsz et al., 1997). This framework provides a structured lens for analyzing decision-making as a sequence of stages, from inputs to outputs.
-
-**Large Language Model (LLM).** A sophisticated type of artificial intelligence algorithm characterized by its use of deep learning techniques and training on massive datasets to enable the understanding, generation, and prediction of human language. LLMs, such as GPT-4, are foundational to many contemporary AI applications in decision support and communication.
-
-**Overreliance.** A cognitive bias characterized by excessive trust in and dependence on AI recommendations, often leading to the uncritical acceptance of AI outputs, even when they are flawed or suboptimal. Overreliance can undermine human vigilance and critical evaluation in AI-assisted decision-making contexts.
-
-**Transactive Memory Systems (TMS).** A system of distributed knowledge within a group, where members develop specialized knowledge and rely on each other for access to that knowledge.
-:::
-
-{{< pagebreak >}}
 
 
 
