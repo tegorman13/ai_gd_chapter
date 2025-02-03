@@ -36,6 +36,7 @@ Tried to mostly select those that are published or at least conference papers
 - Caballero 2024 - Human-AI collaboration is not very collaborative yet: A taxonomy of interaction patterns in AI-assisted decision making from a systematic review
 - Crandall 2018 - Cooperating with machines
 - Chugunova 2022 - We and It: An interdisciplinary review of the experimental evidence on how humans interact with machines
+- Passerini 2025 -Fostering effective hybrid human-LLM reasoning and decision making
 
 
 ### Group Decision LLM
@@ -211,6 +212,16 @@ Tried to mostly select those that are published or at least conference papers
 - Factory Operators' Perspectives on Cognitive Assistants for Knowledge Sharing: Challenges, Risks, and Impact on Work
 - Narayanan 2024 - Influence of Human-AI Team Structuring on Shared Mental Models for Collaborative Decision Making
 	- Team Structures (peer human + AI vs. hierarchical human-agent team)
+
+- role of shared mental models in effective teamwork (N. J. McNeese et al., 2023; Narayanan & Feigh, 2024).
+
+- challenge of developing shared mental models in human-AI teams due to the opacity of AI reasoning (Collins et al., 2024; S. Zhang et al., 2024).
+
+- potential solutions, such as increasing AI transparency, providing explanations, or using interactive interfaces (Chiang et al., 2024; Klieger et al., 2024; Ma et al., 2024; Sidji et al., 2024).
+
+
+- Role of training in developing effective mental models of AI and in calibrating trust (Kelly et al., 2023; Tejeda et al., 2022).
+
 
 ### Information Search
 - Giannoccaro 2020 - Search behavior of individuals working in teams: A behavioral study on complex landscapes

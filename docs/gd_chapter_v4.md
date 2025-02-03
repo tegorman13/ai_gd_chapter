@@ -200,24 +200,23 @@ advice.
 terms of expertise, cognitive styles, and diversity, represents a
 foundational input layer. For instance, the expertise and knowledge that
 individual members bring to a team are crucial determinants of the
-quality of information available for processing (Aggarwal et al., 2023),
-influencing the depth and breadth of the group’s understanding of the
-decision context. Furthermore, cognitive diversity, encompassing varied
-approaches to problem-solving and information processing, can enrich the
-group’s cognitive resources, potentially enhancing its ability to tackle
-complex problems (Aggarwal et al., 2023). However, the benefits of
-diversity are not unqualified, as factors such as team longevity and
-task complexity can moderate the diversity-performance relationship
-(Wallrich et al., 2024). In addition to expertise and cognitive styles,
-the roles assigned to team members, particularly in hierarchical
-structures, shape how information is accessed, shared, and utilized
-within the group (Marjieh, Sucholutsky, et al., 2024; Narayanan et al.,
-2023). Moreover, demographic diversity, while having a statistically
-significant but practically small overall effect on team performance,
-can interact with contextual factors to influence group dynamics and
-outcomes (Wallrich et al., 2024). These varied human characteristics
-collectively form a crucial input layer, setting the stage for how
-groups interact with and leverage AI in decision-making processes.
+quality of information available for processing (Aggarwal et al., 2023).
+Furthermore, cognitive diversity, encompassing varied approaches to
+problem-solving and information processing, can enrich the group’s
+cognitive resources, potentially enhancing its ability to tackle complex
+problems (Aggarwal et al., 2023). However, the benefits of diversity are
+not unqualified, as factors such as team longevity and task complexity
+can moderate the diversity-performance relationship (Wallrich et al.,
+2024). In addition to expertise and cognitive styles, the roles assigned
+to team members, particularly in hierarchical structures, shape how
+information is accessed, shared, and utilized within the group (Marjieh,
+Sucholutsky, et al., 2024; S. Narayanan et al., 2023). Moreover,
+demographic diversity, while having a statistically significant but
+practically small overall effect on team performance, can interact with
+contextual factors to influence group dynamics and outcomes (Wallrich et
+al., 2024). These varied human characteristics collectively form a
+crucial input layer, setting the stage for how groups interact with and
+leverage AI in decision-making processes.
 
 **Demographics and Individual Differences**. Demographic factors such as
 age, gender, and education, as well as individual differences in
@@ -225,9 +224,12 @@ personality traits, digital affinity, and cultural background, can
 moderate human-AI interaction (Diebel et al., 2025; Gerlich, 2025;
 Roesler et al., 2024). For instance, younger individuals or those with
 higher digital affinity may be more comfortable integrating AI into
-their decision-making processes. Cultural background can also play a
-role, influencing attitudes towards authority, technology, and
-collaboration (Chugunova & Sele, 2022).
+their decision-making processes. Diebel et al. (2025) found that
+individuals with higher AI knowledge experienced a greater loss of
+competence-based self-esteem when interacting with proactive AI,
+indicating that prior experience with AI can shape user perceptions.
+Cultural background can also play a role, influencing attitudes towards
+authority, technology, and collaboration (Chugunova & Sele, 2022).
 
 **Task and Contextual Factors.** The nature of the decision-making task
 itself and the broader context within which it is embedded form another
@@ -238,22 +240,75 @@ Complex tasks may necessitate more sophisticated AI support to manage
 information overload and enhance analytical capabilities. The decision
 environment, encompassing factors such as time pressure and risk levels,
 also shapes the input requirements and the dynamics of human-AI
-interaction (Zhang et al., 2023). For example, time pressure may alter
-reliance on AI assistance, as individuals adapt their decision-making
-strategies to balance speed and accuracy (Swaroop et al., 2024).
-Moreover, the specific decision-making setting, whether in healthcare,
-finance, or policy, introduces unique contextual factors that influence
-the relevance and effectiveness of AI inputs (Narayanan et al., 2023).
-These task and contextual factors, therefore, represent a critical input
-layer, moderating the interplay between human and AI contributions.
+interaction (R. Zhang et al., 2023). For example, time pressure may
+alter reliance on AI assistance, as individuals adapt their
+decision-making strategies to balance speed and accuracy (Swaroop et
+al., 2024). Moreover, the specific decision-making setting, whether in
+healthcare, finance, or policy, introduces unique contextual factors
+that influence the relevance and effectiveness of AI inputs (S.
+Narayanan et al., 2023). These task and contextual factors, therefore,
+represent a critical input layer, moderating the interplay between human
+and AI contributions.
 
 ### Initial Trust, Expertise Assumptions, and Biases
 
+Trust and confidence in AI are dynamic and multifaceted, as highlighted
+by Hancock et al. (2011), who conducted a meta-analysis showing that
+trust in automation is influenced by a variety of human, robot, and
+environmental factors. Li et al. (2025) further explored the dynamic
+nature of trust, revealing that human self-confidence tends to align
+with AI confidence, which can affect decision-making strategies.
+Vodrahalli et al. (2022) emphasized the importance of calibrated trust,
+where humans accurately assess the reliability of AI advice. The
+calibration of trust is also seen as critical, as shown by Cecil et
+al. (2024), who found that explanations did not mitigate the negative
+impacts of incorrect AI advice, suggesting a complex relationship
+between trust, reliance, and the perceived reliability of AI.
+
 - Trust Baselines: Pre-existing attitudes toward AI, perceived
   reliability, anthropomorphism (Cui & Yasseri, 2024)
-
 - Bias and Training Data: Potential for AI to introduce or amplify
   biases from training corpora (Bhatia, 2024; Cecil et al., 2024)
+
+### Future Research Directions (Inputs)
+
+Future research should address several gaps in our understanding of
+inputs in human-AI group decision-making.
+
+1.  **Interplay of Input Categories:** A more detailed exploration of
+    the interplay between different input categories is warranted. This
+    includes investigating how human characteristics interact with
+    specific AI system attributes within varying contextual demands. For
+    instance, how does the level of human expertise moderate the impact
+    of AI transparency on trust and reliance? How do different
+    communication modalities influence the integration of AI advice in
+    groups with varying cognitive styles?
+2.  **Longitudinal Studies:** There is a need for longitudinal studies
+    to investigate the long-term effects of input factors on the
+    evolution of human-AI team dynamics and decision-making strategies
+    over time. How do initial trust, expertise assumptions, and biases
+    change with repeated interactions? How do groups adapt their
+    communication patterns and shared mental models as they gain
+    experience working with AI systems?
+3.  **Dynamic Role Adjustment:** Research should explore dynamic role
+    adjustment in human-AI teams, where roles are not fixed but can
+    change based on the task demands and the performance of individual
+    team members. This includes developing metrics to evaluate the
+    effectiveness of AI-augmented team structures. Such metrics should
+    go beyond traditional measures of team performance and consider
+    factors like trust, communication quality, and the development of
+    shared mental models.
+4.  **Personalized AI Systems:** More research is needed on how to
+    design AI systems that can adapt to the cognitive styles and
+    abilities of individual human team members. This includes developing
+    personalized AI interfaces that provide tailored explanations,
+    adjust the level of interactivity, and offer appropriate cognitive
+    support.
+
+## Information Processing
+
+The processing stage reveals the complex mechanisms through which humans
+and AI interact and transform information into collective decisions.
 
 ### Information Search
 
@@ -305,40 +360,6 @@ and argumentation (Stadler et al., 2024). Therefore, careful design and
 implementation are crucial to mitigate these risks and leverage the full
 potential of LLMs for enhanced information retrieval and synthesis.
 
-### Future Research Directions (Inputs)
-
-Future research should address several gaps in our understanding of
-inputs in human-AI group decision-making.
-
-1.  **Interplay of Input Categories:** A more detailed exploration of
-    the interplay between different input categories is warranted. This
-    includes investigating how human characteristics interact with
-    specific AI system attributes within varying contextual demands. For
-    instance, how does the level of human expertise moderate the impact
-    of AI transparency on trust and reliance? How do different
-    communication modalities influence the integration of AI advice in
-    groups with varying cognitive styles?
-2.  **Longitudinal Studies:** There is a need for longitudinal studies
-    to investigate the long-term effects of input factors on the
-    evolution of human-AI team dynamics and decision-making strategies
-    over time. How do initial trust, expertise assumptions, and biases
-    change with repeated interactions? How do groups adapt their
-    communication patterns and shared mental models as they gain
-    experience working with AI systems?
-3.  **Dynamic Role Adjustment:** Research should explore dynamic role
-    adjustment in human-AI teams, where roles are not fixed but can
-    change based on the task demands and the performance of individual
-    team members. This includes developing metrics to evaluate the
-    effectiveness of AI-augmented team structures. Such metrics should
-    go beyond traditional measures of team performance and consider
-    factors like trust, communication quality, and the development of
-    shared mental models.
-
-## Information Processing
-
-The processing stage reveals the complex mechanisms through which humans
-and AI interact and transform information into collective decisions.
-
 #### AI in Idea Generation and Creative Discovery
 
 AI’s role extends beyond data retrieval to fostering creative discovery.
@@ -366,7 +387,34 @@ while providing direct answers had minimal negative impact, exposure to
 LLM-generated strategies decreased both originality and creative
 flexibility in subsequent unassisted tasks.
 
-### Communication; information sharing
+### Communication and information sharing
+
+**AI-Mediated Communication Systems**. AI systems, such as LLM-based
+Smart Reply (LSR) systems, can mediate communication and information
+sharing within human-AI teams (Bastola et al., 2024; Fortunati &
+Edwards, 2021; Gomez Caballero et al., 2024). The key is to use AI to
+ensure more efficient information exchange between team members, and
+also to reduce cognitive load during repetitive tasks. However, AI
+systems need to be carefully designed to maintain user experience and be
+respectful of human biases, preferences and agency.
+
+**Transactive Memory and Knowledge Sharing**. AI can facilitate
+transactive memory systems in human-AI teams, acting as knowledge
+repositories and influencing information access and sharing (Bienefeld
+et al., 2023; Gao et al., 2024; Yan et al., 2021). This is not unlike
+how human transactive memory systems work (Bienefeld et al., 2023), but
+the dynamics and limitations of human-AI TMSs are yet to be fully
+understood, especially in cases where AI may not fully understand the
+full context or task environment.
+
+**Agent Communication Strategies**. The way in which AI agents
+communicate, including whether they are proactive, sociable, responsive
+and clear, can affect the flow of information in the group and the trust
+between team members (Bennett et al., 2023; Duan et al., 2025; Nishida
+et al., 2024). Different communication styles may be preferable in
+different contexts, and the human perception of AI communication
+strategies play a critical role in shaping human expectations for AI
+teammates (D. Zhang et al., 2023).
 
 Transactive memory systems (TMS) represent a critical aspect of group
 cognition, referring to the shared understanding within a group
@@ -435,69 +483,19 @@ advantages.
 - AI-Mediated Communication: Smart replies, devil’s advocacy, and AI as
   a discussion facilitator (Chiang et al., 2024; Duan et al., 2025)
 
-- Transactive Memory and Shared Mental Models: How AI systems function
-  as external knowledge repositories (Bienefeld et al., 2023; Narayanan
-  & Feigh, 2024)
-
 - chat-based collaboration (ChatCollab, Klieger et al., 2024)
 
-### Shared Mental Models
+### Information Integration and Consensus Formation
 
-- (Collins et al., 2024)
-
-- role of shared mental models in effective teamwork (N. J. McNeese et
-  al., 2023; Narayanan & Feigh, 2024).
-
-- challenge of developing shared mental models in human-AI teams due to
-  the opacity of AI reasoning (Collins et al., 2024; S. Zhang et al.,
-  2024).
-
-- potential solutions, such as increasing AI transparency, providing
-  explanations, or using interactive interfaces (Chiang et al., 2024;
-  Klieger et al., 2024; Ma et al., 2024; Sidji et al., 2024).
-
-- Role of training in developing effective mental models of AI and in
-  calibrating trust (Kelly et al., 2023; Tejeda et al., 2022).
-
-Future Directions: Research on how to measure and visualize shared
-mental models in human-AI teams, how to design AI systems that actively
-contribute to the development of shared understanding, how to adapt AI
-behavior based on the evolving mental models of human teammates.
-
-### Cognitive Load
-
-AI assistance can influence the workload and cognitive load experienced
-by human team members (Bastola et al., 2024; Buçinca et al., 2021; Choi
-et al., 2024; Gerlich, 2025). While AI can reduce cognitive load by
-automating certain tasks and providing ready-made solutions (Hao et al.,
-2024), it can also increase cognitive load if the AI interface is poorly
-designed or if the AI’s reasoning is opaque (Buçinca et al., 2021;
-Westphal et al., 2023).
-
-Buçinca et al. (2021) examined how interface design might influence
-cognitive engagement with AI recommendations through what they term
-“cognitive forcing functions.” Drawing on dual-process theory, they
-implemented three distinct interface interventions (e.g., requiring
-explicit requests for AI input, mandating initial independent decisions,
-introducing temporal delays) designed to disrupt automatic processing
-and promote more analytical engagement with AI suggestions. Their
-findings demonstrated that while these interventions successfully
-reduced overreliance on incorrect AI recommendations, they also
-increased perceived cognitive load and decreased user satisfaction. Of
-particular methodological interest was their systematic investigation of
-individual differences in cognitive motivation: participants with high
-Need for Cognition (NFC) showed substantially greater benefits from
-these interventions, suggesting that the effectiveness of such cognitive
-load manipulations may be moderated by individual differences in
-information processing preferences.
-
-- Cognitive Load and Overreliance: Role of interface design in prompting
-  deeper analytic thinking (Buçinca et al., 2021; Vodrahalli et al.,
-  2022)
-
-- Cognitive offloading effects (Stadler et al., 2024)
-
-### Consensus Formation
+**Influence of AI on Deliberation and Argumentation**. AI systems,
+particularly LLMs, can influence group deliberation, argumentation, and
+consensus formation. AI can mediate discussions by synthesizing
+information, presenting different perspectives, and facilitating more
+balanced conversations (Argyle et al., 2023; Chiang et al., 2024; Du et
+al., 2024; Tessler et al., 2024). Moreover, AI can act as a ’devil’s
+advocate (Chiang et al., 2024), which enhances the likelihood that a
+team considers alternatives, and does not prematurely converge on a
+single idea.
 
 Tessler et al. (2024) investigated the potential of AI in facilitating
 consensus formation through their development of the “Habermas Machine”
@@ -518,29 +516,140 @@ representative sample of the UK population. The AI-mediated process
 again resulted in high-quality group statements and facilitated
 consensus among participants on contentious issues.
 
+**Shared Mental Models in Human-AI Teams**. The formation and
+maintenance of shared mental models (SMMs) in human-AI teams are
+significantly impacted by team structure (Collins et al., 2024; R.
+Narayanan & Feigh, 2024). In hierarchical human-AI teams, for example,
+SMMs are often distributed across the team, rather than held by all
+members, which requires more sophisticated approaches to communication.
+A key to successful human-AI teams is ensuring there is a common
+understanding of team member roles, goals and limitations, and in
+particular the role of any AI systems.
+
+**Cognitive Load and Cognitive Forcing Functions**. Cognitive load
+impacts human decision-making and the way in which they engage with AI
+tools (Buçinca et al., 2021; Gerlich, 2025; Westphal et al., 2023). AI
+systems may reduce cognitive load, but can also impair critical thinking
+skills, and must be carefully designed to support users. Cognitive
+forcing functions (Buçinca et al., 2021), or interactions designed to
+encourage analytical thinking and deeper processing, can promote more
+effective human-AI interactions. However, there can be trade-offs
+between effectiveness and usability (Buçinca et al., 2024; Westby &
+Riedl, 2023) that must be considered.
+
+Buçinca et al. (2021) examined how interface design might influence
+cognitive engagement with AI recommendations through what they term
+“cognitive forcing functions.” Drawing on dual-process theory, they
+implemented three distinct interface interventions (e.g., requiring
+explicit requests for AI input, mandating initial independent decisions,
+introducing temporal delays) designed to disrupt automatic processing
+and promote more analytical engagement with AI suggestions. Their
+findings demonstrated that while these interventions successfully
+reduced overreliance on incorrect AI recommendations, they also
+increased perceived cognitive load and decreased user satisfaction. Of
+particular methodological interest was their systematic investigation of
+individual differences in cognitive motivation: participants with high
+Need for Cognition (NFC) showed substantially greater benefits from
+these interventions, suggesting that the effectiveness of such cognitive
+load manipulations may be moderated by individual differences in
+information processing preferences.
+
+- Cognitive offloading effects (Stadler et al., 2024)
+
+**Human-AI Complementarity Mechanisms**. The conditions under which
+human and AI capabilities complement each other are essential to study.
+This includes understanding aspects such as confidence weighting and
+error correction. By modeling how people weigh information, and how AI
+can effectively supplement this process, new strategies for promoting
+more accurate and reliable collective decision-making can be developed.
+One promising approach for promoting this complementarity involves
+developing Bayesian models of human-AI interaction (Steyvers et al.,
+2022).
+
 ### Future Research Directions (Processing)
 
 Future research should address several gaps in our understanding of
 cognitive processing in human-AI teams.
 
 1.  **Dynamic Interplay:** A deeper understanding of the dynamic
-    interplay between different processing mechanisms is needed. This
-    includes investigating how AI-mediated communication shapes shared
+    interplay between different processing mechanisms is needed. For
+    instance, investigating how AI-mediated communication shapes shared
     mental models and how cognitive load influences information
     integration.
 2.  **Emotions and Social Factors:** The role of emotions and social
     factors in human-AI information processing should be explored. How
     do factors like trust, rapport, and social identity influence the
     way humans interact with and rely on AI teammates?
-3.  **Adaptive AI Systems:** More research is needed on how to design AI
-    systems that can adapt to the cognitive styles and abilities of
-    individual human team members. This includes developing personalized
-    AI interfaces that provide tailored explanations, adjust the level
-    of interactivity, and offer appropriate cognitive support.
+3.  Research on how to measure and visualize shared mental models in
+    human-AI teams, how to design AI systems that actively contribute to
+    the development of shared understanding, how to adapt AI behavior
+    based on the evolving mental models of human teammates.
 
 ## Output
 
-### Decision Accuracy and Complementarity
+The output stage of the IPO framework examines the decisions, actions,
+and consequences resulting from AI-assisted group decision-making. This
+section analyzes various dimensions of decision outputs, including
+accuracy, trust, user satisfaction, and broader group-level outcomes.
+
+### Improved Decision Quality and Complementarity
+
+One of the primary goals of integrating AI into group decision-making is
+to enhance decision quality, and research has shown promising results in
+this area. AI augmentation has been demonstrated to improve human
+decision-making across various tasks (Becker et al., 2022). In complex
+domains, such as medical diagnostics, human-AI collectives have been
+shown to produce more accurate differential diagnoses than either
+human-only or AI-only groups, highlighting the potential for synergistic
+gains (Zöller et al., 2024). The exposure to superhuman AI, as in the
+game of Go, can also enhance human decision-making by encouraging the
+exploration of novel strategies, thereby increasing overall performance
+and innovation (Shin et al., 2023).
+
+**Factors Influencing Decision Quality.** Several factors influence the
+quality of decisions in AI-assisted contexts. One critical factor is the
+accuracy of the AI’s recommendations (Yin et al., 2019). However,
+accuracy alone is not sufficient; the way AI confidence is communicated
+also plays a crucial role. Humans do not simply accept or reject AI
+advice but rather adjust their reliance based on a complex interplay of
+factors, including perceived AI accuracy, human confidence, and decision
+context (Steyvers et al., 2022). The alignment of confidence between
+team members also influences how individuals process and weight the
+information they have at hand and make decisions based on that
+information (Li et al., 2025). The alignment of confidence could also
+impact polarization, as individuals with high self-confidence might
+reject AI recommendations, while those with lower self-confidence might
+over-rely, potentially leading to inconsistent reliance and team
+performance (Li et al., 2025). AI systems optimized for teamwork, rather
+than just accuracy, can lead to better overall performance (Bansal et
+al., 2021). This optimization includes factors like explainability and
+adaptability, which directly relate to the concepts of complementarity
+and reliance. The confidence level displayed by an AI and the provided
+explanation impact the trust level of human decision-makers (Y. Zhang et
+al., 2020). When people do not understand the basis of AI
+recommendations (or believe the AI to be a black box), they are less
+likely to trust it and therefore less likely to rely on the AI even when
+it would improve decision quality (Westphal et al., 2023). In this way,
+lack of explainability presents a risk to decision quality.
+
+**Complementarity.** Research indicates that human-AI teams, under
+certain conditions, can achieve superior decision quality compared to
+either human-only or AI-only groups, demonstrating the potential for
+human-AI complementarity (Steyvers et al., 2022; Zöller et al., 2024).
+This complementarity arises from leveraging the distinct strengths of
+humans and machines: AI systems excel at processing large datasets and
+identifying patterns, while humans contribute contextual understanding,
+ethical considerations, and creative problem-solving abilities (Canonico
+et al., 2019; Carter & Wynne, 2024). For instance, in medical
+diagnostics, hybrid human-AI collectives have shown greater accuracy in
+differential diagnoses due to the diverse error profiles of humans and
+LLMs (Zöller et al., 2024). However, achieving this complementarity
+requires careful consideration of task allocation and team structure
+(Marjieh, Sucholutsky, et al., 2024; Q. Zhang et al., 2022). Bayesian
+modeling approaches have been developed to formally analyze and optimize
+human-AI complementarity, demonstrating that hybrid combinations can
+outperform either component alone under specific conditions (Lemus et
+al., 2022; Steyvers et al., 2022).
 
 The integration of AI into group decision-making holds significant
 promise for leveraging the complementary strengths of humans and
@@ -577,9 +686,7 @@ capabilities for fluid team interaction.
 - Performance Gains and Limits: Complementarity vs. overreliance (Liang
   et al., 2022)
 
-## Trust, Risk and Reliance
-
-### Trust in AI
+### Trust and Reliance
 
 Trust and confidence are crucial determinants of how individuals and
 groups interact with AI systems during decision-making processes.
@@ -630,7 +737,25 @@ dynamics must be carefully managed to enhance collaborative outcomes.
   uncalibrated AI might paradoxically enhance outcomes (Vodrahalli et
   al., 2022)
 
-### Utilization
+**Satisfaction, Acceptance, and Group Dynamics.** Beyond objective
+measures of decision quality, the subjective experiences of group
+members, including satisfaction, acceptance, and shifts in group
+dynamics, are crucial outputs in AI-assisted decision-making. User
+satisfaction with AI systems is significantly influenced by factors such
+as interface design, perceived cognitive load, and the type of AI
+assistance provided (Buçinca et al., 2021; Rebholz et al., 2024). For
+instance, while cognitive forcing functions can improve decision
+accuracy, they may also decrease user satisfaction due to increased
+perceived complexity (Buçinca et al., 2021). Acceptance of AI in group
+settings is contingent on various factors, including the perceived
+usefulness of AI, trust in its recommendations, and alignment with human
+values (S. Narayanan et al., 2023). Furthermore, AI integration can
+reshape group dynamics, potentially influencing group polarization and
+the emergence of echo chambers or polarization phenomena (Cheung et al.,
+2024). While AI can facilitate consensus formation and bridge diverse
+viewpoints (Tessler et al., 2024) it also carries the risk of amplifying
+existing biases and limiting exposure to diverse perspectives (Cheung et
+al., 2024; Sharma et al., 2024).
 
 Recent work by Buçinca et al. (2021) presents an innovative approach to
 addressing overreliance on AI systems through interface design rather
@@ -649,7 +774,7 @@ potential intervention-generated inequalities.
 
 ### Responsibility
 
-- (Narayanan et al., 2023)
+- (S. Narayanan et al., 2023)
 
 Recent work has begun examining how people attribute responsibility in
 human-AI collaborative contexts where control is shared and actions are
@@ -668,13 +793,20 @@ influenced by factors such as the unexpectedness of an agent’s action,
 counterfactual simulations of alternative actions, and the actual
 contribution of each agent to the task outcome.
 
-### Risk
+### Future Research Directions (Output)
 
-- (Bhatia, 2024)
-- (Zhu et al., 2024)
+- How can we develop better metrics and methods for evaluating decision
+  quality in human-AI teams, beyond simple accuracy measures?
+- Developing methods for measuring and monitoring reliance in real-time?
+- Developing interventions that promote appropriate trust calibration
 
-## Future Directions
+### Discussion
 
+### Future Directions
+
+- Designing systems that can actively promote constructive dialogue,
+  facilitate perspective-taking, and encourage the integration of
+  diverse viewpoints in group decision-making
 - Opportunities for real-time AI moderation (Han et al., 2024)
 - Evolving norms around AI accountability (Smith et al., 2025)
 - potential negative impacts of AI on human skills, critical thinking,
@@ -711,6 +843,17 @@ increases credibility judgements during information search with ChatGPT.
 
 </div>
 
+<div id="ref-argyleLeveragingAIDemocratic2023" class="csl-entry">
+
+Argyle, L. P., Bail, C. A., Busby, E. C., Gubler, J. R., Howe, T.,
+Rytting, C., Sorensen, T., & Wingate, D. (2023). Leveraging AI for
+democratic discourse: Chat interventions can improve online political
+conversations at scale. *Proceedings of the National Academy of
+Sciences*, *120*(41), e2311627120.
+<https://doi.org/10.1073/pnas.2311627120>
+
+</div>
+
 <div id="ref-ashkinazeHowAIIdeas2024" class="csl-entry">
 
 Ashkinaze, J., Mendelsohn, J., Qiwei, L., Budak, C., & Gilbert, E.
@@ -726,6 +869,16 @@ BaniHani, I., Alawadi, S., & Elmrayyan, N. (2024). AI and the
 decision-making process: A literature review in healthcare, financial,
 and technology sectors. *Journal of Decision Systems*, 1–11.
 <https://doi.org/10.1080/12460125.2024.2349425>
+
+</div>
+
+<div id="ref-bansalDoesWholeExceed2021" class="csl-entry">
+
+Bansal, G., Wu, T., Zhou, J., Fok, R., Nushi, B., Kamar, E., Ribeiro, M.
+T., & Weld, D. (2021). Does the Whole Exceed its Parts? The Effect of AI
+Explanations on Complementary Team Performance. *Proceedings of the 2021
+CHI Conference on Human Factors in Computing Systems*, 1–16.
+<https://doi.org/10.1145/3411764.3445717>
 
 </div>
 
@@ -811,6 +964,15 @@ the ACM on Human-Computer Interaction*, *5*(CSCW1), 1–21.
 
 </div>
 
+<div id="ref-bucincaContrastiveExplanationsThat2024" class="csl-entry">
+
+Buçinca, Z., Swaroop, S., Paluch, A. E., Doshi-Velez, F., & Gajos, K. Z.
+(2024). *Contrastive Explanations That Anticipate Human Misconceptions
+Can Improve Human Decision-Making Skills* (arXiv:2410.04253). arXiv.
+<https://arxiv.org/abs/2410.04253>
+
+</div>
+
 <div id="ref-burtonHowLargeLanguage2024" class="csl-entry">
 
 Burton, J. W., Lopez-Lopez, E., Hechtlinger, S., Rahwan, Z., Aeschbach,
@@ -820,6 +982,17 @@ Narayanan, A., Nussberger, A.-M., Yasseri, T., Nickl, P., Almaatouq, A.,
 … Hertwig, R. (2024). How large language models can reshape collective
 intelligence. *Nature Human Behaviour*, 1–13.
 <https://doi.org/10.1038/s41562-024-01959-9>
+
+</div>
+
+<div id="ref-canonicoCollectivelyIntelligentTeams2019"
+class="csl-entry">
+
+Canonico, L. B., Flathmann, C., & McNeese, N. (2019). Collectively
+Intelligent Teams: Integrating Team Cognition, Collective Intelligence,
+and AI for Future Teaming. *Proceedings of the Human Factors and
+Ergonomics Society Annual Meeting*, *63*(1), 1466–1470.
+<https://doi.org/10.1177/1071181319631278>
 
 </div>
 
@@ -850,21 +1023,20 @@ advice in a personnel selection task. *Scientific Reports*, *14*(1),
 
 </div>
 
+<div id="ref-cheungLargeLanguageModels2024" class="csl-entry">
+
+Cheung, V., Maier, M., & Lieder, F. (2024). *Large Language Models
+Amplify Human Biases in Moral Decision-Making*.
+<https://doi.org/10.31234/osf.io/aj46b>
+
+</div>
+
 <div id="ref-chiangEnhancingAIAssistedGroup2024" class="csl-entry">
 
 Chiang, C.-W., Lu, Z., Li, Z., & Yin, M. (2024). Enhancing AI-Assisted
 Group Decision Making through LLM-Powered Devil’s Advocate. *Proceedings
 of the 29th International Conference on Intelligent User Interfaces*,
 103–119. <https://doi.org/10.1145/3640543.3645199>
-
-</div>
-
-<div id="ref-choiLLMEffectAre2024" class="csl-entry">
-
-Choi, A. S., Akter, S. S., Singh, J. P., & Anastasopoulos, A. (2024).
-*The LLM Effect: Are Humans Truly Using LLMs, or Are They Being
-Influenced By Them Instead?* (arXiv:2410.04699). arXiv.
-<https://arxiv.org/abs/2410.04699>
 
 </div>
 
@@ -886,13 +1058,13 @@ of the experimental evidence on how humans interact with machines.
 
 </div>
 
-<div id="ref-collinsBuildingMachinesThat2024a" class="csl-entry">
+<div id="ref-collinsBuildingMachinesThat2024" class="csl-entry">
 
 Collins, K. M., Sucholutsky, I., Bhatt, U., Chandra, K., Wong, L., Lee,
 M., Zhang, C. E., Zhi-Xuan, T., Ho, M., Mansinghka, V., Weller, A.,
-Tenenbaum, J. B., & Griffiths, T. L. (2024). Building machines that
-learn and think with people. *Nature Human Behaviour*, *8*(10),
-1851–1863. <https://doi.org/10.1038/s41562-024-01991-9>
+Tenenbaum, J. B., & Griffiths, T. L. (2024). *Building Machines that
+Learn and Think with People* (arXiv:2408.03943). arXiv.
+<https://arxiv.org/abs/2408.03943>
 
 </div>
 
@@ -910,6 +1082,15 @@ Diebel, C., Goutier, M., Adam, M., & Benlian, A. (2025). When AI-Based
 Agents Are Proactive: Implications for Competence and System
 Satisfaction in Human–AI Collaboration. *Business & Information Systems
 Engineering*, 1–20. <https://doi.org/10.1007/s12599-024-00918-y>
+
+</div>
+
+<div id="ref-duLargeLanguageModels2024" class="csl-entry">
+
+Du, Y., Rajivan, P., & Gonzalez, C. C. (2024). Large Language Models for
+Collective Problem-Solving: Insights into Group Consensus
+Decision-Making. *Proceedings of the Annual Meeting of the Cognitive
+Science Society*, *46*.
 
 </div>
 
@@ -942,11 +1123,38 @@ Cognitive Science Society*, *46*.
 
 </div>
 
+<div id="ref-fortunatiMovingAheadHumanMachine2021" class="csl-entry">
+
+Fortunati, L., & Edwards, A. (2021). Moving Ahead With Human-Machine
+Communication. *Human-Machine Communication*, *2*, 7–28.
+<https://doi.org/10.30658/hmc.2.1>
+
+</div>
+
+<div id="ref-gaoAligningLLMAgents2024" class="csl-entry">
+
+Gao, G., Taymanov, A., Salinas, E., Mineiro, P., & Misra, D. (2024).
+*Aligning LLM Agents by Learning Latent Preference from User Edits*
+(arXiv:2404.15269). arXiv. <https://arxiv.org/abs/2404.15269>
+
+</div>
+
 <div id="ref-gerlichAIToolsSociety2025" class="csl-entry">
 
 Gerlich, M. (2025). AI Tools in Society: Impacts on Cognitive Offloading
 and the Future of Critical Thinking. *Societies*, *15*(1), 6.
 <https://doi.org/10.3390/soc15010006>
+
+</div>
+
+<div id="ref-gomezcaballeroHumanAICollaborationNot2024"
+class="csl-entry">
+
+Gomez Caballero, C., Cho, S. M., Ke, S., Huang, C.-M., & Unberath, M.
+(2024). Human-AI collaboration is not very collaborative yet: A taxonomy
+of interaction patterns in <span class="nocase">AI-assisted</span>
+decision making from a systematic review. *Frontiers in Computer
+Science*, *6*. <https://doi.org/10.3389/fcomp.2024.1521066>
 
 </div>
 
@@ -992,6 +1200,24 @@ Kumar, H., Vincentius, J., Jordan, E., & Anderson, A. (2024). *Human
 Creativity in the Age of LLMs: Randomized Experiments on Divergent and
 Convergent Thinking* (arXiv:2410.03703). arXiv.
 <https://arxiv.org/abs/2410.03703>
+
+</div>
+
+<div id="ref-lemusEmpiricalInvestigationReliance2022" class="csl-entry">
+
+Lemus, H. T., Kumar, A., & Steyvers, M. (2022). *An Empirical
+Investigation of Reliance on AI-Assistance in a Noisy-Image
+Classification Task*. 13.
+
+</div>
+
+<div id="ref-liConfidenceAlignsExploring2025" class="csl-entry">
+
+Li, J., Yang, Y., Liao, Q. V., Zhang, J., & Lee, Y.-C. (2025). *As
+Confidence Aligns: Exploring the Effect of AI Confidence on
+<span class="nocase">Human Self-confidence</span> in Human-AI Decision
+Making* (arXiv:2501.12868). arXiv.
+<https://doi.org/10.48550/arXiv.2501.12868>
 
 </div>
 
@@ -1043,6 +1269,13 @@ identity for human-autonomy teams. *Computers in Human Behavior*, *148*,
 Meincke, L., Girotra, K., Nave, G., Terwiesch, C., & Ulrich, K. T.
 (2024). *Using Large Language Models for Idea Generation in Innovation*.
 <https://doi.org/10.2139/ssrn.4526071>
+
+</div>
+
+<div id="ref-narayananInfluenceHumanAITeam2024" class="csl-entry">
+
+Narayanan, R., & Feigh, K. (2024). *Influence of Human-AI Team
+Structuring on Shared Mental Models for Collaborative Decision Making*.
 
 </div>
 
@@ -1100,6 +1333,15 @@ Human and ML Strengths in Decision-Making to Investigate Human-ML
 Complementarity. *Proceedings of the AAAI Conference on Human
 Computation and Crowdsourcing*, *11*, 127–139.
 <https://doi.org/10.1609/hcomp.v11i1.27554>
+
+</div>
+
+<div id="ref-rebholzConversationalUserInterfaces2024" class="csl-entry">
+
+Rebholz, T. R., Koop, A., & Hütter, M. (2024). Conversational User
+Interfaces: Explanations and Interactivity Positively Influence Advice
+Taking from Generative Artificial Intelligence. *Technology, Mind, and
+Behavior*. <https://doi.org/10.1037/tmb0000136>
 
 </div>
 
@@ -1169,6 +1411,15 @@ inquiry. *Computers in Human Behavior*, *160*, 108386.
 
 </div>
 
+<div id="ref-steyversBayesianModelingHuman2022" class="csl-entry">
+
+Steyvers, M., Tejeda, H., Kerrigan, G., & Smyth, P. (2022). Bayesian
+modeling of human–AI complementarity. *Proceedings of the National
+Academy of Sciences*, *119*(11), e2111547119.
+<https://doi.org/10.1073/pnas.2111547119>
+
+</div>
+
 <div id="ref-steyversCalibrationGapModel2024" class="csl-entry">
 
 Steyvers, M., Tejeda, H., Kumar, A., Belem, C., Karny, S., Hu, X.,
@@ -1224,6 +1475,14 @@ Human Behaviour*, 1–11. <https://doi.org/10.1038/s41562-024-02024-1>
 
 </div>
 
+<div id="ref-vodrahalliUncalibratedModelsCan2022" class="csl-entry">
+
+Vodrahalli, K., Gerstenberg, T., & Zou, J. (2022). Uncalibrated Models
+Can Improve Human-AI Collaboration. *Advances in Neural Information
+Processing Systems*, *35*, 4004–4016.
+
+</div>
+
 <div id="ref-wallrichRelationshipTeamDiversity2024" class="csl-entry">
 
 Wallrich, L., Opara, V., Wesołowska, M., Barnoth, D., & Yousefi, S.
@@ -1249,6 +1508,15 @@ Wegner, D. M. (1987). Transactive Memory: A Contemporary Analysis of the
 Group Mind. In B. Mullen & G. R. Goethals (Eds.), *Theories of Group
 Behavior* (pp. 185–208). Springer.
 <https://doi.org/10.1007/978-1-4612-4634-3_9>
+
+</div>
+
+<div id="ref-westbyCollectiveIntelligenceHumanAI2023" class="csl-entry">
+
+Westby, S., & Riedl, C. (2023). Collective Intelligence in Human-AI
+Teams: A Bayesian Theory of Mind Approach. *Proceedings of the AAAI
+Conference on Artificial Intelligence*, *37*(5), 6119–6127.
+<https://doi.org/10.1609/aaai.v37i5.25755>
 
 </div>
 
@@ -1290,6 +1558,33 @@ Systems*, 1–8. <https://doi.org/10.1145/3613905.3650867>
 
 </div>
 
+<div id="ref-yinUnderstandingEffectAccuracy2019" class="csl-entry">
+
+Yin, M., Wortman Vaughan, J., & Wallach, H. (2019). Understanding the
+Effect of Accuracy on Trust in Machine Learning Models. *Proceedings of
+the 2019 CHI Conference on Human Factors in Computing Systems*, 1–12.
+<https://doi.org/10.1145/3290605.3300509>
+
+</div>
+
+<div id="ref-zhangCounteractsTestingStereotypical2023"
+class="csl-entry">
+
+Zhang, D., Rayz, J., & Pradhan, R. (2023). *Counteracts: Testing
+Stereotypical Representation in <span class="nocase">Pre-trained
+Language Models</span>* (arXiv:2301.04347). arXiv.
+<https://arxiv.org/abs/2301.04347>
+
+</div>
+
+<div id="ref-zhangYouCompleteMe2022" class="csl-entry">
+
+Zhang, Q., Lee, M. L., & Carter, S. (2022). You Complete Me: Human-AI
+Teams and Complementary Expertise. *CHI Conference on Human Factors in
+Computing Systems*, 1–28. <https://doi.org/10.1145/3491102.3517791>
+
+</div>
+
 <div id="ref-zhangInvestigatingAITeammate2023" class="csl-entry">
 
 Zhang, R., Duan, W., Flathmann, C., McNeese, N., Freeman, G., &
@@ -1297,6 +1592,16 @@ Williams, A. (2023). Investigating AI Teammate Communication Strategies
 and Their Impact in Human-AI Teams for Effective Teamwork. *Proceedings
 of the ACM on Human-Computer Interaction*, *7*(CSCW2), 1–31.
 <https://doi.org/10.1145/3610072>
+
+</div>
+
+<div id="ref-zhangEffectConfidenceExplanation2020" class="csl-entry">
+
+Zhang, Y., Liao, Q. V., & Bellamy, R. K. E. (2020). Effect of confidence
+and explanation on accuracy and trust calibration in
+<span class="nocase">AI-assisted</span> decision making. *Proceedings of
+the 2020 Conference on Fairness, Accountability, and Transparency*,
+295–305. <https://doi.org/10.1145/3351095.3372852>
 
 </div>
 
@@ -1311,11 +1616,13 @@ on User Interface Software and Technology*, 1–20.
 
 </div>
 
-<div id="ref-zhuLanguageModelsTrained2024" class="csl-entry">
+<div id="ref-zollerHumanAICollectivesProduce2024" class="csl-entry">
 
-Zhu, J.-Q., Yan, H., & Griffiths, T. L. (2024). *Language Models Trained
-to do Arithmetic Predict Human Risky and Intertemporal Choice*
-(arXiv:2405.19313). arXiv. <https://arxiv.org/abs/2405.19313>
+Zöller, N., Berger, J., Lin, I., Fu, N., Komarneni, J., Barabucci, G.,
+Laskowski, K., Shia, V., Harack, B., Chu, E. A., Trianni, V., Kurvers,
+R. H. J. M., & Herzog, S. M. (2024). *Human-AI collectives produce the
+most accurate differential diagnoses* (arXiv:2406.14981). arXiv.
+<https://arxiv.org/abs/2406.14981>
 
 </div>
 
