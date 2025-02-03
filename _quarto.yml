@@ -39,13 +39,13 @@ format:
       light: cosmo
       dark: cyborg
   gfm: 
-    output-file: "gd_chapter_v3.md"
+    output-file: "gd_chapter_v4.md"
   hikmah-manuscript-docx: 
-    output-file: "gd_chapter_v3_hikmah.docx"
+    output-file: "gd_chapter_v4_hikmah.docx"
     toc: false
   hikmah-manuscript-pdf:
     echo: false
-    output-file: "gd_chapter_v3.pdf"
+    output-file: "gd_chapter_v4.pdf"
     mainfont: "EB Garamond"
     mainfontoptions:
         - "Numbers=Proportional"
@@ -70,7 +70,7 @@ format:
 #     linestretch: 1.5
   docx:
     prefer-html: true
-    output-file: "gd_ai_chapter_v3.docx"
+    output-file: "gd_ai_chapter_v4.docx"
     toc: false
 
 

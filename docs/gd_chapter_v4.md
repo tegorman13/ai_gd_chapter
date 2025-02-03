@@ -39,42 +39,6 @@ inputs (information acquisition and sharing), the processing mechanisms
 (decisions and actions), we can gain insights into the opportunities and
 challenges presented by AI integration.
 
-> [!NONE]
->
-> **Box 1: Glossary of Terms**
->
-> **Complementarity.** In the context of human-AI teams, complementarity
-> refers to the synergistic integration of human and artificial
-> intelligence, leveraging the unique strengths of each to achieve
-> performance outcomes that exceed those attainable by either humans or
-> AI systems operating in isolation (Steyvers et al., 2022). Effective
-> complementarity involves a balanced division of labor and mutual
-> enhancement of capabilities.
->
-> **Information Processing Framework.** A theoretical framework in
-> cognitive psychology that conceptualizes the human mind, and by
-> extension, groups, as systems that acquire, process, store, retrieve,
-> and transmit information, akin to computational systems (Hinsz et al.,
-> 1997). This framework provides a structured lens for analyzing
-> decision-making as a sequence of stages, from inputs to outputs.
->
-> **Large Language Model (LLM).** A sophisticated type of artificial
-> intelligence algorithm characterized by its use of deep learning
-> techniques and training on massive datasets to enable the
-> understanding, generation, and prediction of human language. LLMs,
-> such as GPT-4, are foundational to many contemporary AI applications
-> in decision support and communication.
->
-> **Overreliance.** A cognitive bias characterized by excessive trust in
-> and dependence on AI recommendations, often leading to the uncritical
-> acceptance of AI outputs, even when they are flawed or suboptimal.
-> Overreliance can undermine human vigilance and critical evaluation in
-> AI-assisted decision-making contexts.
->
-> **Transactive Memory Systems (TMS).** A system of distributed
-> knowledge within a group, where members develop specialized knowledge
-> and rely on each other for access to that knowledge.
-
 Key questions we will seek to address within this framework::
 
 - **Inputs**: How does AI influence the way groups search for, gather,
@@ -98,7 +62,7 @@ between humans and AI in group decision-making contexts and identify
 strategies for optimizing the benefits of AI-assisted collaboration
 while mitigating its risks.
 
-<img src="Assets/ip2.png" style="width:105.0%" alt="Framework" />
+<img src="Assets/ip3.png" style="width:105.0%" alt="Framework" />
 
 ## Inputs: Resources and Factors Shaping AI-Assisted Group Decision Making
 
@@ -680,6 +644,46 @@ contribution of each agent to the task outcome.
   polarization phenomena (van Swol et al., 2023).
 - privacy, accountability, and fairness in AI-assisted group decision
   making (Cui & Yasseri, 2024; Barredo Arrieta et al., 2020).
+
+
+
+> [!NONE]
+>
+> **Box 1: Glossary of Terms**
+>
+> **Complementarity.** In the context of human-AI teams, complementarity
+> refers to the synergistic integration of human and artificial
+> intelligence, leveraging the unique strengths of each to achieve
+> performance outcomes that exceed those attainable by either humans or
+> AI systems operating in isolation (Steyvers et al., 2022). Effective
+> complementarity involves a balanced division of labor and mutual
+> enhancement of capabilities.
+>
+> **Information Processing Framework.** A theoretical framework in
+> cognitive psychology that conceptualizes the human mind, and by
+> extension, groups, as systems that acquire, process, store, retrieve,
+> and transmit information, akin to computational systems (Hinsz et al.,
+> 1997). This framework provides a structured lens for analyzing
+> decision-making as a sequence of stages, from inputs to outputs.
+>
+> **Large Language Model (LLM).** A sophisticated type of artificial
+> intelligence algorithm characterized by its use of deep learning
+> techniques and training on massive datasets to enable the
+> understanding, generation, and prediction of human language. LLMs,
+> such as GPT-4, are foundational to many contemporary AI applications
+> in decision support and communication.
+>
+> **Overreliance.** A cognitive bias characterized by excessive trust in
+> and dependence on AI recommendations, often leading to the uncritical
+> acceptance of AI outputs, even when they are flawed or suboptimal.
+> Overreliance can undermine human vigilance and critical evaluation in
+> AI-assisted decision-making contexts.
+>
+> **Transactive Memory Systems (TMS).** A system of distributed
+> knowledge within a group, where members develop specialized knowledge
+> and rely on each other for access to that knowledge.
+
+
 
 ## References
 
