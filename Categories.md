@@ -63,6 +63,7 @@ Tried to mostly select those that are published or at least conference papers
 - Han 2024 - When Teams Embrace AI: Human Collaboration Strategies in Generative Prompting in a Creative Design Task
 - Rosenberg 2024 - Conversational Swarms of Humans and AI Agents enable Hybrid Collaborative Decision-making
 - Bankins 2024 - A multilevel review of artificial intelligence in organizations: Implications for organizational behavior research and practice
+- Zöller 2024 - Human-AI collectives produce the most accurate differential diagnoses
 
 
 
@@ -71,6 +72,9 @@ Tried to mostly select those that are published or at least conference papers
 - Bucina (2021) - To Trust or to Think: Cognitive Forcing Functions Can Reduce Overreliance on AI in AI-assisted Decision-making
 - Pescetelli 2021 - Confidence, advice seeking and changes of mind in decision making
 - Riedl 2024 Effects of AI Feedback on Learning, the Skill Gap, and Intellectual Diversity
+- He 2025 - Is Conversational XAI All You Need? Human-AI Decision Making With a Conversational XAI Assistant
+- Chen 2025 - Engaging with AI: How Interface Design Shapes Human-AI Collaboration in High-Stakes Decision-Making
+
 
 ### General AI assistance
 
@@ -89,9 +93,9 @@ Tried to mostly select those that are published or at least conference papers
 - Terblanche 2022 - Comparing artificial intelligence and human coaching goal attainment efficacy
 - Bogert 2022 -Human preferences toward algorithmic advice in a word association task
 - Vicente 2023 - Humans inherit artificial intelligence biases
-- Diebel 2025 - When AI-Based Agents Are Proactive: Implications for Competence and System Satisfaction in Human–AI Collaboration
 - Gerlich 2025 - AI Tools in Society: Impacts on Cognitive Offloading and the Future of Critical Thinking
 - Diebel 2025 - When AI-Based Agents Are Proactive: Implications for Competence and System Satisfaction in Human-AI Collaboration
+- Zöller 2024 - Human-AI collectives produce the most accurate differential diagnoses
 
 
 
@@ -105,6 +109,7 @@ Tried to mostly select those that are published or at least conference papers
 - Kvam 2024 - Using artificial intelligence to fit, compare, evaluate, and discover computational models of decision behavior.
 - Argyle 2023 - Leveraging AI for democratic discourse: Chat interventions can improve online political conversations at scale
 - Felin - 2024 Theory Is All You Need: AI, Human Cognition,and Causal Reasoning
+- Chen 2025 - Engaging with AI: How Interface Design Shapes Human-AI Collaboration in High-Stakes Decision-Making
 
 
 ### Decision biases, heuristics, effects
@@ -160,6 +165,13 @@ Tried to mostly select those that are published or at least conference papers
 - Pataranutaporn 2023 - Influencing human–AI interaction by priming beliefs about AI can increase perceived trustworthiness, empathy and effectiveness
 - Oudah 2024 - Perception of experience influences altruism and perception of agency influences trust in human–machine interactions
 - Han 2024 - When Teams Embrace AI: Human Collaboration Strategies in Generative Prompting in a Creative Design Task
+- He 2025 - Is Conversational XAI All You Need? Human-AI Decision Making With a Conversational XAI Assistant
+- Chen 2025 - Engaging with AI: How Interface Design Shapes Human-AI Collaboration in High-Stakes Decision-Making
+
+### Confidence
+- Benz 2025 - Human-Alignment Influences the Utility of AI-assisted Decision Making
+	- task code and dataset available
+
 
 ### Risk
 - Nishida 2024 - Conversational Agent Dynamics with Minority Opinion and Cognitive Conflict in Small-Group Decision-Making
@@ -177,6 +189,8 @@ Tried to mostly select those that are published or at least conference papers
 - Ferguson 2024 - The Explanation That Hits Home: The Characteristics of Verbal Explanations That Affect Human Perception in Subjective Decision-Making
 - Bansal 2021 - Does the Whole Exceed its Parts? The Effect of AI Explanations on Complementary Team Performance
 - Skirzynski & Glassman 2024 - On Interpretability and Overreliance
+- Yang, S. C.-H., Folke, N. E. T., & Shafto, P. (2022). A Psychological Theory of Explainability
+	- uses Shepards theory of similarity
 
 
 ### Mental Model
@@ -245,10 +259,11 @@ Tried to mostly select those that are published or at least conference papers
 - Klieger 2024 - ChatCollab: Exploring Collaboration Between Humans and AI Agents in Software Teams
 - Diebel 2025 - When AI-Based Agents Are Proactive: Implications for Competence and System Satisfaction in Human–AI Collaboration
 - Li 2025 - As Confidence Aligns: Exploring the Effect of AI Confidence on Human Self-confidence in Human-AI Decision Making
+- Kovač 2024 - Stick to your role! Stability of personal values expressed in large language models.
 
 
 
-**Reliance**
+### **Reliance**
 - Gerlich 2025 - AI Tools in Society: Impacts on Cognitive Offloading and the Future of Critical Thinking
 
 

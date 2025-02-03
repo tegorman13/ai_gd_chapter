@@ -7,6 +7,7 @@ project:
     #- "v1.qmd"
     - "working.qmd"
     - "tables.qmd"
+    - "misc/def_box.qmd"
     
     #- "*.qmd"
   # resources: 
@@ -33,6 +34,7 @@ format:
     lightbox: true
     link-citations: true
     page-layout: full
+    css: Assets/style.css
     theme: 
       light: cosmo
       dark: cyborg
