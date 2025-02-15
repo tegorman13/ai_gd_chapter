@@ -9,7 +9,7 @@ Create tables that showcase different types of 'AI' that are used in decision ma
 
 Table with column for type of decision making task, and column for how AI plays a role
 
-
+Test
 
 
 Then, just choose I sensible category to write a section on

@@ -37,6 +37,7 @@ Tried to mostly select those that are published or at least conference papers
 - Crandall 2018 - Cooperating with machines
 - Chugunova 2022 - We and It: An interdisciplinary review of the experimental evidence on how humans interact with machines
 - Passerini 2025 -Fostering effective hybrid human-LLM reasoning and decision making
+- Xia 2022 - Group decision making under uncertain preferences: powered by AI, empowered by AI
 
 
 ### Group Decision LLM
@@ -65,6 +66,11 @@ Tried to mostly select those that are published or at least conference papers
 - Rosenberg 2024 - Conversational Swarms of Humans and AI Agents enable Hybrid Collaborative Decision-making
 - Bankins 2024 - A multilevel review of artificial intelligence in organizations: Implications for organizational behavior research and practice
 - Zöller 2024 - Human-AI collectives produce the most accurate differential diagnoses
+- Gomez 2024 - How large language model-powered conversational agents influence decision making in domestic medical triage contexts
+- Hopf 2024 - The group mind of hybrid teams with humans and intelligent agents in knowledge-intense work
+- Guo..Griffiths 2024 - Embodied LLM Agents Learn to Cooperate in Organized Teams
+- Zheng 2023 - Competent but Rigid: Identifying the Gap in Empowering AI to Participate Equally in Group Decision-Making
+- Alon-Barkat 2023 - Human–AI Interactions in Public Sector Decision Making: “Automation Bias” and “Selective Adherence” to Algorithmic Advice
 
 
 
@@ -168,6 +174,7 @@ Tried to mostly select those that are published or at least conference papers
 - Han 2024 - When Teams Embrace AI: Human Collaboration Strategies in Generative Prompting in a Creative Design Task
 - He 2025 - Is Conversational XAI All You Need? Human-AI Decision Making With a Conversational XAI Assistant
 - Chen 2025 - Engaging with AI: How Interface Design Shapes Human-AI Collaboration in High-Stakes Decision-Making
+- Gupta 2022 - To Trust or Not To Trust: How a Conversational Interface Affects Trust in a Decision Support System
 
 ### Confidence
 - Benz 2025 - Human-Alignment Influences the Utility of AI-assisted Decision Making
@@ -209,8 +216,12 @@ Tried to mostly select those that are published or at least conference papers
 - Zhang 2022 - You Complete Me: Human-AI Teams and Complementary Expertise
 	- Shape categorization task
 - Kuznetsov 2024 - Transactive Memory in Caregiver Networks Using Artificial Intelligence
-- Factory Operators' Perspectives on Cognitive Assistants for Knowledge Sharing: Challenges, Risks, and Impact on Work
-- Narayanan 2024 - Influence of Human-AI Team Structuring on Shared Mental Models for Collaborative Decision Making
+- Freire 2024 - Factory Operators' Perspectives on Cognitive Assistants for Knowledge Sharing: Challenges, Risks, and Impact on Work
+- Narayanan 2024 - Influence of Human-AI Team Structuring on Shared Mental 
+- Andrews 2023 - The role of shared mental models in human-AI teams: a theoretical review
+
+
+- Models for Collaborative Decision Making
 	- Team Structures (peer human + AI vs. hierarchical human-agent team)
 
 - role of shared mental models in effective teamwork (N. J. McNeese et al., 2023; Narayanan & Feigh, 2024).
@@ -257,14 +268,15 @@ Tried to mostly select those that are published or at least conference papers
 - Wang 2024 - Social-RAG: Retrieving from Group Interactions to Socially Ground Proactive AI Generation to Group Preferences
 - agarwal 2024 - Conversational Agents to Facilitate Deliberation on Harmful Content in WhatsApp Groups
 - Steyvers 2022 - Bayesian modeling of human–AI complementarity
-- Factory Operators' Perspectives on Cognitive Assistants for Knowledge Sharing: Challenges, Risks, and Impact on Work
+- Freire 2024 - Factory Operators' Perspectives on Cognitive Assistants for Knowledge Sharing: Challenges, Risks, and Impact on Work
 
 
 ### Shared Memory
 - Hedley 2020 - Division of Labour and Team Performance: Human-Human Teams compared to Hybrid Human-Machine Teams
 - Aggarwal 2023 - Self-beliefs, Transactive Memory Systems, and Collective Identification in Teams: Articulating the Socio-Cognitive Underpinnings of COHUMAIN
 - Bennett 2023 - Human Performance in Competitive and Collaborative Human–Machine Teams
-- Factory Operators' Perspectives on Cognitive Assistants for Knowledge Sharing: Challenges, Risks, and Impact on Work
+- Freire 2024 - Factory Operators' Perspectives on Cognitive Assistants for Knowledge Sharing: Challenges, Risks, and Impact on Work
+- Hopf 2024 - The group mind of hybrid teams with humans and intelligent agents in knowledge-intense work
 
 ### Role
 - Klieger 2024 - ChatCollab: Exploring Collaboration Between Humans and AI Agents in Software Teams
@@ -286,6 +298,7 @@ Tried to mostly select those that are published or at least conference papers
 
 ### **Reliance**
 - Gerlich 2025 - AI Tools in Society: Impacts on Cognitive Offloading and the Future of Critical Thinking
+- Kim 2024 - "I'm Not Sure, But...": Examining the Impact of Large Language Models' Uncertainty Expression on User Reliance and Trust
 
 
 

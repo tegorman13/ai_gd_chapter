@@ -1,0 +1,102 @@
+\documentclass{article}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows.meta, positioning, calc, shadows}
+\usepackage{amsmath}
+\usepackage{ragged2e}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage[margin=0.5in]{geometry} % Reduce margins even further
+
+\begin{document}
+
+\begin{figure}[!h]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tikzpicture}[
+    node distance=1.8cm and 5.0cm, % Increased node distances further
+    >=Stealth,
+    auto,
+    box/.style={
+        draw,
+        rectangle,
+        align=center,
+        minimum height=1.8cm,  % Increased minimum height
+        text width=5.0cm,    % Increased text width
+        inner sep=6pt,       % Increased inner sep slightly
+        font=\small,
+        fill=blue!10,
+        draw=blue!50!black!50,
+        rounded corners=3pt,
+        drop shadow={fill=black!50, shadow xshift=0.5ex, shadow yshift=-0.5ex}
+    },
+    ellipse_style/.style={
+        draw,
+        ellipse,
+        align=center,
+        minimum height=2.5cm,  % Increased minimum height
+        text width=4.99cm,  % Increased text width
+        inner sep=4pt,       % Increased inner sep slightly
+        font=\small,
+        fill=orange!15,
+        draw=orange!50!black!50,
+        drop shadow={fill=black!50, shadow xshift=0.5ex, shadow yshift=-0.5ex}
+    },
+    arrow/.style={
+        ->,
+        shorten >=1pt,
+        shorten <=1pt,
+        line width=0.8pt, % Slightly thicker arrows
+        draw=gray!80!black,
+    },
+    bidirectional_arrow/.style={
+        <->,
+        shorten >=1pt,
+        shorten <=1pt,
+        line width=0.8pt, % Slightly thicker arrows
+        draw=gray!80!black,
+    }
+]
+
+% Nodes
+\node[ellipse_style] (tms) {\textbf{Transactive Memory Systems/\\Large Language Models} \\ (Mutual Trust, Shared Mental Models)}; % Added newline
+
+\node[box, below left=of tms] (input) {\textbf{Input}
+    \begin{itemize}[leftmargin=*, itemsep=0pt, parsep=0pt, topsep=3pt]
+        \item Human Member Characteristics
+        \item AI System Attributes
+    \end{itemize}
+};
+
+\node[box, below=of tms] (ai_comm) {\textbf{AI-Group Communication}
+\begin{itemize}[leftmargin=*, itemsep=0pt, parsep=0pt, topsep=3pt]
+    \item Information Search and Exchange
+    \item Communicative Roles of AI
+\end{itemize}
+};
+
+\node[box, below right=of tms] (group_decision) {\textbf{Group Decision}
+ \begin{itemize}[leftmargin=*,itemsep=0pt, parsep=0pt, topsep=3pt]
+    \item Human-AI Decision Strategies
+    \item Decision Outcomes
+\end{itemize}
+};
+\node[ellipse_style, below=of ai_comm] (context) {\textbf{Context} \\ (Task Characteristics, Cognitive Load)}; % Added newline
+
+% Arrows
+\draw[bidirectional_arrow] (tms) -- (input);
+\draw[bidirectional_arrow] (tms) -- (ai_comm);
+\draw[bidirectional_arrow] (tms) -- (group_decision);
+\draw[arrow] (input) -- (ai_comm);
+\draw[arrow] (ai_comm) -- (group_decision);
+\draw[arrow] (context) -- (input);
+\draw[arrow] (context) -- (group_decision);
+\draw[arrow] (context) --  (ai_comm);
+
+
+\end{tikzpicture}
+} % <-- End of scaling
+\caption{An Information-Processing Framework for Human-AI Decision Making in Groups}
+\label{fig:framework}
+\end{figure}
+
+\end{document}
