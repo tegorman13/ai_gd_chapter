@@ -38,6 +38,10 @@ Tried to mostly select those that are published or at least conference papers
 - Chugunova 2022 - We and It: An interdisciplinary review of the experimental evidence on how humans interact with machines
 - Passerini 2025 -Fostering effective hybrid human-LLM reasoning and decision making
 - Xia 2022 - Group decision making under uncertain preferences: powered by AI, empowered by AI
+-  Schmutz 2024 - AI-teaming: Redefining collaboration in the digital era
+	- has table with inputs, processes, outputs
+-  Cai A., Arawjo I., Glassman E. L. (2024). Antagonistic AI.
+
 
 
 ### Group Decision LLM
@@ -71,6 +75,8 @@ Tried to mostly select those that are published or at least conference papers
 - Guo..Griffiths 2024 - Embodied LLM Agents Learn to Cooperate in Organized Teams
 - Zheng 2023 - Competent but Rigid: Identifying the Gap in Empowering AI to Participate Equally in Group Decision-Making
 - Alon-Barkat 2023 - Human–AI Interactions in Public Sector Decision Making: “Automation Bias” and “Selective Adherence” to Algorithmic Advice
+- Schmutz 2024 - AI-teaming: Redefining collaboration in the digital era
+- Yan 2023 - It Depends on the Timing: The Ripple Effect of AI on Team Decision-Making
 
 
 
@@ -155,6 +161,10 @@ Tried to mostly select those that are published or at least conference papers
 - Westby 2023 - Collective Intelligence in Human-AI Teams: A Bayesian Theory of Mind Approach
 - Eigner 2024- Determinants of LLM-assisted Decision Making
 - Liang, Donkin, Newell 2022 - Adapting to the algorithm: how accuracy comparisons promote the use of a decision aid
+- Schmutz 2024 - AI-teaming: Redefining collaboration in the digital era
+	- has table with inputs, processes, outputs
+- Yan 2023 - It Depends on the Timing: The Ripple Effect of AI on Team Decision-Making
+	- AI in first half of task promotes information sharing
 
 ### Trust
 - Narayanan, S., Yu, G., Ho, C.-J., & Yin, M. 2023 -  How does Value Similarity affect Human Reliance in AI-Assisted Ethical Decision Making?
@@ -199,6 +209,7 @@ Tried to mostly select those that are published or at least conference papers
 - Skirzynski & Glassman 2024 - On Interpretability and Overreliance
 - Yang, S. C.-H., Folke, N. E. T., & Shafto, P. (2022). A Psychological Theory of Explainability
 	- uses Shepards theory of similarity
+- Kim..Lombrozo 2025 - Fostering Appropriate Reliance on Large Language Models: The Role of Explanations, Sources, and Inconsistencies
 
 
 ### Mental Model
@@ -219,6 +230,7 @@ Tried to mostly select those that are published or at least conference papers
 - Freire 2024 - Factory Operators' Perspectives on Cognitive Assistants for Knowledge Sharing: Challenges, Risks, and Impact on Work
 - Narayanan 2024 - Influence of Human-AI Team Structuring on Shared Mental 
 - Andrews 2023 - The role of shared mental models in human-AI teams: a theoretical review
+- Schmutz 2024 - AI-teaming: Redefining collaboration in the digital era
 
 
 - Models for Collaborative Decision Making
@@ -251,7 +263,7 @@ Tried to mostly select those that are published or at least conference papers
 - Flores 2024 - **Information foraging in human-ChatGPT interactions**: factors of computational thinking dissociate exploration and exploitation
 - Stadler 2024 Cognitive ease at a cost: LLMs reduce mental effort but compromise depth in student scientific inquiry.
 	- llm vs search engine
-- Spatharioti 2023 - Comparing Traditional and LLM-based Search for Consumer Choice: A Randomized Experiment
+- Spatharioti - Effects of LLM-based Search on Decision Making: Speed, Accuracy, and Overreliance
 - Sharma 2024 - Generative Echo Chamber? Effect of LLM-Powered Search Systems on Diverse Information Seeking
 - Anderl 2024 - Conversational presentation mode increases credibility judgements during information search with ChatGPT
 - Yang 2024 - Can We Delegate Learning to Automation?: A Comparative Study of LLM Chatbots, Search Engines, and Books
@@ -261,6 +273,8 @@ Tried to mostly select those that are published or at least conference papers
 - Heyman 2024 - Supermind Ideator: How Scaffolding Human-AI Collaboration Can Increase Creativity
 - Wise & Kenett 2024 - Sparking creativity: Encouraging creative idea generation through automatically generated word recommendations
 - Han 2024 - When Teams Embrace AI: Human Collaboration Strategies in Generative Prompting in a Creative Design Task
+-  Yan 2023 - It Depends on the Timing: The Ripple Effect of AI on Team Decision-Making
+	- AI in first half of task promotes information sharing
 
 ### Aggregation
 - Burton 2024 - How large language models can reshape collective intelligence
@@ -283,6 +297,7 @@ Tried to mostly select those that are published or at least conference papers
 - Diebel 2025 - When AI-Based Agents Are Proactive: Implications for Competence and System Satisfaction in Human–AI Collaboration
 - Li 2025 - As Confidence Aligns: Exploring the Effect of AI Confidence on Human Self-confidence in Human-AI Decision Making
 - Kovač 2024 - Stick to your role! Stability of personal values expressed in large language models.
+- Cai A., Arawjo I., Glassman E. L. (2024). Antagonistic AI.
 
 
 - [@kumarAssessingImpactDiffering2024]
@@ -299,11 +314,14 @@ Tried to mostly select those that are published or at least conference papers
 ### **Reliance**
 - Gerlich 2025 - AI Tools in Society: Impacts on Cognitive Offloading and the Future of Critical Thinking
 - Kim 2024 - "I'm Not Sure, But...": Examining the Impact of Large Language Models' Uncertainty Expression on User Reliance and Trust
+- Kim..Lombrozo 2025 - Fostering Appropriate Reliance on Large Language Models: The Role of Explanations, Sources, and Inconsistencies
+- Spatharioti - Effects of LLM-based Search on Decision Making: Speed, Accuracy, and Overreliance
 
 
 
+### Cognitive Load
 
-
+Kreijkes 2025 - Effects of LLM Use and Note-Taking On Reading Comprehension and Memory: A Randomised Experiment in Secondary Schools
 
 
 
